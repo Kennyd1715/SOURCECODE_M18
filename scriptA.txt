@@ -1,0 +1,6003 @@
+---
+API: 2.1
+OpenSesame: 3.3.10
+Platform: posix
+---
+set width 1024
+set uniform_coordinates yes
+set title M18_expA
+set subject_parity even
+set subject_nr 0
+set start experiment
+set sound_sample_size -16
+set sound_freq 48000
+set sound_channels 2
+set sound_buf_size 1024
+set sampler_backend legacy
+set round_decimals 2
+set mouse_backend xpyriment
+set keyboard_backend legacy
+set height 768
+set fullscreen no
+set form_clicks no
+set foreground white
+set font_underline no
+set font_size 18
+set font_italic no
+set font_family mono
+set font_bold no
+set experiment_path "/Users/jmorris/Library/CloudStorage/GoogleDrive-jamCCS@hampshire.edu/My Drive/PROVIDENCE COLLEGE/RESEARCH/PROJECTS/MORPH18/final versions"
+set disable_garbage_collection yes
+set description "The main experiment item"
+set coordinates uniform
+set compensation 0
+set color_backend legacy
+set clock_backend legacy
+set canvas_backend xpyriment
+set bidi no
+set background black
+
+define loop Block1
+	set source_file "test.csv"
+	set source table
+	set skip 0
+	set repeat 1
+	set order random
+	set offset no
+	set item new_sequence
+	set description "Repeatedly runs another item"
+	set cycles 96
+	set continuous no
+	set column_order "prime;target;ITI;mask;trigger;cresp;audio"
+	set break_if_on_first yes
+	set break_if never
+	setcycle 0 prime archer
+	setcycle 0 target arch
+	setcycle 0 audio arch
+	setcycle 0 ITI 100
+	setcycle 0 mask DLKZFLZV
+	setcycle 0 prime_trig 200
+	setcycle 0 target_trig 1
+	setcycle 0 audio_trig 210
+	setcycle 0 cresp 6
+	setcycle 1 prime brandish
+	setcycle 1 target brand
+	setcycle 1 audio and
+	setcycle 1 ITI 300
+	setcycle 1 mask LVFXKFCW
+	setcycle 1 prime_trig 200
+	setcycle 1 target_trig 2
+	setcycle 1 audio_trig 210
+	setcycle 1 cresp 6
+	setcycle 2 prime corner
+	setcycle 2 target corn
+	setcycle 2 audio orn
+	setcycle 2 ITI 500
+	setcycle 2 mask LVJYDPXV
+	setcycle 2 prime_trig 200
+	setcycle 2 target_trig 3
+	setcycle 2 audio_trig 210
+	setcycle 2 cresp 6
+	setcycle 3 prime dormant
+	setcycle 3 target dorm
+	setcycle 3 audio orm
+	setcycle 3 ITI 200
+	setcycle 3 mask QQLJHGZG
+	setcycle 3 prime_trig 200
+	setcycle 3 target_trig 4
+	setcycle 3 audio_trig 210
+	setcycle 3 cresp 6
+	setcycle 4 prime easter
+	setcycle 4 target east
+	setcycle 4 audio east
+	setcycle 4 ITI 200
+	setcycle 4 mask YXMMDPJP
+	setcycle 4 prime_trig 200
+	setcycle 4 target_trig 5
+	setcycle 4 audio_trig 210
+	setcycle 4 cresp 6
+	setcycle 5 prime fairy
+	setcycle 5 target fair
+	setcycle 5 audio air
+	setcycle 5 ITI 400
+	setcycle 5 mask SMQHSTGL
+	setcycle 5 prime_trig 200
+	setcycle 5 target_trig 6
+	setcycle 5 audio_trig 210
+	setcycle 5 cresp 6
+	setcycle 6 prime figment
+	setcycle 6 target fig
+	setcycle 6 audio ig
+	setcycle 6 ITI 200
+	setcycle 6 mask CZVXSXZC
+	setcycle 6 prime_trig 200
+	setcycle 6 target_trig 7
+	setcycle 6 audio_trig 210
+	setcycle 6 cresp 6
+	setcycle 7 prime glossary
+	setcycle 7 target gloss
+	setcycle 7 audio oss
+	setcycle 7 ITI 500
+	setcycle 7 mask PVFDXXVZ
+	setcycle 7 prime_trig 200
+	setcycle 7 target_trig 8
+	setcycle 7 audio_trig 210
+	setcycle 7 cresp 6
+	setcycle 8 prime helmet
+	setcycle 8 target helm
+	setcycle 8 audio alm
+	setcycle 8 ITI 400
+	setcycle 8 mask QVXDKBSF
+	setcycle 8 prime_trig 200
+	setcycle 8 target_trig 9
+	setcycle 8 audio_trig 211
+	setcycle 8 cresp 5
+	setcycle 9 prime inner
+	setcycle 9 target inn
+	setcycle 9 audio an
+	setcycle 9 ITI 200
+	setcycle 9 mask KVQSQHYT
+	setcycle 9 prime_trig 200
+	setcycle 9 target_trig 10
+	setcycle 9 audio_trig 211
+	setcycle 9 cresp 5
+	setcycle 10 prime limber
+	setcycle 10 target limb
+	setcycle 10 audio am
+	setcycle 10 ITI 300
+	setcycle 10 mask WPWCZXVJ
+	setcycle 10 prime_trig 200
+	setcycle 10 target_trig 11
+	setcycle 10 audio_trig 211
+	setcycle 10 cresp 5
+	setcycle 11 prime manage
+	setcycle 11 target man
+	setcycle 11 audio on
+	setcycle 11 ITI 300
+	setcycle 11 mask CFDKKPHP
+	setcycle 11 prime_trig 200
+	setcycle 11 target_trig 12
+	setcycle 11 audio_trig 211
+	setcycle 11 cresp 5
+	setcycle 12 prime master
+	setcycle 12 target mast
+	setcycle 12 audio ist
+	setcycle 12 ITI 200
+	setcycle 12 mask KPKFWYZK
+	setcycle 12 prime_trig 200
+	setcycle 12 target_trig 13
+	setcycle 12 audio_trig 211
+	setcycle 12 cresp 5
+	setcycle 13 prime mister
+	setcycle 13 target mist
+	setcycle 13 audio east
+	setcycle 13 ITI 100
+	setcycle 13 mask PPZBVBFG
+	setcycle 13 prime_trig 200
+	setcycle 13 target_trig 14
+	setcycle 13 audio_trig 211
+	setcycle 13 cresp 5
+	setcycle 14 prime pasture
+	setcycle 14 target past
+	setcycle 14 audio est
+	setcycle 14 ITI 500
+	setcycle 14 mask QYFBYHYJ
+	setcycle 14 prime_trig 200
+	setcycle 14 target_trig 15
+	setcycle 14 audio_trig 211
+	setcycle 14 cresp 5
+	setcycle 15 prime pillage
+	setcycle 15 target pill
+	setcycle 15 audio all
+	setcycle 15 ITI 100
+	setcycle 15 mask QZDCVVBK
+	setcycle 15 prime_trig 200
+	setcycle 15 target_trig 16
+	setcycle 15 audio_trig 211
+	setcycle 15 cresp 5
+	setcycle 16 prime ponder
+	setcycle 16 target pond
+	setcycle 16 audio eat
+	setcycle 16 ITI 500
+	setcycle 16 mask YXHQXFMZ
+	setcycle 16 prime_trig 200
+	setcycle 16 target_trig 17
+	setcycle 16 audio_trig 212
+	setcycle 16 cresp 5
+	setcycle 17 prime question
+	setcycle 17 target quest
+	setcycle 17 audio act
+	setcycle 17 ITI 300
+	setcycle 17 mask DXYFLBJY
+	setcycle 17 prime_trig 200
+	setcycle 17 target_trig 18
+	setcycle 17 audio_trig 212
+	setcycle 17 cresp 5
+	setcycle 18 prime render
+	setcycle 18 target rend
+	setcycle 18 audio act
+	setcycle 18 ITI 100
+	setcycle 18 mask WQLHQCPV
+	setcycle 18 prime_trig 200
+	setcycle 18 target_trig 19
+	setcycle 18 audio_trig 212
+	setcycle 18 cresp 5
+	setcycle 19 prime sandal
+	setcycle 19 target sand
+	setcycle 19 audio ond
+	setcycle 19 ITI 100
+	setcycle 19 mask FHGFBCPF
+	setcycle 19 prime_trig 200
+	setcycle 19 target_trig 20
+	setcycle 19 audio_trig 212
+	setcycle 19 cresp 5
+	setcycle 20 prime tactile
+	setcycle 20 target tact
+	setcycle 20 audio east
+	setcycle 20 ITI 200
+	setcycle 20 mask HZWBDGSV
+	setcycle 20 prime_trig 200
+	setcycle 20 target_trig 21
+	setcycle 20 audio_trig 212
+	setcycle 20 cresp 5
+	setcycle 21 prime tenuous
+	setcycle 21 target ten
+	setcycle 21 audio air
+	setcycle 21 ITI 500
+	setcycle 21 mask WPLXDYCR
+	setcycle 21 prime_trig 200
+	setcycle 21 target_trig 22
+	setcycle 21 audio_trig 212
+	setcycle 21 cresp 5
+	setcycle 22 prime tractable
+	setcycle 22 target tract
+	setcycle 22 audio an
+	setcycle 22 ITI 500
+	setcycle 22 mask WJKQFMWQ
+	setcycle 22 prime_trig 200
+	setcycle 22 target_trig 23
+	setcycle 22 audio_trig 212
+	setcycle 22 cresp 5
+	setcycle 23 prime treaty
+	setcycle 23 target treat
+	setcycle 23 audio oss
+	setcycle 23 ITI 100
+	setcycle 23 mask QVDGKQXP
+	setcycle 23 prime_trig 200
+	setcycle 23 target_trig 24
+	setcycle 23 audio_trig 212
+	setcycle 23 cresp 5
+	setcycle 24 prime proper
+	setcycle 24 target art
+	setcycle 24 audio art
+	setcycle 24 ITI 100
+	setcycle 24 mask KHNGQGGG
+	setcycle 24 prime_trig 201
+	setcycle 24 target_trig 25
+	setcycle 24 audio_trig 210
+	setcycle 24 cresp 6
+	setcycle 25 prime topic
+	setcycle 25 target chart
+	setcycle 25 audio art
+	setcycle 25 ITI 200
+	setcycle 25 mask ZBFDNZDX
+	setcycle 25 prime_trig 201
+	setcycle 25 target_trig 26
+	setcycle 25 audio_trig 210
+	setcycle 25 cresp 6
+	setcycle 26 prime traitor
+	setcycle 26 target clam
+	setcycle 26 audio am
+	setcycle 26 ITI 100
+	setcycle 26 mask KXFYWQDP
+	setcycle 26 prime_trig 201
+	setcycle 26 target_trig 27
+	setcycle 26 audio_trig 210
+	setcycle 26 cresp 6
+	setcycle 27 prime luster
+	setcycle 27 target cow
+	setcycle 27 audio ow
+	setcycle 27 ITI 100
+	setcycle 27 mask NJNBGGPJ
+	setcycle 27 prime_trig 201
+	setcycle 27 target_trig 28
+	setcycle 27 audio_trig 210
+	setcycle 27 cresp 6
+	setcycle 28 prime rigor
+	setcycle 28 target earl
+	setcycle 28 audio earl
+	setcycle 28 ITI 100
+	setcycle 28 mask HSQDKWVX
+	setcycle 28 prime_trig 201
+	setcycle 28 target_trig 29
+	setcycle 28 audio_trig 210
+	setcycle 28 cresp 6
+	setcycle 29 prime hunger
+	setcycle 29 target fact
+	setcycle 29 audio act
+	setcycle 29 ITI 300
+	setcycle 29 mask LSYMJXXX
+	setcycle 29 prime_trig 201
+	setcycle 29 target_trig 30
+	setcycle 29 audio_trig 210
+	setcycle 29 cresp 6
+	setcycle 30 prime clamor
+	setcycle 30 target feat
+	setcycle 30 audio eat
+	setcycle 30 ITI 100
+	setcycle 30 mask NYKWNKWK
+	setcycle 30 prime_trig 201
+	setcycle 30 target_trig 31
+	setcycle 30 audio_trig 210
+	setcycle 30 cresp 6
+	setcycle 31 prime marshal
+	setcycle 31 target flu
+	setcycle 31 audio oo
+	setcycle 31 ITI 400
+	setcycle 31 mask VDQXKKBP
+	setcycle 31 prime_trig 201
+	setcycle 31 target_trig 32
+	setcycle 31 audio_trig 210
+	setcycle 31 cresp 6
+	setcycle 32 prime wicker
+	setcycle 32 target halt
+	setcycle 32 audio ilt
+	setcycle 32 ITI 100
+	setcycle 32 mask DJZGXPYG
+	setcycle 32 prime_trig 201
+	setcycle 32 target_trig 33
+	setcycle 32 audio_trig 211
+	setcycle 32 cresp 5
+	setcycle 33 prime halter
+	setcycle 33 target hung
+	setcycle 33 audio ang
+	setcycle 33 ITI 200
+	setcycle 33 mask FVFDQQMS
+	setcycle 33 prime_trig 201
+	setcycle 33 target_trig 34
+	setcycle 33 audio_trig 211
+	setcycle 33 cresp 5
+	setcycle 34 prime fluent
+	setcycle 34 target kilt
+	setcycle 34 audio ult
+	setcycle 34 ITI 300
+	setcycle 34 mask WJZCDGZW
+	setcycle 34 prime_trig 201
+	setcycle 34 target_trig 35
+	setcycle 34 audio_trig 211
+	setcycle 34 cresp 5
+	setcycle 35 prime artery
+	setcycle 35 target lust
+	setcycle 35 audio east
+	setcycle 35 ITI 300
+	setcycle 35 mask MHNWVDJB
+	setcycle 35 prime_trig 201
+	setcycle 35 target_trig 36
+	setcycle 35 audio_trig 211
+	setcycle 35 cresp 5
+	setcycle 36 prime million
+	setcycle 36 target marsh
+	setcycle 36 audio orsh
+	setcycle 36 ITI 500
+	setcycle 36 mask VPJKZPBP
+	setcycle 36 prime_trig 201
+	setcycle 36 target_trig 37
+	setcycle 36 audio_trig 211
+	setcycle 36 cresp 5
+	setcycle 37 prime suitor
+	setcycle 37 target mill
+	setcycle 37 audio ail
+	setcycle 37 ITI 100
+	setcycle 37 mask ZXGXHPPF
+	setcycle 37 prime_trig 201
+	setcycle 37 target_trig 38
+	setcycle 37 audio_trig 211
+	setcycle 37 cresp 5
+	setcycle 38 prime kilter
+	setcycle 38 target past
+	setcycle 38 audio ust
+	setcycle 38 ITI 100
+	setcycle 38 mask ZQFYQNVC
+	setcycle 38 prime_trig 201
+	setcycle 38 target_trig 39
+	setcycle 38 audio_trig 211
+	setcycle 38 cresp 5
+	setcycle 39 prime raptor
+	setcycle 39 target prop
+	setcycle 39 audio ip
+	setcycle 39 ITI 500
+	setcycle 39 mask NNDWXGVZ
+	setcycle 39 prime_trig 201
+	setcycle 39 target_trig 40
+	setcycle 39 audio_trig 211
+	setcycle 39 cresp 5
+	setcycle 40 prime tailor
+	setcycle 40 target rapt
+	setcycle 40 audio oot
+	setcycle 40 ITI 100
+	setcycle 40 mask DHZQNDGD
+	setcycle 40 prime_trig 201
+	setcycle 40 target_trig 41
+	setcycle 40 audio_trig 212
+	setcycle 40 cresp 5
+	setcycle 41 prime pastor
+	setcycle 41 target rig
+	setcycle 41 audio ung
+	setcycle 41 ITI 500
+	setcycle 41 mask FWLYLDKC
+	setcycle 41 prime_trig 201
+	setcycle 41 target_trig 42
+	setcycle 41 audio_trig 212
+	setcycle 41 cresp 5
+	setcycle 42 prime factor
+	setcycle 42 target suit
+	setcycle 42 audio ext
+	setcycle 42 ITI 500
+	setcycle 42 mask HNNLZYHG
+	setcycle 42 prime_trig 201
+	setcycle 42 target_trig 43
+	setcycle 42 audio_trig 212
+	setcycle 42 cresp 5
+	setcycle 43 prime charter
+	setcycle 43 target tail
+	setcycle 43 audio op
+	setcycle 43 ITI 400
+	setcycle 43 mask ZXMPSXFQ
+	setcycle 43 prime_trig 201
+	setcycle 43 target_trig 44
+	setcycle 43 audio_trig 212
+	setcycle 43 cresp 5
+	setcycle 44 prime feature
+	setcycle 44 target text
+	setcycle 44 audio art
+	setcycle 44 ITI 100
+	setcycle 44 mask CYPSVBWH
+	setcycle 44 prime_trig 201
+	setcycle 44 target_trig 45
+	setcycle 44 audio_trig 212
+	setcycle 44 cresp 5
+	setcycle 45 prime early
+	setcycle 45 target top
+	setcycle 45 audio op
+	setcycle 45 ITI 500
+	setcycle 45 mask HGGNFZZZ
+	setcycle 45 prime_trig 201
+	setcycle 45 target_trig 46
+	setcycle 45 audio_trig 212
+	setcycle 45 cresp 5
+	setcycle 46 prime texture
+	setcycle 46 target trait
+	setcycle 46 audio act
+	setcycle 46 ITI 100
+	setcycle 46 mask MGYKNJNL
+	setcycle 46 prime_trig 201
+	setcycle 46 target_trig 47
+	setcycle 46 audio_trig 212
+	setcycle 46 cresp 5
+	setcycle 47 prime cower
+	setcycle 47 target wick
+	setcycle 47 audio arsh
+	setcycle 47 ITI 100
+	setcycle 47 mask YNDQLBYN
+	setcycle 47 prime_trig 201
+	setcycle 47 target_trig 48
+	setcycle 47 audio_trig 212
+	setcycle 47 cresp 5
+	setcycle 48 prime bother
+	setcycle 48 target both
+	setcycle 48 audio oath
+	setcycle 48 ITI 400
+	setcycle 48 mask YYKPWPKM
+	setcycle 48 prime_trig 200
+	setcycle 48 target_trig 51
+	setcycle 48 audio_trig 210
+	setcycle 48 cresp 6
+	setcycle 49 prime caper
+	setcycle 49 target cap
+	setcycle 49 audio app
+	setcycle 49 ITI 200
+	setcycle 49 mask SDTXKTTH
+	setcycle 49 prime_trig 200
+	setcycle 49 target_trig 52
+	setcycle 49 audio_trig 210
+	setcycle 49 cresp 6
+	setcycle 50 prime combine
+	setcycle 50 target comb
+	setcycle 50 audio ome
+	setcycle 50 ITI 400
+	setcycle 50 mask YZKFSTTH
+	setcycle 50 prime_trig 200
+	setcycle 50 target_trig 53
+	setcycle 50 audio_trig 210
+	setcycle 50 cresp 6
+	setcycle 51 prime courteous
+	setcycle 51 target court
+	setcycle 51 audio ort
+	setcycle 51 ITI 200
+	setcycle 51 mask FPJJXPKP
+	setcycle 51 prime_trig 200
+	setcycle 51 target_trig 54
+	setcycle 51 audio_trig 210
+	setcycle 51 cresp 6
+	setcycle 52 prime fallible
+	setcycle 52 target fall
+	setcycle 52 audio all
+	setcycle 52 ITI 500
+	setcycle 52 mask QTJSTQYY
+	setcycle 52 prime_trig 200
+	setcycle 52 target_trig 55
+	setcycle 52 audio_trig 210
+	setcycle 52 cresp 6
+	setcycle 53 prime flourish
+	setcycle 53 target flour
+	setcycle 53 audio ow
+	setcycle 53 ITI 300
+	setcycle 53 mask XKKKBVGW
+	setcycle 53 prime_trig 200
+	setcycle 53 target_trig 56
+	setcycle 53 audio_trig 210
+	setcycle 53 cresp 6
+	setcycle 54 prime furor
+	setcycle 54 target fur
+	setcycle 54 audio er
+	setcycle 54 ITI 300
+	setcycle 54 mask DKCQCKYQ
+	setcycle 54 prime_trig 200
+	setcycle 54 target_trig 57
+	setcycle 54 audio_trig 210
+	setcycle 54 cresp 6
+	setcycle 55 prime global
+	setcycle 55 target glob
+	setcycle 55 audio ob
+	setcycle 55 ITI 500
+	setcycle 55 mask TYJJKHXJ
+	setcycle 55 prime_trig 200
+	setcycle 55 target_trig 58
+	setcycle 55 audio_trig 210
+	setcycle 55 cresp 6
+	setcycle 56 prime hearth
+	setcycle 56 target hear
+	setcycle 56 audio arth
+	setcycle 56 ITI 500
+	setcycle 56 mask QPKLSVXX
+	setcycle 56 prime_trig 200
+	setcycle 56 target_trig 59
+	setcycle 56 audio_trig 211
+	setcycle 56 cresp 5
+	setcycle 57 prime hinder
+	setcycle 57 target hind
+	setcycle 57 audio ind
+	setcycle 57 ITI 500
+	setcycle 57 mask XXLFXVXY
+	setcycle 57 prime_trig 200
+	setcycle 57 target_trig 60
+	setcycle 57 audio_trig 211
+	setcycle 57 cresp 5
+	setcycle 58 prime humor
+	setcycle 58 target hum
+	setcycle 58 audio yoom
+	setcycle 58 ITI 300
+	setcycle 58 mask ZKQZPWZL
+	setcycle 58 prime_trig 200
+	setcycle 58 target_trig 61
+	setcycle 58 audio_trig 211
+	setcycle 58 cresp 5
+	setcycle 59 prime menial
+	setcycle 59 target men
+	setcycle 59 audio een
+	setcycle 59 ITI 200
+	setcycle 59 mask VJHWFHWS
+	setcycle 59 prime_trig 200
+	setcycle 59 target_trig 62
+	setcycle 59 audio_trig 211
+	setcycle 59 cresp 5
+	setcycle 60 prime pageant
+	setcycle 60 target page
+	setcycle 60 audio aj
+	setcycle 60 ITI 300
+	setcycle 60 mask ZBJWFZJS
+	setcycle 60 prime_trig 200
+	setcycle 60 target_trig 63
+	setcycle 60 audio_trig 211
+	setcycle 60 cresp 5
+	setcycle 61 prime penal
+	setcycle 61 target pen
+	setcycle 61 audio een
+	setcycle 61 ITI 500
+	setcycle 61 mask FDVZXKKD
+	setcycle 61 prime_trig 200
+	setcycle 61 target_trig 64
+	setcycle 61 audio_trig 211
+	setcycle 61 cresp 5
+	setcycle 62 prime pollen
+	setcycle 62 target poll
+	setcycle 62 audio all
+	setcycle 62 ITI 200
+	setcycle 62 mask QKJRZFFQ
+	setcycle 62 prime_trig 200
+	setcycle 62 target_trig 65
+	setcycle 62 audio_trig 211
+	setcycle 62 cresp 5
+	setcycle 63 prime primary
+	setcycle 63 target prim
+	setcycle 63 audio ime
+	setcycle 63 ITI 300
+	setcycle 63 mask SLKNVTCD
+	setcycle 63 prime_trig 200
+	setcycle 63 target_trig 66
+	setcycle 63 audio_trig 211
+	setcycle 63 cresp 5
+	setcycle 64 prime rumor
+	setcycle 64 target rum
+	setcycle 64 audio ine
+	setcycle 64 ITI 400
+	setcycle 64 mask ZVGNNPKD
+	setcycle 64 prime_trig 200
+	setcycle 64 target_trig 67
+	setcycle 64 audio_trig 212
+	setcycle 64 cresp 5
+	setcycle 65 prime shiny
+	setcycle 65 target shin
+	setcycle 65 audio yoom
+	setcycle 65 ITI 400
+	setcycle 65 mask VJKXXKCM
+	setcycle 65 prime_trig 200
+	setcycle 65 target_trig 68
+	setcycle 65 audio_trig 212
+	setcycle 65 cresp 5
+	setcycle 66 prime sniper
+	setcycle 66 target snip
+	setcycle 66 audio ael
+	setcycle 66 ITI 100
+	setcycle 66 mask WWVVXYCY
+	setcycle 66 prime_trig 200
+	setcycle 66 target_trig 69
+	setcycle 66 audio_trig 212
+	setcycle 66 cresp 5
+	setcycle 67 prime spinal
+	setcycle 67 target spin
+	setcycle 67 audio ow
+	setcycle 67 ITI 300
+	setcycle 67 mask BTGXGXXB
+	setcycle 67 prime_trig 200
+	setcycle 67 target_trig 70
+	setcycle 67 audio_trig 212
+	setcycle 67 cresp 5
+	setcycle 68 prime stallion
+	setcycle 68 target stall
+	setcycle 68 audio ine
+	setcycle 68 ITI 300
+	setcycle 68 mask GXVCJXZH
+	setcycle 68 prime_trig 200
+	setcycle 68 target_trig 71
+	setcycle 68 audio_trig 212
+	setcycle 68 cresp 5
+	setcycle 69 prime tally
+	setcycle 69 target tall
+	setcycle 69 audio een
+	setcycle 69 ITI 300
+	setcycle 69 mask GDXJXGWX
+	setcycle 69 prime_trig 200
+	setcycle 69 target_trig 72
+	setcycle 69 audio_trig 212
+	setcycle 69 cresp 5
+	setcycle 70 prime tower
+	setcycle 70 target tow
+	setcycle 70 audio ind
+	setcycle 70 ITI 100
+	setcycle 70 mask NMPKPQXD
+	setcycle 70 prime_trig 200
+	setcycle 70 target_trig 73
+	setcycle 70 audio_trig 212
+	setcycle 70 cresp 5
+	setcycle 71 prime tuber
+	setcycle 71 target tub
+	setcycle 71 audio urt
+	setcycle 71 ITI 300
+	setcycle 71 mask CQFCLLGG
+	setcycle 71 prime_trig 200
+	setcycle 71 target_trig 74
+	setcycle 71 audio_trig 212
+	setcycle 71 cresp 5
+	setcycle 72 prime pallor
+	setcycle 72 target broth
+	setcycle 72 audio "auTH (unvoiced)"
+	setcycle 72 ITI 400
+	setcycle 72 mask SZKDJNXC
+	setcycle 72 prime_trig 201
+	setcycle 72 target_trig 75
+	setcycle 72 audio_trig 210
+	setcycle 72 cresp 6
+	setcycle 73 prime wager
+	setcycle 73 target call
+	setcycle 73 audio all
+	setcycle 73 ITI 400
+	setcycle 73 mask VBMHFQZV
+	setcycle 73 prime_trig 201
+	setcycle 73 target_trig 76
+	setcycle 73 audio_trig 210
+	setcycle 73 cresp 6
+	setcycle 74 prime flower
+	setcycle 74 target cat
+	setcycle 74 audio at
+	setcycle 74 ITI 400
+	setcycle 74 mask JYVVXYVB
+	setcycle 74 prime_trig 201
+	setcycle 74 target_trig 77
+	setcycle 74 audio_trig 210
+	setcycle 74 cresp 6
+	setcycle 75 prime mother
+	setcycle 75 target cop
+	setcycle 75 audio op
+	setcycle 75 ITI 200
+	setcycle 75 mask FBXXGXDV
+	setcycle 75 prime_trig 201
+	setcycle 75 target_trig 78
+	setcycle 75 audio_trig 210
+	setcycle 75 cresp 6
+	setcycle 76 prime scary
+	setcycle 76 target cub
+	setcycle 76 audio ub
+	setcycle 76 ITI 200
+	setcycle 76 mask GWQXQHWP
+	setcycle 76 prime_trig 201
+	setcycle 76 target_trig 79
+	setcycle 76 audio_trig 210
+	setcycle 76 cresp 6
+	setcycle 77 prime copious
+	setcycle 77 target fib
+	setcycle 77 audio ib
+	setcycle 77 ITI 500
+	setcycle 77 mask KHYQJDDX
+	setcycle 77 prime_trig 201
+	setcycle 77 target_trig 80
+	setcycle 77 audio_trig 210
+	setcycle 77 cresp 6
+	setcycle 78 prime posture
+	setcycle 78 target flow
+	setcycle 78 audio oh
+	setcycle 78 ITI 400
+	setcycle 78 mask GBMHGVJJ
+	setcycle 78 prime_trig 201
+	setcycle 78 target_trig 81
+	setcycle 78 audio_trig 210
+	setcycle 78 cresp 6
+	setcycle 79 prime gluten
+	setcycle 79 target gall
+	setcycle 79 audio all
+	setcycle 79 ITI 300
+	setcycle 79 mask XKZBSQHV
+	setcycle 79 prime_trig 201
+	setcycle 79 target_trig 82
+	setcycle 79 audio_trig 210
+	setcycle 79 cresp 6
+	setcycle 80 prime fiber
+	setcycle 80 target glut
+	setcycle 80 audio oot
+	setcycle 80 ITI 300
+	setcycle 80 mask MWKQYJQD
+	setcycle 80 prime_trig 201
+	setcycle 80 target_trig 83
+	setcycle 80 audio_trig 211
+	setcycle 80 cresp 5
+	setcycle 81 prime gallant
+	setcycle 81 target hide
+	setcycle 81 audio id
+	setcycle 81 ITI 100
+	setcycle 81 mask BQFFVQMC
+	setcycle 81 prime_trig 201
+	setcycle 81 target_trig 84
+	setcycle 81 audio_trig 211
+	setcycle 81 cresp 5
+	setcycle 82 prime shower
+	setcycle 82 target host
+	setcycle 82 audio aust
+	setcycle 82 ITI 500
+	setcycle 82 mask LXYPLZDB
+	setcycle 82 prime_trig 201
+	setcycle 82 target_trig 85
+	setcycle 82 audio_trig 211
+	setcycle 82 cresp 5
+	setcycle 83 prime tonal
+	setcycle 83 target leg
+	setcycle 83 audio eeg
+	setcycle 83 ITI 300
+	setcycle 83 mask RMBQBSFH
+	setcycle 83 prime_trig 201
+	setcycle 83 target_trig 86
+	setcycle 83 audio_trig 211
+	setcycle 83 cresp 5
+	setcycle 84 prime cater
+	setcycle 84 target moth
+	setcycle 84 audio "uth (voiced)"
+	setcycle 84 ITI 200
+	setcycle 84 mask LWGVNJBQ
+	setcycle 84 prime_trig 201
+	setcycle 84 target_trig 87
+	setcycle 84 audio_trig 211
+	setcycle 84 cresp 5
+	setcycle 85 prime cubic
+	setcycle 85 target pall
+	setcycle 85 audio ael
+	setcycle 85 ITI 300
+	setcycle 85 mask WZKSKSFT
+	setcycle 85 prime_trig 201
+	setcycle 85 target_trig 88
+	setcycle 85 audio_trig 211
+	setcycle 85 cresp 5
+	setcycle 86 prime hideous
+	setcycle 86 target plum
+	setcycle 86 audio oom
+	setcycle 86 ITI 100
+	setcycle 86 mask WNXRJNTQ
+	setcycle 86 prime_trig 201
+	setcycle 86 target_trig 89
+	setcycle 86 audio_trig 211
+	setcycle 86 cresp 5
+	setcycle 87 prime rotary
+	setcycle 87 target post
+	setcycle 87 audio ostch
+	setcycle 87 ITI 500
+	setcycle 87 mask HCLZVDVZ
+	setcycle 87 prime_trig 201
+	setcycle 87 target_trig 90
+	setcycle 87 audio_trig 211
+	setcycle 87 cresp 5
+	setcycle 88 prime trolley
+	setcycle 88 target rot
+	setcycle 88 audio "uth (voiced)"
+	setcycle 88 ITI 400
+	setcycle 88 mask BVQQPQPN
+	setcycle 88 prime_trig 201
+	setcycle 88 target_trig 91
+	setcycle 88 audio_trig 212
+	setcycle 88 cresp 5
+	setcycle 89 prime hostage
+	setcycle 89 target scar
+	setcycle 89 audio all
+	setcycle 89 ITI 100
+	setcycle 89 mask KDJWQFPP
+	setcycle 89 prime_trig 201
+	setcycle 89 target_trig 92
+	setcycle 89 audio_trig 212
+	setcycle 89 cresp 5
+	setcycle 90 prime brother
+	setcycle 90 target show
+	setcycle 90 audio air
+	setcycle 90 ITI 300
+	setcycle 90 mask VQYDYZDX
+	setcycle 90 prime_trig 201
+	setcycle 90 target_trig 93
+	setcycle 90 audio_trig 212
+	setcycle 90 cresp 5
+	setcycle 91 prime legal
+	setcycle 91 target sob
+	setcycle 91 audio at
+	setcycle 91 ITI 300
+	setcycle 91 mask KFZYJYDZ
+	setcycle 91 prime_trig 201
+	setcycle 91 target_trig 94
+	setcycle 91 audio_trig 212
+	setcycle 91 cresp 5
+	setcycle 92 prime sober
+	setcycle 92 target spur
+	setcycle 92 audio ael
+	setcycle 92 ITI 400
+	setcycle 92 mask MXMMXCTW
+	setcycle 92 prime_trig 201
+	setcycle 92 target_trig 95
+	setcycle 92 audio_trig 212
+	setcycle 92 cresp 5
+	setcycle 93 prime spurious
+	setcycle 93 target ton
+	setcycle 93 audio ostch
+	setcycle 93 ITI 200
+	setcycle 93 mask HGGHQDVM
+	setcycle 93 prime_trig 201
+	setcycle 93 target_trig 96
+	setcycle 93 audio_trig 212
+	setcycle 93 cresp 5
+	setcycle 94 prime callous
+	setcycle 94 target troll
+	setcycle 94 audio ow
+	setcycle 94 ITI 300
+	setcycle 94 mask HBQXJPKQ
+	setcycle 94 prime_trig 201
+	setcycle 94 target_trig 97
+	setcycle 94 audio_trig 212
+	setcycle 94 cresp 5
+	setcycle 95 prime plumage
+	setcycle 95 target wag
+	setcycle 95 audio oot
+	setcycle 95 ITI 500
+	setcycle 95 mask KYDXFZDN
+	setcycle 95 prime_trig 201
+	setcycle 95 target_trig 98
+	setcycle 95 audio_trig 212
+	setcycle 95 cresp 5
+	run sequence
+
+define loop Block2
+	set source_file ""
+	set source table
+	set repeat 1
+	set order random
+	set description "Repeatedly runs another item"
+	set cycles 96
+	set continuous no
+	set break_if_on_first yes
+	set break_if never
+	setcycle 0 prime banjo
+	setcycle 0 target ban
+	setcycle 0 ITI 500
+	setcycle 0 mask DRTQQXCL
+	setcycle 0 target_trig 101
+	setcycle 0 cresp 6
+	setcycle 0 audio an
+	setcycle 0 audio_trig 210
+	setcycle 0 prime_trig 200
+	setcycle 1 prime bangle
+	setcycle 1 target bang
+	setcycle 1 ITI 200
+	setcycle 1 mask ZMSXPJMX
+	setcycle 1 target_trig 102
+	setcycle 1 cresp 6
+	setcycle 1 audio ang
+	setcycle 1 audio_trig 210
+	setcycle 1 prime_trig 200
+	setcycle 2 prime beech
+	setcycle 2 target bee
+	setcycle 2 ITI 200
+	setcycle 2 mask VZZYRWWX
+	setcycle 2 target_trig 103
+	setcycle 2 cresp 6
+	setcycle 2 audio ee
+	setcycle 2 audio_trig 210
+	setcycle 2 prime_trig 200
+	setcycle 3 prime bunch
+	setcycle 3 target bun
+	setcycle 3 ITI 500
+	setcycle 3 mask ZQSPDFFY
+	setcycle 3 target_trig 104
+	setcycle 3 cresp 6
+	setcycle 3 audio un
+	setcycle 3 audio_trig 210
+	setcycle 3 prime_trig 200
+	setcycle 4 prime cashew
+	setcycle 4 target cash
+	setcycle 4 ITI 300
+	setcycle 4 mask VJBJVVYV
+	setcycle 4 target_trig 105
+	setcycle 4 cresp 6
+	setcycle 4 audio ash
+	setcycle 4 audio_trig 210
+	setcycle 4 prime_trig 200
+	setcycle 5 prime coupon
+	setcycle 5 target coup
+	setcycle 5 ITI 100
+	setcycle 5 mask TVFJDVGK
+	setcycle 5 target_trig 106
+	setcycle 5 cresp 6
+	setcycle 5 audio oo
+	setcycle 5 audio_trig 210
+	setcycle 5 prime_trig 200
+	setcycle 6 prime curtail
+	setcycle 6 target curt
+	setcycle 6 ITI 400
+	setcycle 6 mask QMGVZGPH
+	setcycle 6 target_trig 107
+	setcycle 6 cresp 6
+	setcycle 6 audio urt
+	setcycle 6 audio_trig 210
+	setcycle 6 prime_trig 200
+	setcycle 7 prime freeze
+	setcycle 7 target free
+	setcycle 7 ITI 400
+	setcycle 7 mask KQPQMLBG
+	setcycle 7 target_trig 108
+	setcycle 7 cresp 6
+	setcycle 7 audio ee
+	setcycle 7 audio_trig 210
+	setcycle 7 prime_trig 200
+	setcycle 8 prime harmony
+	setcycle 8 target harm
+	setcycle 8 ITI 200
+	setcycle 8 mask SKZBZSZC
+	setcycle 8 target_trig 109
+	setcycle 8 cresp 5
+	setcycle 8 audio orm
+	setcycle 8 audio_trig 211
+	setcycle 8 prime_trig 200
+	setcycle 9 prime hitch
+	setcycle 9 target hit
+	setcycle 9 ITI 300
+	setcycle 9 mask JJPMDWSQ
+	setcycle 9 target_trig 110
+	setcycle 9 cresp 5
+	setcycle 9 audio eat
+	setcycle 9 audio_trig 211
+	setcycle 9 prime_trig 200
+	setcycle 10 prime lentil
+	setcycle 10 target lent
+	setcycle 10 ITI 500
+	setcycle 10 mask ZYYXXFXJ
+	setcycle 10 target_trig 111
+	setcycle 10 cresp 5
+	setcycle 10 audio ant
+	setcycle 10 audio_trig 211
+	setcycle 10 prime_trig 200
+	setcycle 11 prime little
+	setcycle 11 target lit
+	setcycle 11 ITI 400
+	setcycle 11 mask YWMNPRFW
+	setcycle 11 target_trig 112
+	setcycle 11 cresp 5
+	setcycle 11 audio utt
+	setcycle 11 audio_trig 211
+	setcycle 11 prime_trig 200
+	setcycle 12 prime partner
+	setcycle 12 target part
+	setcycle 12 ITI 500
+	setcycle 12 mask QHYWFVDY
+	setcycle 12 target_trig 113
+	setcycle 12 cresp 5
+	setcycle 12 audio urt
+	setcycle 12 audio_trig 211
+	setcycle 12 prime_trig 200
+	setcycle 13 prime pinch
+	setcycle 13 target pin
+	setcycle 13 ITI 100
+	setcycle 13 mask GVBGYQVG
+	setcycle 13 target_trig 114
+	setcycle 13 cresp 5
+	setcycle 13 audio un
+	setcycle 13 audio_trig 211
+	setcycle 13 prime_trig 200
+	setcycle 14 prime plantain
+	setcycle 14 target plant
+	setcycle 14 ITI 100
+	setcycle 14 mask WJWXQFJJ
+	setcycle 14 target_trig 115
+	setcycle 14 cresp 5
+	setcycle 14 audio ent
+	setcycle 14 audio_trig 211
+	setcycle 14 prime_trig 200
+	setcycle 15 prime pumpkin
+	setcycle 15 target pump
+	setcycle 15 ITI 500
+	setcycle 15 mask XFGQGSHJ
+	setcycle 15 target_trig 116
+	setcycle 15 cresp 5
+	setcycle 15 audio omp
+	setcycle 15 audio_trig 211
+	setcycle 15 prime_trig 200
+	setcycle 16 prime ridge
+	setcycle 16 target rid
+	setcycle 16 ITI 200
+	setcycle 16 mask QZFSBVLW
+	setcycle 16 target_trig 117
+	setcycle 16 cresp 5
+	setcycle 16 audio ant
+	setcycle 16 audio_trig 212
+	setcycle 16 prime_trig 200
+	setcycle 17 prime sight
+	setcycle 17 target sigh
+	setcycle 17 ITI 500
+	setcycle 17 mask BRRXZDLW
+	setcycle 17 target_trig 118
+	setcycle 17 cresp 5
+	setcycle 17 audio arm
+	setcycle 17 audio_trig 212
+	setcycle 17 prime_trig 200
+	setcycle 18 prime starch
+	setcycle 18 target star
+	setcycle 18 ITI 300
+	setcycle 18 mask KPJNYYZV
+	setcycle 18 target_trig 119
+	setcycle 18 cresp 5
+	setcycle 18 audio eye
+	setcycle 18 audio_trig 212
+	setcycle 18 prime_trig 200
+	setcycle 19 prime surgeon
+	setcycle 19 target surge
+	setcycle 19 ITI 400
+	setcycle 19 mask HCDDFXJY
+	setcycle 19 target_trig 120
+	setcycle 19 cresp 5
+	setcycle 19 audio ent
+	setcycle 19 audio_trig 212
+	setcycle 19 prime_trig 200
+	setcycle 20 prime tendril
+	setcycle 20 target tend
+	setcycle 20 ITI 500
+	setcycle 20 mask ZBBQFJMH
+	setcycle 20 target_trig 121
+	setcycle 20 cresp 5
+	setcycle 20 audio ee
+	setcycle 20 audio_trig 212
+	setcycle 20 prime_trig 200
+	setcycle 21 prime twinkle
+	setcycle 21 target twin
+	setcycle 21 ITI 100
+	setcycle 21 mask CCVMCRBC
+	setcycle 21 target_trig 122
+	setcycle 21 cresp 5
+	setcycle 21 audio ang
+	setcycle 21 audio_trig 212
+	setcycle 21 prime_trig 200
+	setcycle 22 prime vandal
+	setcycle 22 target van
+	setcycle 22 ITI 100
+	setcycle 22 mask HGPBFHSP
+	setcycle 22 target_trig 123
+	setcycle 22 cresp 5
+	setcycle 22 audio it
+	setcycle 22 audio_trig 212
+	setcycle 22 prime_trig 200
+	setcycle 23 prime window
+	setcycle 23 target wind
+	setcycle 23 ITI 400
+	setcycle 23 mask YKMMBTZY
+	setcycle 23 target_trig 124
+	setcycle 23 cresp 5
+	setcycle 23 audio end
+	setcycle 23 audio_trig 212
+	setcycle 23 prime_trig 200
+	setcycle 24 prime vowel
+	setcycle 24 target band
+	setcycle 24 ITI 500
+	setcycle 24 mask ZCZXSQYQ
+	setcycle 24 target_trig 125
+	setcycle 24 cresp 6
+	setcycle 24 audio and
+	setcycle 24 audio_trig 210
+	setcycle 24 prime_trig 201
+	setcycle 25 prime yellow
+	setcycle 25 target bar
+	setcycle 25 ITI 400
+	setcycle 25 mask CJDJHVHC
+	setcycle 25 target_trig 126
+	setcycle 25 cresp 6
+	setcycle 25 audio are
+	setcycle 25 audio_trig 210
+	setcycle 25 prime_trig 201
+	setcycle 26 prime twitch
+	setcycle 26 target bell
+	setcycle 26 ITI 500
+	setcycle 26 mask NMFVYYKN
+	setcycle 26 target_trig 127
+	setcycle 26 cresp 6
+	setcycle 26 audio ell
+	setcycle 26 audio_trig 210
+	setcycle 26 prime_trig 201
+	setcycle 27 prime tease
+	setcycle 27 target cart
+	setcycle 27 ITI 400
+	setcycle 27 mask GYFJJKDD
+	setcycle 27 target_trig 128
+	setcycle 27 cresp 6
+	setcycle 27 audio art
+	setcycle 27 audio_trig 210
+	setcycle 27 prime_trig 201
+	setcycle 28 prime sparse
+	setcycle 28 target cost
+	setcycle 28 ITI 100
+	setcycle 28 mask VWWKYYQJ
+	setcycle 28 target_trig 129
+	setcycle 28 cresp 6
+	setcycle 28 audio aust
+	setcycle 28 audio_trig 210
+	setcycle 28 prime_trig 201
+	setcycle 29 prime quartz
+	setcycle 29 target drag
+	setcycle 29 ITI 300
+	setcycle 29 mask PXHMJVFL
+	setcycle 29 target_trig 130
+	setcycle 29 cresp 6
+	setcycle 29 audio ag
+	setcycle 29 audio_trig 210
+	setcycle 29 prime_trig 201
+	setcycle 30 prime napkin
+	setcycle 30 target fell
+	setcycle 30 ITI 300
+	setcycle 30 mask QDCHHTXB
+	setcycle 30 target_trig 131
+	setcycle 30 cresp 6
+	setcycle 30 audio ell
+	setcycle 30 audio_trig 210
+	setcycle 30 prime_trig 201
+	setcycle 31 prime peach
+	setcycle 31 target harp
+	setcycle 31 ITI 300
+	setcycle 31 mask VWFQWJGJ
+	setcycle 31 target_trig 132
+	setcycle 31 cresp 6
+	setcycle 31 audio arp
+	setcycle 31 audio_trig 210
+	setcycle 31 prime_trig 201
+	setcycle 32 prime tinsel
+	setcycle 32 target kid
+	setcycle 32 ITI 300
+	setcycle 32 mask PGMMRCBV
+	setcycle 32 target_trig 133
+	setcycle 32 cresp 5
+	setcycle 32 audio ide
+	setcycle 32 audio_trig 211
+	setcycle 32 prime_trig 201
+	setcycle 33 prime carton
+	setcycle 33 target less
+	setcycle 33 ITI 100
+	setcycle 33 mask HWVJHJDY
+	setcycle 33 target_trig 134
+	setcycle 33 cresp 5
+	setcycle 33 audio oss
+	setcycle 33 audio_trig 211
+	setcycle 33 prime_trig 201
+	setcycle 34 prime costume
+	setcycle 34 target nap
+	setcycle 34 ITI 400
+	setcycle 34 mask WXVGXRVV
+	setcycle 34 target_trig 135
+	setcycle 34 cresp 5
+	setcycle 34 audio op
+	setcycle 34 audio_trig 211
+	setcycle 34 prime_trig 201
+	setcycle 35 prime fellow
+	setcycle 35 target pea
+	setcycle 35 ITI 200
+	setcycle 35 mask JNKSGBDK
+	setcycle 35 target_trig 136
+	setcycle 35 cresp 5
+	setcycle 35 audio eye
+	setcycle 35 audio_trig 211
+	setcycle 35 prime_trig 201
+	setcycle 36 prime bellow
+	setcycle 36 target pert
+	setcycle 36 ITI 100
+	setcycle 36 mask MSKXMMQF
+	setcycle 36 target_trig 137
+	setcycle 36 cresp 5
+	setcycle 36 audio art
+	setcycle 36 audio_trig 211
+	setcycle 36 prime_trig 201
+	setcycle 37 prime kidney
+	setcycle 37 target plain
+	setcycle 37 ITI 200
+	setcycle 37 mask MCCRCRBM
+	setcycle 37 target_trig 138
+	setcycle 37 cresp 5
+	setcycle 37 audio en
+	setcycle 37 audio_trig 211
+	setcycle 37 prime_trig 201
+	setcycle 38 prime lesson
+	setcycle 38 target pulp
+	setcycle 38 ITI 100
+	setcycle 38 mask FRBDJMYR
+	setcycle 38 target_trig 139
+	setcycle 38 cresp 5
+	setcycle 38 audio alp
+	setcycle 38 audio_trig 211
+	setcycle 38 prime_trig 201
+	setcycle 39 prime surface
+	setcycle 39 target quart
+	setcycle 39 ITI 400
+	setcycle 39 mask KGDXKVYM
+	setcycle 39 target_trig 140
+	setcycle 39 cresp 5
+	setcycle 39 audio art
+	setcycle 39 audio_trig 211
+	setcycle 39 prime_trig 201
+	setcycle 40 prime barge
+	setcycle 40 target shove
+	setcycle 40 ITI 500
+	setcycle 40 mask CCJPXJWZ
+	setcycle 40 target_trig 141
+	setcycle 40 cresp 5
+	setcycle 40 audio urt
+	setcycle 40 audio_trig 212
+	setcycle 40 prime_trig 201
+	setcycle 41 prime plaintiff
+	setcycle 41 target spar
+	setcycle 41 ITI 400
+	setcycle 41 mask CWQXYQWX
+	setcycle 41 target_trig 142
+	setcycle 41 cresp 5
+	setcycle 41 audio urf
+	setcycle 41 audio_trig 212
+	setcycle 41 prime_trig 201
+	setcycle 42 prime bandit
+	setcycle 42 target surf
+	setcycle 42 ITI 300
+	setcycle 42 mask HHMPGLQK
+	setcycle 42 target_trig 143
+	setcycle 42 cresp 5
+	setcycle 42 audio eat
+	setcycle 42 audio_trig 212
+	setcycle 42 prime_trig 201
+	setcycle 43 prime shovel
+	setcycle 43 target tea
+	setcycle 43 ITI 400
+	setcycle 43 mask ZPDYBWRD
+	setcycle 43 target_trig 144
+	setcycle 43 cresp 5
+	setcycle 43 audio ell
+	setcycle 43 audio_trig 212
+	setcycle 43 prime_trig 201
+	setcycle 44 prime dragon
+	setcycle 44 target tin
+	setcycle 44 ITI 200
+	setcycle 44 mask MXJXYZKF
+	setcycle 44 target_trig 145
+	setcycle 44 cresp 5
+	setcycle 44 audio ease
+	setcycle 44 audio_trig 212
+	setcycle 44 prime_trig 201
+	setcycle 45 prime harpoon
+	setcycle 45 target twit
+	setcycle 45 ITI 300
+	setcycle 45 mask YFBVZBQV
+	setcycle 45 target_trig 146
+	setcycle 45 cresp 5
+	setcycle 45 audio ane
+	setcycle 45 audio_trig 212
+	setcycle 45 prime_trig 201
+	setcycle 46 prime pertain
+	setcycle 46 target vow
+	setcycle 46 ITI 400
+	setcycle 46 mask MYCBHBKZ
+	setcycle 46 target_trig 147
+	setcycle 46 cresp 5
+	setcycle 46 audio id
+	setcycle 46 audio_trig 212
+	setcycle 46 prime_trig 201
+	setcycle 47 prime pulpit
+	setcycle 47 target yell
+	setcycle 47 ITI 300
+	setcycle 47 mask DGHDRVHV
+	setcycle 47 target_trig 148
+	setcycle 47 cresp 5
+	setcycle 47 audio ow
+	setcycle 47 audio_trig 212
+	setcycle 47 prime_trig 201
+	setcycle 48 prime actor
+	setcycle 48 target act
+	setcycle 48 ITI 300
+	setcycle 48 mask QFVZPDBF
+	setcycle 48 target_trig 151
+	setcycle 48 cresp 6
+	setcycle 48 audio act
+	setcycle 48 audio_trig 210
+	setcycle 48 prime_trig 200
+	setcycle 49 prime binder
+	setcycle 49 target bind
+	setcycle 49 ITI 300
+	setcycle 49 mask JFTCTCTX
+	setcycle 49 target_trig 152
+	setcycle 49 cresp 6
+	setcycle 49 audio aind
+	setcycle 49 audio_trig 210
+	setcycle 49 prime_trig 200
+	setcycle 50 prime bomber
+	setcycle 50 target bomb
+	setcycle 50 ITI 500
+	setcycle 50 mask ZHHDHDTY
+	setcycle 50 target_trig 153
+	setcycle 50 cresp 6
+	setcycle 50 audio om
+	setcycle 50 audio_trig 210
+	setcycle 50 prime_trig 200
+	setcycle 51 prime brewery
+	setcycle 51 target brew
+	setcycle 51 ITI 300
+	setcycle 51 mask CVXQDPLM
+	setcycle 51 target_trig 154
+	setcycle 51 cresp 6
+	setcycle 51 audio oo
+	setcycle 51 audio_trig 210
+	setcycle 51 prime_trig 200
+	setcycle 52 prime childish
+	setcycle 52 target child
+	setcycle 52 ITI 100
+	setcycle 52 mask XXNMRZMW
+	setcycle 52 target_trig 155
+	setcycle 52 cresp 6
+	setcycle 52 audio ild
+	setcycle 52 audio_trig 210
+	setcycle 52 prime_trig 200
+	setcycle 53 prime flexible
+	setcycle 53 target flex
+	setcycle 53 ITI 300
+	setcycle 53 mask MWVVWJKM
+	setcycle 53 target_trig 156
+	setcycle 53 cresp 6
+	setcycle 53 audio ex
+	setcycle 53 audio_trig 210
+	setcycle 53 prime_trig 200
+	setcycle 54 prime golfer
+	setcycle 54 target golf
+	setcycle 54 ITI 100
+	setcycle 54 mask JXJWBCBW
+	setcycle 54 target_trig 157
+	setcycle 54 cresp 6
+	setcycle 54 audio olf
+	setcycle 54 audio_trig 210
+	setcycle 54 prime_trig 200
+	setcycle 55 prime herbal
+	setcycle 55 target herb
+	setcycle 55 ITI 200
+	setcycle 55 mask ZFTWGKDQ
+	setcycle 55 target_trig 158
+	setcycle 55 cresp 6
+	setcycle 55 audio erb
+	setcycle 55 audio_trig 210
+	setcycle 55 prime_trig 200
+	setcycle 56 prime hotly
+	setcycle 56 target hot
+	setcycle 56 ITI 500
+	setcycle 56 mask FRDQRXSF
+	setcycle 56 target_trig 159
+	setcycle 56 cresp 5
+	setcycle 56 audio it
+	setcycle 56 audio_trig 211
+	setcycle 56 prime_trig 200
+	setcycle 57 prime killer
+	setcycle 57 target kill
+	setcycle 57 ITI 200
+	setcycle 57 mask NXVFQQYG
+	setcycle 57 target_trig 160
+	setcycle 57 cresp 5
+	setcycle 57 audio ael
+	setcycle 57 audio_trig 211
+	setcycle 57 prime_trig 200
+	setcycle 58 prime leakage
+	setcycle 58 target leak
+	setcycle 58 ITI 100
+	setcycle 58 mask PJBPPSPQ
+	setcycle 58 target_trig 161
+	setcycle 58 cresp 5
+	setcycle 58 audio ick
+	setcycle 58 audio_trig 211
+	setcycle 58 prime_trig 200
+	setcycle 59 prime mileage
+	setcycle 59 target mile
+	setcycle 59 ITI 500
+	setcycle 59 mask DWDYTWTJ
+	setcycle 59 target_trig 162
+	setcycle 59 cresp 5
+	setcycle 59 audio ole
+	setcycle 59 audio_trig 211
+	setcycle 59 prime_trig 200
+	setcycle 60 prime mower
+	setcycle 60 target mow
+	setcycle 60 ITI 100
+	setcycle 60 mask FQSTXHZC
+	setcycle 60 target_trig 163
+	setcycle 60 cresp 5
+	setcycle 60 audio oo
+	setcycle 60 audio_trig 211
+	setcycle 60 prime_trig 200
+	setcycle 61 prime package
+	setcycle 61 target pack
+	setcycle 61 ITI 300
+	setcycle 61 mask DXZFYHFQ
+	setcycle 61 target_trig 164
+	setcycle 61 cresp 5
+	setcycle 61 audio eek
+	setcycle 61 audio_trig 211
+	setcycle 61 prime_trig 200
+	setcycle 62 prime pompous
+	setcycle 62 target pomp
+	setcycle 62 ITI 300
+	setcycle 62 mask JCBBGFYC
+	setcycle 62 target_trig 165
+	setcycle 62 cresp 5
+	setcycle 62 audio ump
+	setcycle 62 audio_trig 211
+	setcycle 62 prime_trig 200
+	setcycle 63 prime renter
+	setcycle 63 target rent
+	setcycle 63 ITI 500
+	setcycle 63 mask BQHQYHQX
+	setcycle 63 target_trig 166
+	setcycle 63 cresp 5
+	setcycle 63 audio unt
+	setcycle 63 audio_trig 211
+	setcycle 63 prime_trig 200
+	setcycle 64 prime roller
+	setcycle 64 target roll
+	setcycle 64 ITI 300
+	setcycle 64 mask WMYZGTKN
+	setcycle 64 target_trig 167
+	setcycle 64 cresp 5
+	setcycle 64 audio ack
+	setcycle 64 audio_trig 212
+	setcycle 64 prime_trig 200
+	setcycle 65 prime rusty
+	setcycle 65 target rust
+	setcycle 65 ITI 500
+	setcycle 65 mask GNCGCJQD
+	setcycle 65 target_trig 168
+	setcycle 65 cresp 5
+	setcycle 65 audio oh
+	setcycle 65 audio_trig 212
+	setcycle 65 prime_trig 200
+	setcycle 66 prime shyness
+	setcycle 66 target shy
+	setcycle 66 ITI 100
+	setcycle 66 mask FGKLVBMX
+	setcycle 66 target_trig 169
+	setcycle 66 cresp 5
+	setcycle 66 audio ult
+	setcycle 66 audio_trig 212
+	setcycle 66 prime_trig 200
+	setcycle 67 prime soften
+	setcycle 67 target soft
+	setcycle 67 ITI 400
+	setcycle 67 mask QZVRMRMY
+	setcycle 67 target_trig 170
+	setcycle 67 cresp 5
+	setcycle 67 audio ent
+	setcycle 67 audio_trig 212
+	setcycle 67 prime_trig 200
+	setcycle 68 prime vastly
+	setcycle 68 target vast
+	setcycle 68 ITI 200
+	setcycle 68 mask HHDHCHDD
+	setcycle 68 target_trig 171
+	setcycle 68 cresp 5
+	setcycle 68 audio eye
+	setcycle 68 audio_trig 212
+	setcycle 68 prime_trig 200
+	setcycle 69 prime verbal
+	setcycle 69 target verb
+	setcycle 69 ITI 400
+	setcycle 69 mask HKSWZZWN
+	setcycle 69 target_trig 172
+	setcycle 69 cresp 5
+	setcycle 69 audio ast
+	setcycle 69 audio_trig 212
+	setcycle 69 prime_trig 200
+	setcycle 70 prime voltage
+	setcycle 70 target volt
+	setcycle 70 ITI 400
+	setcycle 70 mask JRJCHFSC
+	setcycle 70 target_trig 173
+	setcycle 70 cresp 5
+	setcycle 70 audio aind
+	setcycle 70 audio_trig 212
+	setcycle 70 prime_trig 200
+	setcycle 71 prime warmth
+	setcycle 71 target warm
+	setcycle 71 ITI 500
+	setcycle 71 mask VSPYQKVY
+	setcycle 71 target_trig 174
+	setcycle 71 cresp 5
+	setcycle 71 audio ole
+	setcycle 71 audio_trig 212
+	setcycle 71 prime_trig 200
+	setcycle 72 prime rower
+	setcycle 72 target back
+	setcycle 72 ITI 200
+	setcycle 72 mask XDDFVDTN
+	setcycle 72 target_trig 175
+	setcycle 72 cresp 6
+	setcycle 72 audio ack
+	setcycle 72 audio_trig 210
+	setcycle 72 prime_trig 201
+	setcycle 73 prime bumper
+	setcycle 73 target bold
+	setcycle 73 ITI 500
+	setcycle 73 mask KHFVKGVC
+	setcycle 73 target_trig 176
+	setcycle 73 cresp 6
+	setcycle 73 audio old
+	setcycle 73 audio_trig 210
+	setcycle 73 prime_trig 201
+	setcycle 74 prime painter
+	setcycle 74 target box
+	setcycle 74 ITI 300
+	setcycle 74 mask WMYHFWVM
+	setcycle 74 target_trig 177
+	setcycle 74 cresp 6
+	setcycle 74 audio ox
+	setcycle 74 audio_trig 210
+	setcycle 74 prime_trig 201
+	setcycle 75 prime risky
+	setcycle 75 target bump
+	setcycle 75 ITI 400
+	setcycle 75 mask HGCTTLWG
+	setcycle 75 target_trig 178
+	setcycle 75 cresp 6
+	setcycle 75 audio ump
+	setcycle 75 audio_trig 210
+	setcycle 75 prime_trig 201
+	setcycle 76 prime boxer
+	setcycle 76 target edit
+	setcycle 76 ITI 500
+	setcycle 76 mask GPSYGCZL
+	setcycle 76 target_trig 179
+	setcycle 76 cresp 6
+	setcycle 76 audio ed
+	setcycle 76 audio_trig 210
+	setcycle 76 prime_trig 201
+	setcycle 77 prime mutely
+	setcycle 77 target glum
+	setcycle 77 ITI 500
+	setcycle 77 mask ZPQKJNPX
+	setcycle 77 target_trig 180
+	setcycle 77 cresp 6
+	setcycle 77 audio um
+	setcycle 77 audio_trig 210
+	setcycle 77 prime_trig 201
+	setcycle 78 prime vendor
+	setcycle 78 target grow
+	setcycle 78 ITI 200
+	setcycle 78 mask JSPZCYHK
+	setcycle 78 target_trig 181
+	setcycle 78 cresp 6
+	setcycle 78 audio oh
+	setcycle 78 audio_trig 210
+	setcycle 78 prime_trig 201
+	setcycle 79 prime rainy
+	setcycle 79 target hold
+	setcycle 79 ITI 100
+	setcycle 79 mask FGXSGJXV
+	setcycle 79 target_trig 182
+	setcycle 79 cresp 6
+	setcycle 79 audio old
+	setcycle 79 audio_trig 210
+	setcycle 79 prime_trig 201
+	setcycle 80 prime leader
+	setcycle 80 target hunt
+	setcycle 80 ITI 400
+	setcycle 80 mask JXGVVYYQ
+	setcycle 80 target_trig 183
+	setcycle 80 cresp 5
+	setcycle 80 audio aint
+	setcycle 80 audio_trig 211
+	setcycle 80 prime_trig 201
+	setcycle 81 prime walker
+	setcycle 81 target lead
+	setcycle 81 ITI 500
+	setcycle 81 mask CPBCTXVG
+	setcycle 81 target_trig 184
+	setcycle 81 cresp 5
+	setcycle 81 audio id
+	setcycle 81 audio_trig 211
+	setcycle 81 prime_trig 201
+	setcycle 82 prime editor
+	setcycle 82 target mock
+	setcycle 82 ITI 100
+	setcycle 82 mask VVXXWPSZ
+	setcycle 82 target_trig 185
+	setcycle 82 cresp 5
+	setcycle 82 audio ick
+	setcycle 82 audio_trig 211
+	setcycle 82 prime_trig 201
+	setcycle 83 prime mockery
+	setcycle 83 target mute
+	setcycle 83 ITI 400
+	setcycle 83 mask WWBZNBHS
+	setcycle 83 target_trig 186
+	setcycle 83 cresp 5
+	setcycle 83 audio ote
+	setcycle 83 audio_trig 211
+	setcycle 83 prime_trig 201
+	setcycle 84 prime holder
+	setcycle 84 target paint
+	setcycle 84 ITI 200
+	setcycle 84 mask XWZGBCMB
+	setcycle 84 target_trig 187
+	setcycle 84 cresp 5
+	setcycle 84 audio ent
+	setcycle 84 audio_trig 211
+	setcycle 84 prime_trig 201
+	setcycle 85 prime wattage
+	setcycle 85 target pass
+	setcycle 85 ITI 200
+	setcycle 85 mask HJHHCXKV
+	setcycle 85 target_trig 188
+	setcycle 85 cresp 5
+	setcycle 85 audio ess
+	setcycle 85 audio_trig 211
+	setcycle 85 prime_trig 201
+	setcycle 86 prime talker
+	setcycle 86 target rain
+	setcycle 86 ITI 500
+	setcycle 86 mask HHXFVFHH
+	setcycle 86 target_trig 189
+	setcycle 86 cresp 5
+	setcycle 86 audio een
+	setcycle 86 audio_trig 211
+	setcycle 86 prime_trig 201
+	setcycle 87 prime sailor
+	setcycle 87 target risk
+	setcycle 87 ITI 500
+	setcycle 87 mask FHZPDDXH
+	setcycle 87 target_trig 190
+	setcycle 87 cresp 5
+	setcycle 87 audio ask
+	setcycle 87 audio_trig 211
+	setcycle 87 prime_trig 201
+	setcycle 88 prime hunter
+	setcycle 88 target row
+	setcycle 88 ITI 400
+	setcycle 88 mask JZYPQJKZ
+	setcycle 88 target_trig 191
+	setcycle 88 cresp 5
+	setcycle 88 audio you
+	setcycle 88 audio_trig 212
+	setcycle 88 prime_trig 201
+	setcycle 89 prime boldness
+	setcycle 89 target sail
+	setcycle 89 ITI 500
+	setcycle 89 mask CJVMHMGV
+	setcycle 89 target_trig 192
+	setcycle 89 cresp 5
+	setcycle 89 audio yoot
+	setcycle 89 audio_trig 212
+	setcycle 89 prime_trig 201
+	setcycle 90 prime grower
+	setcycle 90 target sing
+	setcycle 90 ITI 500
+	setcycle 90 mask ZVTCXDKQ
+	setcycle 90 target_trig 193
+	setcycle 90 cresp 5
+	setcycle 90 audio ock
+	setcycle 90 audio_trig 212
+	setcycle 90 prime_trig 201
+	setcycle 91 prime singer
+	setcycle 91 target talk
+	setcycle 91 ITI 500
+	setcycle 91 mask MJCHFXXM
+	setcycle 91 target_trig 194
+	setcycle 91 cresp 5
+	setcycle 91 audio aint
+	setcycle 91 audio_trig 212
+	setcycle 91 prime_trig 201
+	setcycle 92 prime glumly
+	setcycle 92 target vend
+	setcycle 92 ITI 500
+	setcycle 92 mask SSTZJSQZ
+	setcycle 92 target_trig 195
+	setcycle 92 cresp 5
+	setcycle 92 audio ott
+	setcycle 92 audio_trig 212
+	setcycle 92 prime_trig 201
+	setcycle 93 prime backer
+	setcycle 93 target view
+	setcycle 93 ITI 200
+	setcycle 93 mask NLSZTDZH
+	setcycle 93 target_trig 196
+	setcycle 93 cresp 5
+	setcycle 93 audio um
+	setcycle 93 audio_trig 212
+	setcycle 93 prime_trig 201
+	setcycle 94 prime passage
+	setcycle 94 target walk
+	setcycle 94 ITI 300
+	setcycle 94 mask ZXYBHVCD
+	setcycle 94 target_trig 197
+	setcycle 94 cresp 5
+	setcycle 94 audio ox
+	setcycle 94 audio_trig 212
+	setcycle 94 prime_trig 201
+	setcycle 95 prime viewer
+	setcycle 95 target watt
+	setcycle 95 ITI 500
+	setcycle 95 mask NFQFSCFP
+	setcycle 95 target_trig 198
+	setcycle 95 cresp 5
+	setcycle 95 audio ane
+	setcycle 95 audio_trig 212
+	setcycle 95 prime_trig 201
+	run sequence
+
+define loop Block3
+	set source_file ""
+	set source table
+	set skip 0
+	set repeat 1
+	set order random
+	set offset no
+	set item new_sequence
+	set description "Repeatedly runs another item"
+	set cycles 96
+	set continuous no
+	set column_order "prime;target;ITI;mask;trigger;cresp;audio"
+	set break_if_on_first yes
+	set break_if never
+	setcycle 0 prime archer
+	setcycle 0 target arch
+	setcycle 0 ITI 300
+	setcycle 0 mask DLKZFLZV
+	setcycle 0 target_trig 1
+	setcycle 0 cresp 5
+	setcycle 0 audio urch
+	setcycle 0 audio_trig 211
+	setcycle 0 prime_trig 200
+	setcycle 1 prime brandish
+	setcycle 1 target brand
+	setcycle 1 ITI 200
+	setcycle 1 mask LVFXKFCW
+	setcycle 1 target_trig 2
+	setcycle 1 cresp 5
+	setcycle 1 audio ind
+	setcycle 1 audio_trig 211
+	setcycle 1 prime_trig 200
+	setcycle 2 prime corner
+	setcycle 2 target corn
+	setcycle 2 ITI 500
+	setcycle 2 mask LVJYDPXV
+	setcycle 2 target_trig 3
+	setcycle 2 cresp 5
+	setcycle 2 audio urn
+	setcycle 2 audio_trig 211
+	setcycle 2 prime_trig 200
+	setcycle 3 prime dormant
+	setcycle 3 target dorm
+	setcycle 3 ITI 400
+	setcycle 3 mask QQLJHGZG
+	setcycle 3 target_trig 4
+	setcycle 3 cresp 5
+	setcycle 3 audio arm
+	setcycle 3 audio_trig 211
+	setcycle 3 prime_trig 200
+	setcycle 4 prime easter
+	setcycle 4 target east
+	setcycle 4 ITI 300
+	setcycle 4 mask YXMMDPJP
+	setcycle 4 target_trig 5
+	setcycle 4 cresp 5
+	setcycle 4 audio ast
+	setcycle 4 audio_trig 211
+	setcycle 4 prime_trig 200
+	setcycle 5 prime fairy
+	setcycle 5 target fair
+	setcycle 5 ITI 500
+	setcycle 5 mask SMQHSTGL
+	setcycle 5 target_trig 6
+	setcycle 5 cresp 5
+	setcycle 5 audio or
+	setcycle 5 audio_trig 211
+	setcycle 5 prime_trig 200
+	setcycle 6 prime figment
+	setcycle 6 target fig
+	setcycle 6 ITI 100
+	setcycle 6 mask CZVXSXZC
+	setcycle 6 target_trig 7
+	setcycle 6 cresp 5
+	setcycle 6 audio ag
+	setcycle 6 audio_trig 211
+	setcycle 6 prime_trig 200
+	setcycle 7 prime glossary
+	setcycle 7 target gloss
+	setcycle 7 ITI 500
+	setcycle 7 mask PVFDXXVZ
+	setcycle 7 target_trig 8
+	setcycle 7 cresp 5
+	setcycle 7 audio ass
+	setcycle 7 audio_trig 211
+	setcycle 7 prime_trig 200
+	setcycle 8 prime helmet
+	setcycle 8 target helm
+	setcycle 8 ITI 200
+	setcycle 8 mask QVXDKBSF
+	setcycle 8 target_trig 9
+	setcycle 8 cresp 5
+	setcycle 8 audio im
+	setcycle 8 audio_trig 212
+	setcycle 8 prime_trig 200
+	setcycle 9 prime inner
+	setcycle 9 target inn
+	setcycle 9 ITI 500
+	setcycle 9 mask KVQSQHYT
+	setcycle 9 target_trig 10
+	setcycle 9 cresp 5
+	setcycle 9 audio and
+	setcycle 9 audio_trig 212
+	setcycle 9 prime_trig 200
+	setcycle 10 prime limber
+	setcycle 10 target limb
+	setcycle 10 ITI 400
+	setcycle 10 mask WPWCZXVJ
+	setcycle 10 target_trig 11
+	setcycle 10 cresp 5
+	setcycle 10 audio ast
+	setcycle 10 audio_trig 212
+	setcycle 10 prime_trig 200
+	setcycle 11 prime manage
+	setcycle 11 target man
+	setcycle 11 ITI 100
+	setcycle 11 mask CFDKKPHP
+	setcycle 11 target_trig 12
+	setcycle 11 cresp 5
+	setcycle 11 audio ig
+	setcycle 11 audio_trig 212
+	setcycle 11 prime_trig 200
+	setcycle 12 prime master
+	setcycle 12 target mast
+	setcycle 12 ITI 300
+	setcycle 12 mask KPKFWYZK
+	setcycle 12 target_trig 13
+	setcycle 12 cresp 5
+	setcycle 12 audio ill
+	setcycle 12 audio_trig 212
+	setcycle 12 prime_trig 200
+	setcycle 13 prime mister
+	setcycle 13 target mist
+	setcycle 13 ITI 400
+	setcycle 13 mask PPZBVBFG
+	setcycle 13 target_trig 14
+	setcycle 13 cresp 5
+	setcycle 13 audio elm
+	setcycle 13 audio_trig 212
+	setcycle 13 prime_trig 200
+	setcycle 14 prime pasture
+	setcycle 14 target past
+	setcycle 14 ITI 200
+	setcycle 14 mask QYFBYHYJ
+	setcycle 14 target_trig 15
+	setcycle 14 cresp 5
+	setcycle 14 audio in
+	setcycle 14 audio_trig 212
+	setcycle 14 prime_trig 200
+	setcycle 15 prime pillage
+	setcycle 15 target pill
+	setcycle 15 ITI 500
+	setcycle 15 mask QZDCVVBK
+	setcycle 15 target_trig 16
+	setcycle 15 cresp 5
+	setcycle 15 audio and
+	setcycle 15 audio_trig 212
+	setcycle 15 prime_trig 200
+	setcycle 16 prime ponder
+	setcycle 16 target pond
+	setcycle 16 ITI 300
+	setcycle 16 mask YXHQXFMZ
+	setcycle 16 target_trig 17
+	setcycle 16 cresp 6
+	setcycle 16 audio ond
+	setcycle 16 audio_trig 210
+	setcycle 16 prime_trig 200
+	setcycle 17 prime question
+	setcycle 17 target quest
+	setcycle 17 ITI 500
+	setcycle 17 mask DXYFLBJY
+	setcycle 17 target_trig 18
+	setcycle 17 cresp 6
+	setcycle 17 audio est
+	setcycle 17 audio_trig 210
+	setcycle 17 prime_trig 200
+	setcycle 18 prime render
+	setcycle 18 target rend
+	setcycle 18 ITI 300
+	setcycle 18 mask WQLHQCPV
+	setcycle 18 target_trig 19
+	setcycle 18 cresp 6
+	setcycle 18 audio end
+	setcycle 18 audio_trig 210
+	setcycle 18 prime_trig 200
+	setcycle 19 prime sandal
+	setcycle 19 target sand
+	setcycle 19 ITI 300
+	setcycle 19 mask FHGFBCPF
+	setcycle 19 target_trig 20
+	setcycle 19 cresp 6
+	setcycle 19 audio and
+	setcycle 19 audio_trig 210
+	setcycle 19 prime_trig 200
+	setcycle 20 prime tactile
+	setcycle 20 target tact
+	setcycle 20 ITI 500
+	setcycle 20 mask HZWBDGSV
+	setcycle 20 target_trig 21
+	setcycle 20 cresp 6
+	setcycle 20 audio act
+	setcycle 20 audio_trig 210
+	setcycle 20 prime_trig 200
+	setcycle 21 prime tenuous
+	setcycle 21 target ten
+	setcycle 21 ITI 500
+	setcycle 21 mask WPLXDYCR
+	setcycle 21 target_trig 22
+	setcycle 21 cresp 6
+	setcycle 21 audio end
+	setcycle 21 audio_trig 210
+	setcycle 21 prime_trig 200
+	setcycle 22 prime tractable
+	setcycle 22 target tract
+	setcycle 22 ITI 300
+	setcycle 22 mask WJKQFMWQ
+	setcycle 22 target_trig 23
+	setcycle 22 cresp 6
+	setcycle 22 audio act
+	setcycle 22 audio_trig 210
+	setcycle 22 prime_trig 200
+	setcycle 23 prime treaty
+	setcycle 23 target treat
+	setcycle 23 ITI 200
+	setcycle 23 mask QVDGKQXP
+	setcycle 23 target_trig 24
+	setcycle 23 cresp 6
+	setcycle 23 audio eat
+	setcycle 23 audio_trig 210
+	setcycle 23 prime_trig 200
+	setcycle 24 prime proper
+	setcycle 24 target art
+	setcycle 24 ITI 500
+	setcycle 24 mask KHNGQGGG
+	setcycle 24 target_trig 25
+	setcycle 24 cresp 5
+	setcycle 24 audio urt
+	setcycle 24 audio_trig 211
+	setcycle 24 prime_trig 201
+	setcycle 25 prime topic
+	setcycle 25 target chart
+	setcycle 25 ITI 500
+	setcycle 25 mask ZBFDNZDX
+	setcycle 25 target_trig 26
+	setcycle 25 cresp 5
+	setcycle 25 audio ort
+	setcycle 25 audio_trig 211
+	setcycle 25 prime_trig 201
+	setcycle 26 prime traitor
+	setcycle 26 target clam
+	setcycle 26 ITI 100
+	setcycle 26 mask KXFYWQDP
+	setcycle 26 target_trig 27
+	setcycle 26 cresp 5
+	setcycle 26 audio im
+	setcycle 26 audio_trig 211
+	setcycle 26 prime_trig 201
+	setcycle 27 prime luster
+	setcycle 27 target cow
+	setcycle 27 ITI 300
+	setcycle 27 mask NJNBGGPJ
+	setcycle 27 target_trig 28
+	setcycle 27 cresp 5
+	setcycle 27 audio oh
+	setcycle 27 audio_trig 211
+	setcycle 27 prime_trig 201
+	setcycle 28 prime rigor
+	setcycle 28 target earl
+	setcycle 28 ITI 200
+	setcycle 28 mask HSQDKWVX
+	setcycle 28 target_trig 29
+	setcycle 28 cresp 5
+	setcycle 28 audio arl
+	setcycle 28 audio_trig 211
+	setcycle 28 prime_trig 201
+	setcycle 29 prime hunger
+	setcycle 29 target fact
+	setcycle 29 ITI 500
+	setcycle 29 mask LSYMJXXX
+	setcycle 29 target_trig 30
+	setcycle 29 cresp 5
+	setcycle 29 audio ict
+	setcycle 29 audio_trig 211
+	setcycle 29 prime_trig 201
+	setcycle 30 prime clamor
+	setcycle 30 target feat
+	setcycle 30 ITI 100
+	setcycle 30 mask NYKWNKWK
+	setcycle 30 target_trig 31
+	setcycle 30 cresp 5
+	setcycle 30 audio at
+	setcycle 30 audio_trig 211
+	setcycle 30 prime_trig 201
+	setcycle 31 prime marshal
+	setcycle 31 target flu
+	setcycle 31 ITI 200
+	setcycle 31 mask VDQXKKBP
+	setcycle 31 target_trig 32
+	setcycle 31 cresp 5
+	setcycle 31 audio oh
+	setcycle 31 audio_trig 211
+	setcycle 31 prime_trig 201
+	setcycle 32 prime wicker
+	setcycle 32 target halt
+	setcycle 32 ITI 300
+	setcycle 32 mask DJZGXPYG
+	setcycle 32 target_trig 33
+	setcycle 32 cresp 5
+	setcycle 32 audio ust
+	setcycle 32 audio_trig 212
+	setcycle 32 prime_trig 201
+	setcycle 33 prime halter
+	setcycle 33 target hung
+	setcycle 33 ITI 400
+	setcycle 33 mask FVFDQQMS
+	setcycle 33 target_trig 34
+	setcycle 33 cresp 5
+	setcycle 33 audio air
+	setcycle 33 audio_trig 212
+	setcycle 33 prime_trig 201
+	setcycle 34 prime fluent
+	setcycle 34 target kilt
+	setcycle 34 ITI 200
+	setcycle 34 mask WJZCDGZW
+	setcycle 34 target_trig 35
+	setcycle 34 cresp 5
+	setcycle 34 audio art
+	setcycle 34 audio_trig 212
+	setcycle 34 prime_trig 201
+	setcycle 35 prime artery
+	setcycle 35 target lust
+	setcycle 35 ITI 500
+	setcycle 35 mask MHNWVDJB
+	setcycle 35 target_trig 36
+	setcycle 35 cresp 5
+	setcycle 35 audio am
+	setcycle 35 audio_trig 212
+	setcycle 35 prime_trig 201
+	setcycle 36 prime million
+	setcycle 36 target marsh
+	setcycle 36 ITI 100
+	setcycle 36 mask VPJKZPBP
+	setcycle 36 target_trig 37
+	setcycle 36 cresp 5
+	setcycle 36 audio ick
+	setcycle 36 audio_trig 212
+	setcycle 36 prime_trig 201
+	setcycle 37 prime suitor
+	setcycle 37 target mill
+	setcycle 37 ITI 100
+	setcycle 37 mask ZXGXHPPF
+	setcycle 37 target_trig 38
+	setcycle 37 cresp 5
+	setcycle 37 audio ail
+	setcycle 37 audio_trig 212
+	setcycle 37 prime_trig 201
+	setcycle 38 prime kilter
+	setcycle 38 target past
+	setcycle 38 ITI 200
+	setcycle 38 mask ZQFYQNVC
+	setcycle 38 target_trig 39
+	setcycle 38 cresp 5
+	setcycle 38 audio ow
+	setcycle 38 audio_trig 212
+	setcycle 38 prime_trig 201
+	setcycle 39 prime raptor
+	setcycle 39 target prop
+	setcycle 39 ITI 500
+	setcycle 39 mask NNDWXGVZ
+	setcycle 39 target_trig 40
+	setcycle 39 cresp 5
+	setcycle 39 audio ilt
+	setcycle 39 audio_trig 212
+	setcycle 39 prime_trig 201
+	setcycle 40 prime tailor
+	setcycle 40 target rapt
+	setcycle 40 ITI 100
+	setcycle 40 mask DHZQNDGD
+	setcycle 40 target_trig 41
+	setcycle 40 cresp 6
+	setcycle 40 audio apt
+	setcycle 40 audio_trig 210
+	setcycle 40 prime_trig 201
+	setcycle 41 prime pastor
+	setcycle 41 target rig
+	setcycle 41 ITI 100
+	setcycle 41 mask FWLYLDKC
+	setcycle 41 target_trig 42
+	setcycle 41 cresp 6
+	setcycle 41 audio ig
+	setcycle 41 audio_trig 210
+	setcycle 41 prime_trig 201
+	setcycle 42 prime factor
+	setcycle 42 target suit
+	setcycle 42 ITI 400
+	setcycle 42 mask HNNLZYHG
+	setcycle 42 target_trig 43
+	setcycle 42 cresp 6
+	setcycle 42 audio oot
+	setcycle 42 audio_trig 210
+	setcycle 42 prime_trig 201
+	setcycle 43 prime charter
+	setcycle 43 target tail
+	setcycle 43 ITI 400
+	setcycle 43 mask ZXMPSXFQ
+	setcycle 43 target_trig 44
+	setcycle 43 cresp 6
+	setcycle 43 audio ail
+	setcycle 43 audio_trig 210
+	setcycle 43 prime_trig 201
+	setcycle 44 prime feature
+	setcycle 44 target text
+	setcycle 44 ITI 200
+	setcycle 44 mask CYPSVBWH
+	setcycle 44 target_trig 45
+	setcycle 44 cresp 6
+	setcycle 44 audio ext
+	setcycle 44 audio_trig 210
+	setcycle 44 prime_trig 201
+	setcycle 45 prime early
+	setcycle 45 target top
+	setcycle 45 ITI 100
+	setcycle 45 mask HGGNFZZZ
+	setcycle 45 target_trig 46
+	setcycle 45 cresp 6
+	setcycle 45 audio op
+	setcycle 45 audio_trig 210
+	setcycle 45 prime_trig 201
+	setcycle 46 prime texture
+	setcycle 46 target trait
+	setcycle 46 ITI 100
+	setcycle 46 mask MGYKNJNL
+	setcycle 46 target_trig 47
+	setcycle 46 cresp 6
+	setcycle 46 audio ate
+	setcycle 46 audio_trig 210
+	setcycle 46 prime_trig 201
+	setcycle 47 prime cower
+	setcycle 47 target wick
+	setcycle 47 ITI 300
+	setcycle 47 mask YNDQLBYN
+	setcycle 47 target_trig 48
+	setcycle 47 cresp 6
+	setcycle 47 audio ick
+	setcycle 47 audio_trig 210
+	setcycle 47 prime_trig 201
+	setcycle 48 prime bother
+	setcycle 48 target both
+	setcycle 48 ITI 300
+	setcycle 48 mask YYKPWPKM
+	setcycle 48 target_trig 51
+	setcycle 48 cresp 5
+	setcycle 48 audio "auth (voiced)"
+	setcycle 48 audio_trig 211
+	setcycle 48 prime_trig 200
+	setcycle 49 prime caper
+	setcycle 49 target cap
+	setcycle 49 ITI 500
+	setcycle 49 mask SDTXKTTH
+	setcycle 49 target_trig 52
+	setcycle 49 cresp 5
+	setcycle 49 audio ape
+	setcycle 49 audio_trig 211
+	setcycle 49 prime_trig 200
+	setcycle 50 prime combine
+	setcycle 50 target comb
+	setcycle 50 ITI 200
+	setcycle 50 mask YZKFSTTH
+	setcycle 50 target_trig 53
+	setcycle 50 cresp 5
+	setcycle 50 audio um
+	setcycle 50 audio_trig 211
+	setcycle 50 prime_trig 200
+	setcycle 51 prime courteous
+	setcycle 51 target court
+	setcycle 51 ITI 100
+	setcycle 51 mask FPJJXPKP
+	setcycle 51 target_trig 54
+	setcycle 51 cresp 5
+	setcycle 51 audio urt
+	setcycle 51 audio_trig 211
+	setcycle 51 prime_trig 200
+	setcycle 52 prime fallible
+	setcycle 52 target fall
+	setcycle 52 ITI 500
+	setcycle 52 mask QTJSTQYY
+	setcycle 52 target_trig 55
+	setcycle 52 cresp 5
+	setcycle 52 audio ael
+	setcycle 52 audio_trig 211
+	setcycle 52 prime_trig 200
+	setcycle 53 prime flourish
+	setcycle 53 target flour
+	setcycle 53 ITI 100
+	setcycle 53 mask XKKKBVGW
+	setcycle 53 target_trig 56
+	setcycle 53 cresp 5
+	setcycle 53 audio er
+	setcycle 53 audio_trig 211
+	setcycle 53 prime_trig 200
+	setcycle 54 prime furor
+	setcycle 54 target fur
+	setcycle 54 ITI 400
+	setcycle 54 mask DKCQCKYQ
+	setcycle 54 target_trig 57
+	setcycle 54 cresp 5
+	setcycle 54 audio yer
+	setcycle 54 audio_trig 211
+	setcycle 54 prime_trig 200
+	setcycle 55 prime global
+	setcycle 55 target glob
+	setcycle 55 ITI 100
+	setcycle 55 mask TYJJKHXJ
+	setcycle 55 target_trig 58
+	setcycle 55 cresp 5
+	setcycle 55 audio obe
+	setcycle 55 audio_trig 211
+	setcycle 55 prime_trig 200
+	setcycle 56 prime hearth
+	setcycle 56 target hear
+	setcycle 56 ITI 200
+	setcycle 56 mask QPKLSVXX
+	setcycle 56 target_trig 59
+	setcycle 56 cresp 5
+	setcycle 56 audio er
+	setcycle 56 audio_trig 212
+	setcycle 56 prime_trig 200
+	setcycle 57 prime hinder
+	setcycle 57 target hind
+	setcycle 57 ITI 100
+	setcycle 57 mask XXLFXVXY
+	setcycle 57 target_trig 60
+	setcycle 57 cresp 5
+	setcycle 57 audio ape
+	setcycle 57 audio_trig 212
+	setcycle 57 prime_trig 200
+	setcycle 58 prime humor
+	setcycle 58 target hum
+	setcycle 58 ITI 400
+	setcycle 58 mask ZKQZPWZL
+	setcycle 58 target_trig 61
+	setcycle 58 cresp 5
+	setcycle 58 audio ipe
+	setcycle 58 audio_trig 212
+	setcycle 58 prime_trig 200
+	setcycle 59 prime menial
+	setcycle 59 target men
+	setcycle 59 ITI 500
+	setcycle 59 mask VJHWFHWS
+	setcycle 59 target_trig 62
+	setcycle 59 cresp 5
+	setcycle 59 audio "auth (voiced)"
+	setcycle 59 audio_trig 212
+	setcycle 59 prime_trig 200
+	setcycle 60 prime pageant
+	setcycle 60 target page
+	setcycle 60 ITI 300
+	setcycle 60 mask ZBJWFZJS
+	setcycle 60 target_trig 63
+	setcycle 60 cresp 5
+	setcycle 60 audio um
+	setcycle 60 audio_trig 212
+	setcycle 60 prime_trig 200
+	setcycle 61 prime penal
+	setcycle 61 target pen
+	setcycle 61 ITI 400
+	setcycle 61 mask FDVZXKKD
+	setcycle 61 target_trig 64
+	setcycle 61 cresp 5
+	setcycle 61 audio oob
+	setcycle 61 audio_trig 212
+	setcycle 61 prime_trig 200
+	setcycle 62 prime pollen
+	setcycle 62 target poll
+	setcycle 62 ITI 400
+	setcycle 62 mask QKJRZFFQ
+	setcycle 62 target_trig 65
+	setcycle 62 cresp 5
+	setcycle 62 audio ael
+	setcycle 62 audio_trig 212
+	setcycle 62 prime_trig 200
+	setcycle 63 prime primary
+	setcycle 63 target prim
+	setcycle 63 ITI 200
+	setcycle 63 mask SLKNVTCD
+	setcycle 63 target_trig 66
+	setcycle 63 cresp 5
+	setcycle 63 audio are
+	setcycle 63 audio_trig 212
+	setcycle 63 prime_trig 200
+	setcycle 64 prime rumor
+	setcycle 64 target rum
+	setcycle 64 ITI 500
+	setcycle 64 mask ZVGNNPKD
+	setcycle 64 target_trig 67
+	setcycle 64 cresp 6
+	setcycle 64 audio um
+	setcycle 64 audio_trig 210
+	setcycle 64 prime_trig 200
+	setcycle 65 prime shiny
+	setcycle 65 target shin
+	setcycle 65 ITI 200
+	setcycle 65 mask VJKXXKCM
+	setcycle 65 target_trig 68
+	setcycle 65 cresp 6
+	setcycle 65 audio in
+	setcycle 65 audio_trig 210
+	setcycle 65 prime_trig 200
+	setcycle 66 prime sniper
+	setcycle 66 target snip
+	setcycle 66 ITI 200
+	setcycle 66 mask WWVVXYCY
+	setcycle 66 target_trig 69
+	setcycle 66 cresp 6
+	setcycle 66 audio ip
+	setcycle 66 audio_trig 210
+	setcycle 66 prime_trig 200
+	setcycle 67 prime spinal
+	setcycle 67 target spin
+	setcycle 67 ITI 200
+	setcycle 67 mask BTGXGXXB
+	setcycle 67 target_trig 70
+	setcycle 67 cresp 6
+	setcycle 67 audio in
+	setcycle 67 audio_trig 210
+	setcycle 67 prime_trig 200
+	setcycle 68 prime stallion
+	setcycle 68 target stall
+	setcycle 68 ITI 400
+	setcycle 68 mask GXVCJXZH
+	setcycle 68 target_trig 71
+	setcycle 68 cresp 6
+	setcycle 68 audio all
+	setcycle 68 audio_trig 210
+	setcycle 68 prime_trig 200
+	setcycle 69 prime tally
+	setcycle 69 target tall
+	setcycle 69 ITI 300
+	setcycle 69 mask GDXJXGWX
+	setcycle 69 target_trig 72
+	setcycle 69 cresp 6
+	setcycle 69 audio all
+	setcycle 69 audio_trig 210
+	setcycle 69 prime_trig 200
+	setcycle 70 prime tower
+	setcycle 70 target tow
+	setcycle 70 ITI 500
+	setcycle 70 mask NMPKPQXD
+	setcycle 70 target_trig 73
+	setcycle 70 cresp 6
+	setcycle 70 audio oh
+	setcycle 70 audio_trig 210
+	setcycle 70 prime_trig 200
+	setcycle 71 prime tuber
+	setcycle 71 target tub
+	setcycle 71 ITI 300
+	setcycle 71 mask CQFCLLGG
+	setcycle 71 target_trig 74
+	setcycle 71 cresp 6
+	setcycle 71 audio ub
+	setcycle 71 audio_trig 210
+	setcycle 71 prime_trig 200
+	setcycle 72 prime pallor
+	setcycle 72 target broth
+	setcycle 72 ITI 100
+	setcycle 72 mask SZKDJNXC
+	setcycle 72 target_trig 75
+	setcycle 72 cresp 5
+	setcycle 72 audio "uth (voiced)"
+	setcycle 72 audio_trig 211
+	setcycle 72 prime_trig 201
+	setcycle 73 prime wager
+	setcycle 73 target call
+	setcycle 73 ITI 500
+	setcycle 73 mask VBMHFQZV
+	setcycle 73 target_trig 76
+	setcycle 73 cresp 5
+	setcycle 73 audio ael
+	setcycle 73 audio_trig 211
+	setcycle 73 prime_trig 201
+	setcycle 74 prime flower
+	setcycle 74 target cat
+	setcycle 74 ITI 100
+	setcycle 74 mask JYVVXYVB
+	setcycle 74 target_trig 77
+	setcycle 74 cresp 5
+	setcycle 74 audio ate
+	setcycle 74 audio_trig 211
+	setcycle 74 prime_trig 201
+	setcycle 75 prime mother
+	setcycle 75 target cop
+	setcycle 75 ITI 200
+	setcycle 75 mask FBXXGXDV
+	setcycle 75 target_trig 78
+	setcycle 75 cresp 5
+	setcycle 75 audio ope
+	setcycle 75 audio_trig 211
+	setcycle 75 prime_trig 201
+	setcycle 76 prime scary
+	setcycle 76 target cub
+	setcycle 76 ITI 200
+	setcycle 76 mask GWQXQHWP
+	setcycle 76 target_trig 79
+	setcycle 76 cresp 5
+	setcycle 76 audio yoob
+	setcycle 76 audio_trig 211
+	setcycle 76 prime_trig 201
+	setcycle 77 prime copious
+	setcycle 77 target fib
+	setcycle 77 ITI 400
+	setcycle 77 mask KHYQJDDX
+	setcycle 77 target_trig 80
+	setcycle 77 cresp 5
+	setcycle 77 audio ibe
+	setcycle 77 audio_trig 211
+	setcycle 77 prime_trig 201
+	setcycle 78 prime posture
+	setcycle 78 target flow
+	setcycle 78 ITI 300
+	setcycle 78 mask GBMHGVJJ
+	setcycle 78 target_trig 81
+	setcycle 78 cresp 5
+	setcycle 78 audio ow
+	setcycle 78 audio_trig 211
+	setcycle 78 prime_trig 201
+	setcycle 79 prime gluten
+	setcycle 79 target gall
+	setcycle 79 ITI 200
+	setcycle 79 mask XKZBSQHV
+	setcycle 79 target_trig 82
+	setcycle 79 cresp 5
+	setcycle 79 audio ael
+	setcycle 79 audio_trig 211
+	setcycle 79 prime_trig 201
+	setcycle 80 prime fiber
+	setcycle 80 target glut
+	setcycle 80 ITI 400
+	setcycle 80 mask MWKQYJQD
+	setcycle 80 target_trig 83
+	setcycle 80 cresp 5
+	setcycle 80 audio yer
+	setcycle 80 audio_trig 212
+	setcycle 80 prime_trig 201
+	setcycle 81 prime gallant
+	setcycle 81 target hide
+	setcycle 81 ITI 300
+	setcycle 81 mask BQFFVQMC
+	setcycle 81 target_trig 84
+	setcycle 81 cresp 5
+	setcycle 81 audio ate
+	setcycle 81 audio_trig 212
+	setcycle 81 prime_trig 201
+	setcycle 82 prime shower
+	setcycle 82 target host
+	setcycle 82 ITI 400
+	setcycle 82 mask LXYPLZDB
+	setcycle 82 target_trig 85
+	setcycle 82 cresp 5
+	setcycle 82 audio aust
+	setcycle 82 audio_trig 212
+	setcycle 82 prime_trig 201
+	setcycle 83 prime tonal
+	setcycle 83 target leg
+	setcycle 83 ITI 400
+	setcycle 83 mask RMBQBSFH
+	setcycle 83 target_trig 86
+	setcycle 83 cresp 5
+	setcycle 83 audio ote
+	setcycle 83 audio_trig 212
+	setcycle 83 prime_trig 201
+	setcycle 84 prime cater
+	setcycle 84 target moth
+	setcycle 84 ITI 100
+	setcycle 84 mask LWGVNJBQ
+	setcycle 84 target_trig 87
+	setcycle 84 cresp 5
+	setcycle 84 audio ow
+	setcycle 84 audio_trig 212
+	setcycle 84 prime_trig 201
+	setcycle 85 prime cubic
+	setcycle 85 target pall
+	setcycle 85 ITI 400
+	setcycle 85 mask WZKSKSFT
+	setcycle 85 target_trig 88
+	setcycle 85 cresp 5
+	setcycle 85 audio ael
+	setcycle 85 audio_trig 212
+	setcycle 85 prime_trig 201
+	setcycle 86 prime hideous
+	setcycle 86 target plum
+	setcycle 86 ITI 500
+	setcycle 86 mask WNXRJNTQ
+	setcycle 86 target_trig 89
+	setcycle 86 cresp 5
+	setcycle 86 audio id
+	setcycle 86 audio_trig 212
+	setcycle 86 prime_trig 201
+	setcycle 87 prime rotary
+	setcycle 87 target post
+	setcycle 87 ITI 500
+	setcycle 87 mask HCLZVDVZ
+	setcycle 87 target_trig 90
+	setcycle 87 cresp 5
+	setcycle 87 audio all
+	setcycle 87 audio_trig 212
+	setcycle 87 prime_trig 201
+	setcycle 88 prime trolley
+	setcycle 88 target rot
+	setcycle 88 ITI 500
+	setcycle 88 mask BVQQPQPN
+	setcycle 88 target_trig 91
+	setcycle 88 cresp 6
+	setcycle 88 audio ott
+	setcycle 88 audio_trig 210
+	setcycle 88 prime_trig 201
+	setcycle 89 prime hostage
+	setcycle 89 target scar
+	setcycle 89 ITI 100
+	setcycle 89 mask KDJWQFPP
+	setcycle 89 target_trig 92
+	setcycle 89 cresp 6
+	setcycle 89 audio are
+	setcycle 89 audio_trig 210
+	setcycle 89 prime_trig 201
+	setcycle 90 prime brother
+	setcycle 90 target show
+	setcycle 90 ITI 100
+	setcycle 90 mask VQYDYZDX
+	setcycle 90 target_trig 93
+	setcycle 90 cresp 6
+	setcycle 90 audio oh
+	setcycle 90 audio_trig 210
+	setcycle 90 prime_trig 201
+	setcycle 91 prime legal
+	setcycle 91 target sob
+	setcycle 91 ITI 100
+	setcycle 91 mask KFZYJYDZ
+	setcycle 91 target_trig 94
+	setcycle 91 cresp 6
+	setcycle 91 audio ob
+	setcycle 91 audio_trig 210
+	setcycle 91 prime_trig 201
+	setcycle 92 prime sober
+	setcycle 92 target spur
+	setcycle 92 ITI 400
+	setcycle 92 mask MXMMXCTW
+	setcycle 92 target_trig 95
+	setcycle 92 cresp 6
+	setcycle 92 audio er
+	setcycle 92 audio_trig 210
+	setcycle 92 prime_trig 201
+	setcycle 93 prime spurious
+	setcycle 93 target ton
+	setcycle 93 ITI 400
+	setcycle 93 mask HGGHQDVM
+	setcycle 93 target_trig 96
+	setcycle 93 cresp 6
+	setcycle 93 audio un
+	setcycle 93 audio_trig 210
+	setcycle 93 prime_trig 201
+	setcycle 94 prime callous
+	setcycle 94 target troll
+	setcycle 94 ITI 400
+	setcycle 94 mask HBQXJPKQ
+	setcycle 94 target_trig 97
+	setcycle 94 cresp 6
+	setcycle 94 audio ole
+	setcycle 94 audio_trig 210
+	setcycle 94 prime_trig 201
+	setcycle 95 prime plumage
+	setcycle 95 target wag
+	setcycle 95 ITI 200
+	setcycle 95 mask KYDXFZDN
+	setcycle 95 target_trig 98
+	setcycle 95 cresp 6
+	setcycle 95 audio ag
+	setcycle 95 audio_trig 210
+	setcycle 95 prime_trig 201
+	run sequence
+
+define loop Block4
+	set source_file ""
+	set source table
+	set repeat 1
+	set order random
+	set description "Repeatedly runs another item"
+	set cycles 96
+	set continuous no
+	set break_if_on_first yes
+	set break_if never
+	setcycle 0 prime banjo
+	setcycle 0 target ban
+	setcycle 0 ITI 100
+	setcycle 0 mask DRTQQXCL
+	setcycle 0 target_trig 101
+	setcycle 0 cresp 5
+	setcycle 0 audio ine
+	setcycle 0 audio_trig 211
+	setcycle 0 prime_trig 200
+	setcycle 1 prime bangle
+	setcycle 1 target bang
+	setcycle 1 ITI 300
+	setcycle 1 mask ZMSXPJMX
+	setcycle 1 target_trig 102
+	setcycle 1 cresp 5
+	setcycle 1 audio ung
+	setcycle 1 audio_trig 211
+	setcycle 1 prime_trig 200
+	setcycle 2 prime beech
+	setcycle 2 target bee
+	setcycle 2 ITI 400
+	setcycle 2 mask VZZYRWWX
+	setcycle 2 target_trig 103
+	setcycle 2 cresp 5
+	setcycle 2 audio eye
+	setcycle 2 audio_trig 211
+	setcycle 2 prime_trig 200
+	setcycle 3 prime bunch
+	setcycle 3 target bun
+	setcycle 3 ITI 400
+	setcycle 3 mask ZQSPDFFY
+	setcycle 3 target_trig 104
+	setcycle 3 cresp 5
+	setcycle 3 audio own
+	setcycle 3 audio_trig 211
+	setcycle 3 prime_trig 200
+	setcycle 4 prime cashew
+	setcycle 4 target cash
+	setcycle 4 ITI 300
+	setcycle 4 mask VJBJVVYV
+	setcycle 4 target_trig 105
+	setcycle 4 cresp 5
+	setcycle 4 audio ish
+	setcycle 4 audio_trig 211
+	setcycle 4 prime_trig 200
+	setcycle 5 prime coupon
+	setcycle 5 target coup
+	setcycle 5 ITI 500
+	setcycle 5 mask TVFJDVGK
+	setcycle 5 target_trig 106
+	setcycle 5 cresp 5
+	setcycle 5 audio ow
+	setcycle 5 audio_trig 211
+	setcycle 5 prime_trig 200
+	setcycle 6 prime curtail
+	setcycle 6 target curt
+	setcycle 6 ITI 500
+	setcycle 6 mask QMGVZGPH
+	setcycle 6 target_trig 107
+	setcycle 6 cresp 5
+	setcycle 6 audio ort
+	setcycle 6 audio_trig 211
+	setcycle 6 prime_trig 200
+	setcycle 7 prime freeze
+	setcycle 7 target free
+	setcycle 7 ITI 300
+	setcycle 7 mask KQPQMLBG
+	setcycle 7 target_trig 108
+	setcycle 7 cresp 5
+	setcycle 7 audio oo
+	setcycle 7 audio_trig 211
+	setcycle 7 prime_trig 200
+	setcycle 8 prime harmony
+	setcycle 8 target harm
+	setcycle 8 ITI 100
+	setcycle 8 mask SKZBZSZC
+	setcycle 8 target_trig 109
+	setcycle 8 cresp 5
+	setcycle 8 audio urge
+	setcycle 8 audio_trig 212
+	setcycle 8 prime_trig 200
+	setcycle 9 prime hitch
+	setcycle 9 target hit
+	setcycle 9 ITI 300
+	setcycle 9 mask JJPMDWSQ
+	setcycle 9 target_trig 110
+	setcycle 9 cresp 5
+	setcycle 9 audio un
+	setcycle 9 audio_trig 212
+	setcycle 9 prime_trig 200
+	setcycle 10 prime lentil
+	setcycle 10 target lent
+	setcycle 10 ITI 100
+	setcycle 10 mask ZYYXXFXJ
+	setcycle 10 target_trig 111
+	setcycle 10 cresp 5
+	setcycle 10 audio ind
+	setcycle 10 audio_trig 212
+	setcycle 10 prime_trig 200
+	setcycle 11 prime little
+	setcycle 11 target lit
+	setcycle 11 ITI 300
+	setcycle 11 mask YWMNPRFW
+	setcycle 11 target_trig 112
+	setcycle 11 cresp 5
+	setcycle 11 audio ump
+	setcycle 11 audio_trig 212
+	setcycle 11 prime_trig 200
+	setcycle 12 prime partner
+	setcycle 12 target part
+	setcycle 12 ITI 500
+	setcycle 12 mask QHYWFVDY
+	setcycle 12 target_trig 113
+	setcycle 12 cresp 5
+	setcycle 12 audio it
+	setcycle 12 audio_trig 212
+	setcycle 12 prime_trig 200
+	setcycle 13 prime pinch
+	setcycle 13 target pin
+	setcycle 13 ITI 100
+	setcycle 13 mask GVBGYQVG
+	setcycle 13 target_trig 114
+	setcycle 13 cresp 5
+	setcycle 13 audio an
+	setcycle 13 audio_trig 212
+	setcycle 13 prime_trig 200
+	setcycle 14 prime plantain
+	setcycle 14 target plant
+	setcycle 14 ITI 300
+	setcycle 14 mask WJWXQFJJ
+	setcycle 14 target_trig 115
+	setcycle 14 cresp 5
+	setcycle 14 audio ink
+	setcycle 14 audio_trig 212
+	setcycle 14 prime_trig 200
+	setcycle 15 prime pumpkin
+	setcycle 15 target pump
+	setcycle 15 ITI 200
+	setcycle 15 mask XFGQGSHJ
+	setcycle 15 target_trig 116
+	setcycle 15 cresp 5
+	setcycle 15 audio id
+	setcycle 15 audio_trig 212
+	setcycle 15 prime_trig 200
+	setcycle 16 prime ridge
+	setcycle 16 target rid
+	setcycle 16 ITI 400
+	setcycle 16 mask QZFSBVLW
+	setcycle 16 target_trig 117
+	setcycle 16 cresp 6
+	setcycle 16 audio id
+	setcycle 16 audio_trig 210
+	setcycle 16 prime_trig 200
+	setcycle 17 prime sight
+	setcycle 17 target sigh
+	setcycle 17 ITI 100
+	setcycle 17 mask BRRXZDLW
+	setcycle 17 target_trig 118
+	setcycle 17 cresp 6
+	setcycle 17 audio eye
+	setcycle 17 audio_trig 210
+	setcycle 17 prime_trig 200
+	setcycle 18 prime starch
+	setcycle 18 target star
+	setcycle 18 ITI 100
+	setcycle 18 mask KPJNYYZV
+	setcycle 18 target_trig 119
+	setcycle 18 cresp 6
+	setcycle 18 audio are
+	setcycle 18 audio_trig 210
+	setcycle 18 prime_trig 200
+	setcycle 19 prime surgeon
+	setcycle 19 target surge
+	setcycle 19 ITI 400
+	setcycle 19 mask HCDDFXJY
+	setcycle 19 target_trig 120
+	setcycle 19 cresp 6
+	setcycle 19 audio urge
+	setcycle 19 audio_trig 210
+	setcycle 19 prime_trig 200
+	setcycle 20 prime tendril
+	setcycle 20 target tend
+	setcycle 20 ITI 500
+	setcycle 20 mask ZBBQFJMH
+	setcycle 20 target_trig 121
+	setcycle 20 cresp 6
+	setcycle 20 audio end
+	setcycle 20 audio_trig 210
+	setcycle 20 prime_trig 200
+	setcycle 21 prime twinkle
+	setcycle 21 target twin
+	setcycle 21 ITI 200
+	setcycle 21 mask CCVMCRBC
+	setcycle 21 target_trig 122
+	setcycle 21 cresp 6
+	setcycle 21 audio in
+	setcycle 21 audio_trig 210
+	setcycle 21 prime_trig 200
+	setcycle 22 prime vandal
+	setcycle 22 target van
+	setcycle 22 ITI 400
+	setcycle 22 mask HGPBFHSP
+	setcycle 22 target_trig 123
+	setcycle 22 cresp 6
+	setcycle 22 audio an
+	setcycle 22 audio_trig 210
+	setcycle 22 prime_trig 200
+	setcycle 23 prime window
+	setcycle 23 target wind
+	setcycle 23 ITI 200
+	setcycle 23 mask YKMMBTZY
+	setcycle 23 target_trig 124
+	setcycle 23 cresp 6
+	setcycle 23 audio ind
+	setcycle 23 audio_trig 210
+	setcycle 23 prime_trig 200
+	setcycle 24 prime vowel
+	setcycle 24 target band
+	setcycle 24 ITI 400
+	setcycle 24 mask ZCZXSQYQ
+	setcycle 24 target_trig 125
+	setcycle 24 cresp 5
+	setcycle 24 audio end
+	setcycle 24 audio_trig 211
+	setcycle 24 prime_trig 201
+	setcycle 25 prime yellow
+	setcycle 25 target bar
+	setcycle 25 ITI 400
+	setcycle 25 mask CJDJHVHC
+	setcycle 25 target_trig 126
+	setcycle 25 cresp 5
+	setcycle 25 audio air
+	setcycle 25 audio_trig 211
+	setcycle 25 prime_trig 201
+	setcycle 26 prime twitch
+	setcycle 26 target bell
+	setcycle 26 ITI 200
+	setcycle 26 mask NMFVYYKN
+	setcycle 26 target_trig 127
+	setcycle 26 cresp 5
+	setcycle 26 audio ill
+	setcycle 26 audio_trig 211
+	setcycle 26 prime_trig 201
+	setcycle 27 prime tease
+	setcycle 27 target cart
+	setcycle 27 ITI 200
+	setcycle 27 mask GYFJJKDD
+	setcycle 27 target_trig 128
+	setcycle 27 cresp 5
+	setcycle 27 audio ort
+	setcycle 27 audio_trig 211
+	setcycle 27 prime_trig 201
+	setcycle 28 prime sparse
+	setcycle 28 target cost
+	setcycle 28 ITI 400
+	setcycle 28 mask VWWKYYQJ
+	setcycle 28 target_trig 129
+	setcycle 28 cresp 5
+	setcycle 28 audio ust
+	setcycle 28 audio_trig 211
+	setcycle 28 prime_trig 201
+	setcycle 29 prime quartz
+	setcycle 29 target drag
+	setcycle 29 ITI 200
+	setcycle 29 mask PXHMJVFL
+	setcycle 29 target_trig 130
+	setcycle 29 cresp 5
+	setcycle 29 audio eeg
+	setcycle 29 audio_trig 211
+	setcycle 29 prime_trig 201
+	setcycle 30 prime napkin
+	setcycle 30 target fell
+	setcycle 30 ITI 300
+	setcycle 30 mask QDCHHTXB
+	setcycle 30 target_trig 131
+	setcycle 30 cresp 5
+	setcycle 30 audio ail
+	setcycle 30 audio_trig 211
+	setcycle 30 prime_trig 201
+	setcycle 31 prime peach
+	setcycle 31 target harp
+	setcycle 31 ITI 400
+	setcycle 31 mask VWFQWJGJ
+	setcycle 31 target_trig 132
+	setcycle 31 cresp 5
+	setcycle 31 audio urp
+	setcycle 31 audio_trig 211
+	setcycle 31 prime_trig 201
+	setcycle 32 prime tinsel
+	setcycle 32 target kid
+	setcycle 32 ITI 400
+	setcycle 32 mask PGMMRCBV
+	setcycle 32 target_trig 133
+	setcycle 32 cresp 5
+	setcycle 32 audio arse
+	setcycle 32 audio_trig 212
+	setcycle 32 prime_trig 201
+	setcycle 33 prime carton
+	setcycle 33 target less
+	setcycle 33 ITI 300
+	setcycle 33 mask HWVJHJDY
+	setcycle 33 target_trig 134
+	setcycle 33 cresp 5
+	setcycle 33 audio ince
+	setcycle 33 audio_trig 212
+	setcycle 33 prime_trig 201
+	setcycle 34 prime costume
+	setcycle 34 target nap
+	setcycle 34 ITI 400
+	setcycle 34 mask WXVGXRVV
+	setcycle 34 target_trig 135
+	setcycle 34 cresp 5
+	setcycle 34 audio art
+	setcycle 34 audio_trig 212
+	setcycle 34 prime_trig 201
+	setcycle 35 prime fellow
+	setcycle 35 target pea
+	setcycle 35 ITI 500
+	setcycle 35 mask JNKSGBDK
+	setcycle 35 target_trig 136
+	setcycle 35 cresp 5
+	setcycle 35 audio arge
+	setcycle 35 audio_trig 212
+	setcycle 35 prime_trig 201
+	setcycle 36 prime bellow
+	setcycle 36 target pert
+	setcycle 36 ITI 400
+	setcycle 36 mask MSKXMMQF
+	setcycle 36 target_trig 137
+	setcycle 36 cresp 5
+	setcycle 36 audio aust
+	setcycle 36 audio_trig 212
+	setcycle 36 prime_trig 201
+	setcycle 37 prime kidney
+	setcycle 37 target plain
+	setcycle 37 ITI 100
+	setcycle 37 mask MCCRCRBM
+	setcycle 37 target_trig 138
+	setcycle 37 cresp 5
+	setcycle 37 audio ell
+	setcycle 37 audio_trig 212
+	setcycle 37 prime_trig 201
+	setcycle 38 prime lesson
+	setcycle 38 target pulp
+	setcycle 38 ITI 200
+	setcycle 38 mask FRBDJMYR
+	setcycle 38 target_trig 139
+	setcycle 38 cresp 5
+	setcycle 38 audio arp
+	setcycle 38 audio_trig 212
+	setcycle 38 prime_trig 201
+	setcycle 39 prime surface
+	setcycle 39 target quart
+	setcycle 39 ITI 400
+	setcycle 39 mask KGDXKVYM
+	setcycle 39 target_trig 140
+	setcycle 39 cresp 5
+	setcycle 39 audio ell
+	setcycle 39 audio_trig 212
+	setcycle 39 prime_trig 201
+	setcycle 40 prime barge
+	setcycle 40 target shove
+	setcycle 40 ITI 500
+	setcycle 40 mask CCJPXJWZ
+	setcycle 40 target_trig 141
+	setcycle 40 cresp 6
+	setcycle 40 audio of
+	setcycle 40 audio_trig 210
+	setcycle 40 prime_trig 201
+	setcycle 41 prime plaintiff
+	setcycle 41 target spar
+	setcycle 41 ITI 200
+	setcycle 41 mask CWQXYQWX
+	setcycle 41 target_trig 142
+	setcycle 41 cresp 6
+	setcycle 41 audio are
+	setcycle 41 audio_trig 210
+	setcycle 41 prime_trig 201
+	setcycle 42 prime bandit
+	setcycle 42 target surf
+	setcycle 42 ITI 100
+	setcycle 42 mask HHMPGLQK
+	setcycle 42 target_trig 143
+	setcycle 42 cresp 6
+	setcycle 42 audio urf
+	setcycle 42 audio_trig 210
+	setcycle 42 prime_trig 201
+	setcycle 43 prime shovel
+	setcycle 43 target tea
+	setcycle 43 ITI 500
+	setcycle 43 mask ZPDYBWRD
+	setcycle 43 target_trig 144
+	setcycle 43 cresp 6
+	setcycle 43 audio ee
+	setcycle 43 audio_trig 210
+	setcycle 43 prime_trig 201
+	setcycle 44 prime dragon
+	setcycle 44 target tin
+	setcycle 44 ITI 100
+	setcycle 44 mask MXJXYZKF
+	setcycle 44 target_trig 145
+	setcycle 44 cresp 6
+	setcycle 44 audio in
+	setcycle 44 audio_trig 210
+	setcycle 44 prime_trig 201
+	setcycle 45 prime harpoon
+	setcycle 45 target twit
+	setcycle 45 ITI 500
+	setcycle 45 mask YFBVZBQV
+	setcycle 45 target_trig 146
+	setcycle 45 cresp 6
+	setcycle 45 audio it
+	setcycle 45 audio_trig 210
+	setcycle 45 prime_trig 201
+	setcycle 46 prime pertain
+	setcycle 46 target vow
+	setcycle 46 ITI 400
+	setcycle 46 mask MYCBHBKZ
+	setcycle 46 target_trig 147
+	setcycle 46 cresp 6
+	setcycle 46 audio ow
+	setcycle 46 audio_trig 210
+	setcycle 46 prime_trig 201
+	setcycle 47 prime pulpit
+	setcycle 47 target yell
+	setcycle 47 ITI 400
+	setcycle 47 mask DGHDRVHV
+	setcycle 47 target_trig 148
+	setcycle 47 cresp 6
+	setcycle 47 audio ell
+	setcycle 47 audio_trig 210
+	setcycle 47 prime_trig 201
+	setcycle 48 prime actor
+	setcycle 48 target act
+	setcycle 48 ITI 300
+	setcycle 48 mask QFVZPDBF
+	setcycle 48 target_trig 151
+	setcycle 48 cresp 5
+	setcycle 48 audio ict
+	setcycle 48 audio_trig 211
+	setcycle 48 prime_trig 200
+	setcycle 49 prime binder
+	setcycle 49 target bind
+	setcycle 49 ITI 300
+	setcycle 49 mask JFTCTCTX
+	setcycle 49 target_trig 152
+	setcycle 49 cresp 5
+	setcycle 49 audio and
+	setcycle 49 audio_trig 211
+	setcycle 49 prime_trig 200
+	setcycle 50 prime bomber
+	setcycle 50 target bomb
+	setcycle 50 ITI 100
+	setcycle 50 mask ZHHDHDTY
+	setcycle 50 target_trig 153
+	setcycle 50 cresp 5
+	setcycle 50 audio im
+	setcycle 50 audio_trig 211
+	setcycle 50 prime_trig 200
+	setcycle 51 prime brewery
+	setcycle 51 target brew
+	setcycle 51 ITI 500
+	setcycle 51 mask CVXQDPLM
+	setcycle 51 target_trig 154
+	setcycle 51 cresp 5
+	setcycle 51 audio ee
+	setcycle 51 audio_trig 211
+	setcycle 51 prime_trig 200
+	setcycle 52 prime childish
+	setcycle 52 target child
+	setcycle 52 ITI 300
+	setcycle 52 mask XXNMRZMW
+	setcycle 52 target_trig 155
+	setcycle 52 cresp 5
+	setcycle 52 audio old
+	setcycle 52 audio_trig 211
+	setcycle 52 prime_trig 200
+	setcycle 53 prime flexible
+	setcycle 53 target flex
+	setcycle 53 ITI 300
+	setcycle 53 mask MWVVWJKM
+	setcycle 53 target_trig 156
+	setcycle 53 cresp 5
+	setcycle 53 audio ox
+	setcycle 53 audio_trig 211
+	setcycle 53 prime_trig 200
+	setcycle 54 prime golfer
+	setcycle 54 target golf
+	setcycle 54 ITI 300
+	setcycle 54 mask JXJWBCBW
+	setcycle 54 target_trig 157
+	setcycle 54 cresp 5
+	setcycle 54 audio ilf
+	setcycle 54 audio_trig 211
+	setcycle 54 prime_trig 200
+	setcycle 55 prime herbal
+	setcycle 55 target herb
+	setcycle 55 ITI 200
+	setcycle 55 mask ZFTWGKDQ
+	setcycle 55 target_trig 158
+	setcycle 55 cresp 5
+	setcycle 55 audio orb
+	setcycle 55 audio_trig 211
+	setcycle 55 prime_trig 200
+	setcycle 56 prime hotly
+	setcycle 56 target hot
+	setcycle 56 ITI 100
+	setcycle 56 mask FRDQRXSF
+	setcycle 56 target_trig 159
+	setcycle 56 cresp 5
+	setcycle 56 audio om
+	setcycle 56 audio_trig 212
+	setcycle 56 prime_trig 200
+	setcycle 57 prime killer
+	setcycle 57 target kill
+	setcycle 57 ITI 500
+	setcycle 57 mask NXVFQQYG
+	setcycle 57 target_trig 160
+	setcycle 57 cresp 5
+	setcycle 57 audio orm
+	setcycle 57 audio_trig 212
+	setcycle 57 prime_trig 200
+	setcycle 58 prime leakage
+	setcycle 58 target leak
+	setcycle 58 ITI 400
+	setcycle 58 mask PJBPPSPQ
+	setcycle 58 target_trig 161
+	setcycle 58 cresp 5
+	setcycle 58 audio aisle
+	setcycle 58 audio_trig 212
+	setcycle 58 prime_trig 200
+	setcycle 59 prime mileage
+	setcycle 59 target mile
+	setcycle 59 ITI 500
+	setcycle 59 mask DWDYTWTJ
+	setcycle 59 target_trig 162
+	setcycle 59 cresp 5
+	setcycle 59 audio act
+	setcycle 59 audio_trig 212
+	setcycle 59 prime_trig 200
+	setcycle 60 prime mower
+	setcycle 60 target mow
+	setcycle 60 ITI 500
+	setcycle 60 mask FQSTXHZC
+	setcycle 60 target_trig 163
+	setcycle 60 cresp 5
+	setcycle 60 audio omp
+	setcycle 60 audio_trig 212
+	setcycle 60 prime_trig 200
+	setcycle 61 prime package
+	setcycle 61 target pack
+	setcycle 61 ITI 500
+	setcycle 61 mask DXZFYHFQ
+	setcycle 61 target_trig 164
+	setcycle 61 cresp 5
+	setcycle 61 audio ild
+	setcycle 61 audio_trig 212
+	setcycle 61 prime_trig 200
+	setcycle 62 prime pompous
+	setcycle 62 target pomp
+	setcycle 62 ITI 500
+	setcycle 62 mask JCBBGFYC
+	setcycle 62 target_trig 165
+	setcycle 62 cresp 5
+	setcycle 62 audio ott
+	setcycle 62 audio_trig 212
+	setcycle 62 prime_trig 200
+	setcycle 63 prime renter
+	setcycle 63 target rent
+	setcycle 63 ITI 300
+	setcycle 63 mask BQHQYHQX
+	setcycle 63 target_trig 166
+	setcycle 63 cresp 5
+	setcycle 63 audio off
+	setcycle 63 audio_trig 212
+	setcycle 63 prime_trig 200
+	setcycle 64 prime roller
+	setcycle 64 target roll
+	setcycle 64 ITI 500
+	setcycle 64 mask WMYZGTKN
+	setcycle 64 target_trig 167
+	setcycle 64 cresp 6
+	setcycle 64 audio ole
+	setcycle 64 audio_trig 210
+	setcycle 64 prime_trig 200
+	setcycle 65 prime rusty
+	setcycle 65 target rust
+	setcycle 65 ITI 400
+	setcycle 65 mask GNCGCJQD
+	setcycle 65 target_trig 168
+	setcycle 65 cresp 6
+	setcycle 65 audio ust
+	setcycle 65 audio_trig 210
+	setcycle 65 prime_trig 200
+	setcycle 66 prime shyness
+	setcycle 66 target shy
+	setcycle 66 ITI 400
+	setcycle 66 mask FGKLVBMX
+	setcycle 66 target_trig 169
+	setcycle 66 cresp 6
+	setcycle 66 audio eye
+	setcycle 66 audio_trig 210
+	setcycle 66 prime_trig 200
+	setcycle 67 prime soften
+	setcycle 67 target soft
+	setcycle 67 ITI 100
+	setcycle 67 mask QZVRMRMY
+	setcycle 67 target_trig 170
+	setcycle 67 cresp 6
+	setcycle 67 audio oft
+	setcycle 67 audio_trig 210
+	setcycle 67 prime_trig 200
+	setcycle 68 prime vastly
+	setcycle 68 target vast
+	setcycle 68 ITI 200
+	setcycle 68 mask HHDHCHDD
+	setcycle 68 target_trig 171
+	setcycle 68 cresp 6
+	setcycle 68 audio ast
+	setcycle 68 audio_trig 210
+	setcycle 68 prime_trig 200
+	setcycle 69 prime verbal
+	setcycle 69 target verb
+	setcycle 69 ITI 300
+	setcycle 69 mask HKSWZZWN
+	setcycle 69 target_trig 172
+	setcycle 69 cresp 6
+	setcycle 69 audio erb
+	setcycle 69 audio_trig 210
+	setcycle 69 prime_trig 200
+	setcycle 70 prime voltage
+	setcycle 70 target volt
+	setcycle 70 ITI 300
+	setcycle 70 mask JRJCHFSC
+	setcycle 70 target_trig 173
+	setcycle 70 cresp 6
+	setcycle 70 audio ult
+	setcycle 70 audio_trig 210
+	setcycle 70 prime_trig 200
+	setcycle 71 prime warmth
+	setcycle 71 target warm
+	setcycle 71 ITI 100
+	setcycle 71 mask VSPYQKVY
+	setcycle 71 target_trig 174
+	setcycle 71 cresp 6
+	setcycle 71 audio orm
+	setcycle 71 audio_trig 210
+	setcycle 71 prime_trig 200
+	setcycle 72 prime rower
+	setcycle 72 target back
+	setcycle 72 ITI 400
+	setcycle 72 mask XDDFVDTN
+	setcycle 72 target_trig 175
+	setcycle 72 cresp 5
+	setcycle 72 audio ock
+	setcycle 72 audio_trig 211
+	setcycle 72 prime_trig 201
+	setcycle 73 prime bumper
+	setcycle 73 target bold
+	setcycle 73 ITI 500
+	setcycle 73 mask KHFVKGVC
+	setcycle 73 target_trig 176
+	setcycle 73 cresp 5
+	setcycle 73 audio ild
+	setcycle 73 audio_trig 211
+	setcycle 73 prime_trig 201
+	setcycle 74 prime painter
+	setcycle 74 target box
+	setcycle 74 ITI 100
+	setcycle 74 mask WMYHFWVM
+	setcycle 74 target_trig 177
+	setcycle 74 cresp 5
+	setcycle 74 audio ex
+	setcycle 74 audio_trig 211
+	setcycle 74 prime_trig 201
+	setcycle 75 prime risky
+	setcycle 75 target bump
+	setcycle 75 ITI 200
+	setcycle 75 mask HGCTTLWG
+	setcycle 75 target_trig 178
+	setcycle 75 cresp 5
+	setcycle 75 audio omp
+	setcycle 75 audio_trig 211
+	setcycle 75 prime_trig 201
+	setcycle 76 prime boxer
+	setcycle 76 target edit
+	setcycle 76 ITI 100
+	setcycle 76 mask GPSYGCZL
+	setcycle 76 target_trig 179
+	setcycle 76 cresp 5
+	setcycle 76 audio ide
+	setcycle 76 audio_trig 211
+	setcycle 76 prime_trig 201
+	setcycle 77 prime mutely
+	setcycle 77 target glum
+	setcycle 77 ITI 500
+	setcycle 77 mask ZPQKJNPX
+	setcycle 77 target_trig 180
+	setcycle 77 cresp 5
+	setcycle 77 audio ome
+	setcycle 77 audio_trig 211
+	setcycle 77 prime_trig 201
+	setcycle 78 prime vendor
+	setcycle 78 target grow
+	setcycle 78 ITI 100
+	setcycle 78 mask JSPZCYHK
+	setcycle 78 target_trig 181
+	setcycle 78 cresp 5
+	setcycle 78 audio eye
+	setcycle 78 audio_trig 211
+	setcycle 78 prime_trig 201
+	setcycle 79 prime rainy
+	setcycle 79 target hold
+	setcycle 79 ITI 300
+	setcycle 79 mask FGXSGJXV
+	setcycle 79 target_trig 182
+	setcycle 79 cresp 5
+	setcycle 79 audio ild
+	setcycle 79 audio_trig 211
+	setcycle 79 prime_trig 201
+	setcycle 80 prime leader
+	setcycle 80 target hunt
+	setcycle 80 ITI 300
+	setcycle 80 mask JXGVVYYQ
+	setcycle 80 target_trig 183
+	setcycle 80 cresp 5
+	setcycle 80 audio end
+	setcycle 80 audio_trig 212
+	setcycle 80 prime_trig 201
+	setcycle 81 prime walker
+	setcycle 81 target lead
+	setcycle 81 ITI 500
+	setcycle 81 mask CPBCTXVG
+	setcycle 81 target_trig 184
+	setcycle 81 cresp 5
+	setcycle 81 audio ed
+	setcycle 81 audio_trig 212
+	setcycle 81 prime_trig 201
+	setcycle 82 prime editor
+	setcycle 82 target mock
+	setcycle 82 ITI 400
+	setcycle 82 mask VVXXWPSZ
+	setcycle 82 target_trig 185
+	setcycle 82 cresp 5
+	setcycle 82 audio isk
+	setcycle 82 audio_trig 212
+	setcycle 82 prime_trig 201
+	setcycle 83 prime mockery
+	setcycle 83 target mute
+	setcycle 83 ITI 300
+	setcycle 83 mask WWBZNBHS
+	setcycle 83 target_trig 186
+	setcycle 83 cresp 5
+	setcycle 83 audio ock
+	setcycle 83 audio_trig 212
+	setcycle 83 prime_trig 201
+	setcycle 84 prime holder
+	setcycle 84 target paint
+	setcycle 84 ITI 200
+	setcycle 84 mask XWZGBCMB
+	setcycle 84 target_trig 187
+	setcycle 84 cresp 5
+	setcycle 84 audio ock
+	setcycle 84 audio_trig 212
+	setcycle 84 prime_trig 201
+	setcycle 85 prime wattage
+	setcycle 85 target pass
+	setcycle 85 ITI 100
+	setcycle 85 mask HJHHCXKV
+	setcycle 85 target_trig 188
+	setcycle 85 cresp 5
+	setcycle 85 audio ump
+	setcycle 85 audio_trig 212
+	setcycle 85 prime_trig 201
+	setcycle 86 prime talker
+	setcycle 86 target rain
+	setcycle 86 ITI 300
+	setcycle 86 mask HHXFVFHH
+	setcycle 86 target_trig 189
+	setcycle 86 cresp 5
+	setcycle 86 audio unt
+	setcycle 86 audio_trig 212
+	setcycle 86 prime_trig 201
+	setcycle 87 prime sailor
+	setcycle 87 target risk
+	setcycle 87 ITI 400
+	setcycle 87 mask FHZPDDXH
+	setcycle 87 target_trig 190
+	setcycle 87 cresp 5
+	setcycle 87 audio old
+	setcycle 87 audio_trig 212
+	setcycle 87 prime_trig 201
+	setcycle 88 prime hunter
+	setcycle 88 target row
+	setcycle 88 ITI 500
+	setcycle 88 mask JZYPQJKZ
+	setcycle 88 target_trig 191
+	setcycle 88 cresp 6
+	setcycle 88 audio oh
+	setcycle 88 audio_trig 210
+	setcycle 88 prime_trig 201
+	setcycle 89 prime boldness
+	setcycle 89 target sail
+	setcycle 89 ITI 200
+	setcycle 89 mask CJVMHMGV
+	setcycle 89 target_trig 192
+	setcycle 89 cresp 6
+	setcycle 89 audio ail
+	setcycle 89 audio_trig 210
+	setcycle 89 prime_trig 201
+	setcycle 90 prime grower
+	setcycle 90 target sing
+	setcycle 90 ITI 200
+	setcycle 90 mask ZVTCXDKQ
+	setcycle 90 target_trig 193
+	setcycle 90 cresp 6
+	setcycle 90 audio ing
+	setcycle 90 audio_trig 210
+	setcycle 90 prime_trig 201
+	setcycle 91 prime singer
+	setcycle 91 target talk
+	setcycle 91 ITI 200
+	setcycle 91 mask MJCHFXXM
+	setcycle 91 target_trig 194
+	setcycle 91 cresp 6
+	setcycle 91 audio ock
+	setcycle 91 audio_trig 210
+	setcycle 91 prime_trig 201
+	setcycle 92 prime glumly
+	setcycle 92 target vend
+	setcycle 92 ITI 200
+	setcycle 92 mask SSTZJSQZ
+	setcycle 92 target_trig 195
+	setcycle 92 cresp 6
+	setcycle 92 audio end
+	setcycle 92 audio_trig 210
+	setcycle 92 prime_trig 201
+	setcycle 93 prime backer
+	setcycle 93 target view
+	setcycle 93 ITI 100
+	setcycle 93 mask NLSZTDZH
+	setcycle 93 target_trig 196
+	setcycle 93 cresp 6
+	setcycle 93 audio you
+	setcycle 93 audio_trig 210
+	setcycle 93 prime_trig 201
+	setcycle 94 prime passage
+	setcycle 94 target walk
+	setcycle 94 ITI 500
+	setcycle 94 mask ZXYBHVCD
+	setcycle 94 target_trig 197
+	setcycle 94 cresp 6
+	setcycle 94 audio ock
+	setcycle 94 audio_trig 210
+	setcycle 94 prime_trig 201
+	setcycle 95 prime viewer
+	setcycle 95 target watt
+	setcycle 95 ITI 100
+	setcycle 95 mask NFQFSCFP
+	setcycle 95 target_trig 198
+	setcycle 95 cresp 6
+	setcycle 95 audio ott
+	setcycle 95 audio_trig 210
+	setcycle 95 prime_trig 201
+	run sequence
+
+define loop Block5
+	set source_file ""
+	set source table
+	set skip 0
+	set repeat 1
+	set order random
+	set offset no
+	set item new_sequence
+	set description "Repeatedly runs another item"
+	set cycles 96
+	set continuous no
+	set column_order "prime;target;ITI;mask;trigger;cresp;audio"
+	set break_if_on_first yes
+	set break_if never
+	setcycle 0 prime archer
+	setcycle 0 target arch
+	setcycle 0 ITI 200
+	setcycle 0 mask DLKZFLZV
+	setcycle 0 target_trig 1
+	setcycle 0 cresp 5
+	setcycle 0 audio orm
+	setcycle 0 audio_trig 212
+	setcycle 0 prime_trig 200
+	setcycle 1 prime brandish
+	setcycle 1 target brand
+	setcycle 1 ITI 200
+	setcycle 1 mask LVFXKFCW
+	setcycle 1 target_trig 2
+	setcycle 1 cresp 5
+	setcycle 1 audio ist
+	setcycle 1 audio_trig 212
+	setcycle 1 prime_trig 200
+	setcycle 2 prime corner
+	setcycle 2 target corn
+	setcycle 2 ITI 400
+	setcycle 2 mask LVJYDPXV
+	setcycle 2 target_trig 3
+	setcycle 2 cresp 5
+	setcycle 2 audio end
+	setcycle 2 audio_trig 212
+	setcycle 2 prime_trig 200
+	setcycle 3 prime dormant
+	setcycle 3 target dorm
+	setcycle 3 ITI 200
+	setcycle 3 mask QQLJHGZG
+	setcycle 3 target_trig 4
+	setcycle 3 cresp 5
+	setcycle 3 audio arch
+	setcycle 3 audio_trig 212
+	setcycle 3 prime_trig 200
+	setcycle 4 prime easter
+	setcycle 4 target east
+	setcycle 4 ITI 300
+	setcycle 4 mask YXMMDPJP
+	setcycle 4 target_trig 5
+	setcycle 4 cresp 5
+	setcycle 4 audio orn
+	setcycle 4 audio_trig 212
+	setcycle 4 prime_trig 200
+	setcycle 5 prime fairy
+	setcycle 5 target fair
+	setcycle 5 ITI 200
+	setcycle 5 mask SMQHSTGL
+	setcycle 5 target_trig 6
+	setcycle 5 cresp 5
+	setcycle 5 audio est
+	setcycle 5 audio_trig 212
+	setcycle 5 prime_trig 200
+	setcycle 6 prime figment
+	setcycle 6 target fig
+	setcycle 6 ITI 300
+	setcycle 6 mask CZVXSXZC
+	setcycle 6 target_trig 7
+	setcycle 6 cresp 5
+	setcycle 6 audio end
+	setcycle 6 audio_trig 212
+	setcycle 6 prime_trig 200
+	setcycle 7 prime glossary
+	setcycle 7 target gloss
+	setcycle 7 ITI 400
+	setcycle 7 mask PVFDXXVZ
+	setcycle 7 target_trig 8
+	setcycle 7 cresp 5
+	setcycle 7 audio ast
+	setcycle 7 audio_trig 212
+	setcycle 7 prime_trig 200
+	setcycle 8 prime helmet
+	setcycle 8 target helm
+	setcycle 8 ITI 200
+	setcycle 8 mask QVXDKBSF
+	setcycle 8 target_trig 9
+	setcycle 8 cresp 6
+	setcycle 8 audio elm
+	setcycle 8 audio_trig 210
+	setcycle 8 prime_trig 200
+	setcycle 9 prime inner
+	setcycle 9 target inn
+	setcycle 9 ITI 400
+	setcycle 9 mask KVQSQHYT
+	setcycle 9 target_trig 10
+	setcycle 9 cresp 6
+	setcycle 9 audio in
+	setcycle 9 audio_trig 210
+	setcycle 9 prime_trig 200
+	setcycle 10 prime limber
+	setcycle 10 target limb
+	setcycle 10 ITI 300
+	setcycle 10 mask WPWCZXVJ
+	setcycle 10 target_trig 11
+	setcycle 10 cresp 6
+	setcycle 10 audio im
+	setcycle 10 audio_trig 210
+	setcycle 10 prime_trig 200
+	setcycle 11 prime manage
+	setcycle 11 target man
+	setcycle 11 ITI 200
+	setcycle 11 mask CFDKKPHP
+	setcycle 11 target_trig 12
+	setcycle 11 cresp 6
+	setcycle 11 audio an
+	setcycle 11 audio_trig 210
+	setcycle 11 prime_trig 200
+	setcycle 12 prime master
+	setcycle 12 target mast
+	setcycle 12 ITI 200
+	setcycle 12 mask KPKFWYZK
+	setcycle 12 target_trig 13
+	setcycle 12 cresp 6
+	setcycle 12 audio ast
+	setcycle 12 audio_trig 210
+	setcycle 12 prime_trig 200
+	setcycle 13 prime mister
+	setcycle 13 target mist
+	setcycle 13 ITI 100
+	setcycle 13 mask PPZBVBFG
+	setcycle 13 target_trig 14
+	setcycle 13 cresp 6
+	setcycle 13 audio ist
+	setcycle 13 audio_trig 210
+	setcycle 13 prime_trig 200
+	setcycle 14 prime pasture
+	setcycle 14 target past
+	setcycle 14 ITI 300
+	setcycle 14 mask QYFBYHYJ
+	setcycle 14 target_trig 15
+	setcycle 14 cresp 6
+	setcycle 14 audio ast
+	setcycle 14 audio_trig 210
+	setcycle 14 prime_trig 200
+	setcycle 15 prime pillage
+	setcycle 15 target pill
+	setcycle 15 ITI 500
+	setcycle 15 mask QZDCVVBK
+	setcycle 15 target_trig 16
+	setcycle 15 cresp 6
+	setcycle 15 audio ill
+	setcycle 15 audio_trig 210
+	setcycle 15 prime_trig 200
+	setcycle 16 prime ponder
+	setcycle 16 target pond
+	setcycle 16 ITI 100
+	setcycle 16 mask YXHQXFMZ
+	setcycle 16 target_trig 17
+	setcycle 16 cresp 5
+	setcycle 16 audio end
+	setcycle 16 audio_trig 211
+	setcycle 16 prime_trig 200
+	setcycle 17 prime question
+	setcycle 17 target quest
+	setcycle 17 ITI 100
+	setcycle 17 mask DXYFLBJY
+	setcycle 17 target_trig 18
+	setcycle 17 cresp 5
+	setcycle 17 audio ist
+	setcycle 17 audio_trig 211
+	setcycle 17 prime_trig 200
+	setcycle 18 prime render
+	setcycle 18 target rend
+	setcycle 18 ITI 300
+	setcycle 18 mask WQLHQCPV
+	setcycle 18 target_trig 19
+	setcycle 18 cresp 5
+	setcycle 18 audio and
+	setcycle 18 audio_trig 211
+	setcycle 18 prime_trig 200
+	setcycle 19 prime sandal
+	setcycle 19 target sand
+	setcycle 19 ITI 200
+	setcycle 19 mask FHGFBCPF
+	setcycle 19 target_trig 20
+	setcycle 19 cresp 5
+	setcycle 19 audio ond
+	setcycle 19 audio_trig 211
+	setcycle 19 prime_trig 200
+	setcycle 20 prime tactile
+	setcycle 20 target tact
+	setcycle 20 ITI 500
+	setcycle 20 mask HZWBDGSV
+	setcycle 20 target_trig 21
+	setcycle 20 cresp 5
+	setcycle 20 audio oct
+	setcycle 20 audio_trig 211
+	setcycle 20 prime_trig 200
+	setcycle 21 prime tenuous
+	setcycle 21 target ten
+	setcycle 21 ITI 300
+	setcycle 21 mask WPLXDYCR
+	setcycle 21 target_trig 22
+	setcycle 21 cresp 5
+	setcycle 21 audio in
+	setcycle 21 audio_trig 211
+	setcycle 21 prime_trig 200
+	setcycle 22 prime tractable
+	setcycle 22 target tract
+	setcycle 22 ITI 400
+	setcycle 22 mask WJKQFMWQ
+	setcycle 22 target_trig 23
+	setcycle 22 cresp 5
+	setcycle 22 audio oct
+	setcycle 22 audio_trig 211
+	setcycle 22 prime_trig 200
+	setcycle 23 prime treaty
+	setcycle 23 target treat
+	setcycle 23 ITI 400
+	setcycle 23 mask QVDGKQXP
+	setcycle 23 target_trig 24
+	setcycle 23 cresp 5
+	setcycle 23 audio ott
+	setcycle 23 audio_trig 211
+	setcycle 23 prime_trig 200
+	setcycle 24 prime proper
+	setcycle 24 target art
+	setcycle 24 ITI 400
+	setcycle 24 mask KHNGQGGG
+	setcycle 24 target_trig 25
+	setcycle 24 cresp 5
+	setcycle 24 audio eat
+	setcycle 24 audio_trig 212
+	setcycle 24 prime_trig 201
+	setcycle 25 prime topic
+	setcycle 25 target chart
+	setcycle 25 ITI 100
+	setcycle 25 mask ZBFDNZDX
+	setcycle 25 target_trig 26
+	setcycle 25 cresp 5
+	setcycle 25 audio ult
+	setcycle 25 audio_trig 212
+	setcycle 25 prime_trig 201
+	setcycle 26 prime traitor
+	setcycle 26 target clam
+	setcycle 26 ITI 200
+	setcycle 26 mask KXFYWQDP
+	setcycle 26 target_trig 27
+	setcycle 26 cresp 5
+	setcycle 26 audio ig
+	setcycle 26 audio_trig 212
+	setcycle 26 prime_trig 201
+	setcycle 27 prime luster
+	setcycle 27 target cow
+	setcycle 27 ITI 400
+	setcycle 27 mask NJNBGGPJ
+	setcycle 27 target_trig 28
+	setcycle 27 cresp 5
+	setcycle 27 audio apt
+	setcycle 27 audio_trig 212
+	setcycle 27 prime_trig 201
+	setcycle 28 prime rigor
+	setcycle 28 target earl
+	setcycle 28 ITI 500
+	setcycle 28 mask HSQDKWVX
+	setcycle 28 target_trig 29
+	setcycle 28 cresp 5
+	setcycle 28 audio oo
+	setcycle 28 audio_trig 212
+	setcycle 28 prime_trig 201
+	setcycle 29 prime hunger
+	setcycle 29 target fact
+	setcycle 29 ITI 500
+	setcycle 29 mask LSYMJXXX
+	setcycle 29 target_trig 30
+	setcycle 29 cresp 5
+	setcycle 29 audio ate
+	setcycle 29 audio_trig 212
+	setcycle 29 prime_trig 201
+	setcycle 30 prime clamor
+	setcycle 30 target feat
+	setcycle 30 ITI 100
+	setcycle 30 mask NYKWNKWK
+	setcycle 30 target_trig 31
+	setcycle 30 cresp 5
+	setcycle 30 audio ill
+	setcycle 30 audio_trig 212
+	setcycle 30 prime_trig 201
+	setcycle 31 prime marshal
+	setcycle 31 target flu
+	setcycle 31 ITI 400
+	setcycle 31 mask VDQXKKBP
+	setcycle 31 target_trig 32
+	setcycle 31 cresp 5
+	setcycle 31 audio ast
+	setcycle 31 audio_trig 212
+	setcycle 31 prime_trig 201
+	setcycle 32 prime wicker
+	setcycle 32 target halt
+	setcycle 32 ITI 500
+	setcycle 32 mask DJZGXPYG
+	setcycle 32 target_trig 33
+	setcycle 32 cresp 6
+	setcycle 32 audio ult
+	setcycle 32 audio_trig 210
+	setcycle 32 prime_trig 201
+	setcycle 33 prime halter
+	setcycle 33 target hung
+	setcycle 33 ITI 500
+	setcycle 33 mask FVFDQQMS
+	setcycle 33 target_trig 34
+	setcycle 33 cresp 6
+	setcycle 33 audio ung
+	setcycle 33 audio_trig 210
+	setcycle 33 prime_trig 201
+	setcycle 34 prime fluent
+	setcycle 34 target kilt
+	setcycle 34 ITI 500
+	setcycle 34 mask WJZCDGZW
+	setcycle 34 target_trig 35
+	setcycle 34 cresp 6
+	setcycle 34 audio ilt
+	setcycle 34 audio_trig 210
+	setcycle 34 prime_trig 201
+	setcycle 35 prime artery
+	setcycle 35 target lust
+	setcycle 35 ITI 100
+	setcycle 35 mask MHNWVDJB
+	setcycle 35 target_trig 36
+	setcycle 35 cresp 6
+	setcycle 35 audio ust
+	setcycle 35 audio_trig 210
+	setcycle 35 prime_trig 201
+	setcycle 36 prime million
+	setcycle 36 target marsh
+	setcycle 36 ITI 100
+	setcycle 36 mask VPJKZPBP
+	setcycle 36 target_trig 37
+	setcycle 36 cresp 6
+	setcycle 36 audio arsh
+	setcycle 36 audio_trig 210
+	setcycle 36 prime_trig 201
+	setcycle 37 prime suitor
+	setcycle 37 target mill
+	setcycle 37 ITI 300
+	setcycle 37 mask ZXGXHPPF
+	setcycle 37 target_trig 38
+	setcycle 37 cresp 6
+	setcycle 37 audio ill
+	setcycle 37 audio_trig 210
+	setcycle 37 prime_trig 201
+	setcycle 38 prime kilter
+	setcycle 38 target past
+	setcycle 38 ITI 400
+	setcycle 38 mask ZQFYQNVC
+	setcycle 38 target_trig 39
+	setcycle 38 cresp 6
+	setcycle 38 audio ast
+	setcycle 38 audio_trig 210
+	setcycle 38 prime_trig 201
+	setcycle 39 prime raptor
+	setcycle 39 target prop
+	setcycle 39 ITI 500
+	setcycle 39 mask NNDWXGVZ
+	setcycle 39 target_trig 40
+	setcycle 39 cresp 6
+	setcycle 39 audio op
+	setcycle 39 audio_trig 210
+	setcycle 39 prime_trig 201
+	setcycle 40 prime tailor
+	setcycle 40 target rapt
+	setcycle 40 ITI 500
+	setcycle 40 mask DHZQNDGD
+	setcycle 40 target_trig 41
+	setcycle 40 cresp 5
+	setcycle 40 audio opt
+	setcycle 40 audio_trig 211
+	setcycle 40 prime_trig 201
+	setcycle 41 prime pastor
+	setcycle 41 target rig
+	setcycle 41 ITI 400
+	setcycle 41 mask FWLYLDKC
+	setcycle 41 target_trig 42
+	setcycle 41 cresp 5
+	setcycle 41 audio og
+	setcycle 41 audio_trig 211
+	setcycle 41 prime_trig 201
+	setcycle 42 prime factor
+	setcycle 42 target suit
+	setcycle 42 ITI 400
+	setcycle 42 mask HNNLZYHG
+	setcycle 42 target_trig 43
+	setcycle 42 cresp 5
+	setcycle 42 audio ate
+	setcycle 42 audio_trig 211
+	setcycle 42 prime_trig 201
+	setcycle 43 prime charter
+	setcycle 43 target tail
+	setcycle 43 ITI 400
+	setcycle 43 mask ZXMPSXFQ
+	setcycle 43 target_trig 44
+	setcycle 43 cresp 5
+	setcycle 43 audio ole
+	setcycle 43 audio_trig 211
+	setcycle 43 prime_trig 201
+	setcycle 44 prime feature
+	setcycle 44 target text
+	setcycle 44 ITI 500
+	setcycle 44 mask CYPSVBWH
+	setcycle 44 target_trig 45
+	setcycle 44 cresp 5
+	setcycle 44 audio ixt
+	setcycle 44 audio_trig 211
+	setcycle 44 prime_trig 201
+	setcycle 45 prime early
+	setcycle 45 target top
+	setcycle 45 ITI 500
+	setcycle 45 mask HGGNFZZZ
+	setcycle 45 target_trig 46
+	setcycle 45 cresp 5
+	setcycle 45 audio ape
+	setcycle 45 audio_trig 211
+	setcycle 45 prime_trig 201
+	setcycle 46 prime texture
+	setcycle 46 target trait
+	setcycle 46 ITI 500
+	setcycle 46 mask MGYKNJNL
+	setcycle 46 target_trig 47
+	setcycle 46 cresp 5
+	setcycle 46 audio oot
+	setcycle 46 audio_trig 211
+	setcycle 46 prime_trig 201
+	setcycle 47 prime cower
+	setcycle 47 target wick
+	setcycle 47 ITI 200
+	setcycle 47 mask YNDQLBYN
+	setcycle 47 target_trig 48
+	setcycle 47 cresp 5
+	setcycle 47 audio ick
+	setcycle 47 audio_trig 211
+	setcycle 47 prime_trig 201
+	setcycle 48 prime bother
+	setcycle 48 target both
+	setcycle 48 ITI 300
+	setcycle 48 mask YYKPWPKM
+	setcycle 48 target_trig 51
+	setcycle 48 cresp 5
+	setcycle 48 audio oom
+	setcycle 48 audio_trig 212
+	setcycle 48 prime_trig 200
+	setcycle 49 prime caper
+	setcycle 49 target cap
+	setcycle 49 ITI 400
+	setcycle 49 mask SDTXKTTH
+	setcycle 49 target_trig 52
+	setcycle 49 cresp 5
+	setcycle 49 audio een
+	setcycle 49 audio_trig 212
+	setcycle 49 prime_trig 200
+	setcycle 50 prime combine
+	setcycle 50 target comb
+	setcycle 50 ITI 500
+	setcycle 50 mask YZKFSTTH
+	setcycle 50 target_trig 53
+	setcycle 50 cresp 5
+	setcycle 50 audio ael
+	setcycle 50 audio_trig 212
+	setcycle 50 prime_trig 200
+	setcycle 51 prime courteous
+	setcycle 51 target court
+	setcycle 51 ITI 200
+	setcycle 51 mask FPJJXPKP
+	setcycle 51 target_trig 54
+	setcycle 51 cresp 5
+	setcycle 51 audio all
+	setcycle 51 audio_trig 212
+	setcycle 51 prime_trig 200
+	setcycle 52 prime fallible
+	setcycle 52 target fall
+	setcycle 52 ITI 500
+	setcycle 52 mask QTJSTQYY
+	setcycle 52 target_trig 55
+	setcycle 52 cresp 5
+	setcycle 52 audio yer
+	setcycle 52 audio_trig 212
+	setcycle 52 prime_trig 200
+	setcycle 53 prime flourish
+	setcycle 53 target flour
+	setcycle 53 ITI 200
+	setcycle 53 mask XKKKBVGW
+	setcycle 53 target_trig 56
+	setcycle 53 cresp 5
+	setcycle 53 audio obe
+	setcycle 53 audio_trig 212
+	setcycle 53 prime_trig 200
+	setcycle 54 prime furor
+	setcycle 54 target fur
+	setcycle 54 ITI 500
+	setcycle 54 mask DKCQCKYQ
+	setcycle 54 target_trig 57
+	setcycle 54 cresp 5
+	setcycle 54 audio ime
+	setcycle 54 audio_trig 212
+	setcycle 54 prime_trig 200
+	setcycle 55 prime global
+	setcycle 55 target glob
+	setcycle 55 ITI 300
+	setcycle 55 mask TYJJKHXJ
+	setcycle 55 target_trig 58
+	setcycle 55 cresp 5
+	setcycle 55 audio aj
+	setcycle 55 audio_trig 212
+	setcycle 55 prime_trig 200
+	setcycle 56 prime hearth
+	setcycle 56 target hear
+	setcycle 56 ITI 500
+	setcycle 56 mask QPKLSVXX
+	setcycle 56 target_trig 59
+	setcycle 56 cresp 6
+	setcycle 56 audio ear
+	setcycle 56 audio_trig 210
+	setcycle 56 prime_trig 200
+	setcycle 57 prime hinder
+	setcycle 57 target hind
+	setcycle 57 ITI 400
+	setcycle 57 mask XXLFXVXY
+	setcycle 57 target_trig 60
+	setcycle 57 cresp 6
+	setcycle 57 audio aind
+	setcycle 57 audio_trig 210
+	setcycle 57 prime_trig 200
+	setcycle 58 prime humor
+	setcycle 58 target hum
+	setcycle 58 ITI 200
+	setcycle 58 mask ZKQZPWZL
+	setcycle 58 target_trig 61
+	setcycle 58 cresp 6
+	setcycle 58 audio um
+	setcycle 58 audio_trig 210
+	setcycle 58 prime_trig 200
+	setcycle 59 prime menial
+	setcycle 59 target men
+	setcycle 59 ITI 100
+	setcycle 59 mask VJHWFHWS
+	setcycle 59 target_trig 62
+	setcycle 59 cresp 6
+	setcycle 59 audio en
+	setcycle 59 audio_trig 210
+	setcycle 59 prime_trig 200
+	setcycle 60 prime pageant
+	setcycle 60 target page
+	setcycle 60 ITI 300
+	setcycle 60 mask ZBJWFZJS
+	setcycle 60 target_trig 63
+	setcycle 60 cresp 6
+	setcycle 60 audio age
+	setcycle 60 audio_trig 210
+	setcycle 60 prime_trig 200
+	setcycle 61 prime penal
+	setcycle 61 target pen
+	setcycle 61 ITI 500
+	setcycle 61 mask FDVZXKKD
+	setcycle 61 target_trig 64
+	setcycle 61 cresp 6
+	setcycle 61 audio en
+	setcycle 61 audio_trig 210
+	setcycle 61 prime_trig 200
+	setcycle 62 prime pollen
+	setcycle 62 target poll
+	setcycle 62 ITI 200
+	setcycle 62 mask QKJRZFFQ
+	setcycle 62 target_trig 65
+	setcycle 62 cresp 6
+	setcycle 62 audio ole
+	setcycle 62 audio_trig 210
+	setcycle 62 prime_trig 200
+	setcycle 63 prime primary
+	setcycle 63 target prim
+	setcycle 63 ITI 400
+	setcycle 63 mask SLKNVTCD
+	setcycle 63 target_trig 66
+	setcycle 63 cresp 6
+	setcycle 63 audio im
+	setcycle 63 audio_trig 210
+	setcycle 63 prime_trig 200
+	setcycle 64 prime rumor
+	setcycle 64 target rum
+	setcycle 64 ITI 500
+	setcycle 64 mask ZVGNNPKD
+	setcycle 64 target_trig 67
+	setcycle 64 cresp 5
+	setcycle 64 audio oom
+	setcycle 64 audio_trig 211
+	setcycle 64 prime_trig 200
+	setcycle 65 prime shiny
+	setcycle 65 target shin
+	setcycle 65 ITI 500
+	setcycle 65 mask VJKXXKCM
+	setcycle 65 target_trig 68
+	setcycle 65 cresp 5
+	setcycle 65 audio ine
+	setcycle 65 audio_trig 211
+	setcycle 65 prime_trig 200
+	setcycle 66 prime sniper
+	setcycle 66 target snip
+	setcycle 66 ITI 200
+	setcycle 66 mask WWVVXYCY
+	setcycle 66 target_trig 69
+	setcycle 66 cresp 5
+	setcycle 66 audio ipe
+	setcycle 66 audio_trig 211
+	setcycle 66 prime_trig 200
+	setcycle 67 prime spinal
+	setcycle 67 target spin
+	setcycle 67 ITI 500
+	setcycle 67 mask BTGXGXXB
+	setcycle 67 target_trig 70
+	setcycle 67 cresp 5
+	setcycle 67 audio ine
+	setcycle 67 audio_trig 211
+	setcycle 67 prime_trig 200
+	setcycle 68 prime stallion
+	setcycle 68 target stall
+	setcycle 68 ITI 300
+	setcycle 68 mask GXVCJXZH
+	setcycle 68 target_trig 71
+	setcycle 68 cresp 5
+	setcycle 68 audio ael
+	setcycle 68 audio_trig 211
+	setcycle 68 prime_trig 200
+	setcycle 69 prime tally
+	setcycle 69 target tall
+	setcycle 69 ITI 400
+	setcycle 69 mask GDXJXGWX
+	setcycle 69 target_trig 72
+	setcycle 69 cresp 5
+	setcycle 69 audio ael
+	setcycle 69 audio_trig 211
+	setcycle 69 prime_trig 200
+	setcycle 70 prime tower
+	setcycle 70 target tow
+	setcycle 70 ITI 500
+	setcycle 70 mask NMPKPQXD
+	setcycle 70 target_trig 73
+	setcycle 70 cresp 5
+	setcycle 70 audio ow
+	setcycle 70 audio_trig 211
+	setcycle 70 prime_trig 200
+	setcycle 71 prime tuber
+	setcycle 71 target tub
+	setcycle 71 ITI 300
+	setcycle 71 mask CQFCLLGG
+	setcycle 71 target_trig 74
+	setcycle 71 cresp 5
+	setcycle 71 audio oob
+	setcycle 71 audio_trig 211
+	setcycle 71 prime_trig 200
+	setcycle 72 prime pallor
+	setcycle 72 target broth
+	setcycle 72 ITI 200
+	setcycle 72 mask SZKDJNXC
+	setcycle 72 target_trig 75
+	setcycle 72 cresp 5
+	setcycle 72 audio ibe
+	setcycle 72 audio_trig 212
+	setcycle 72 prime_trig 201
+	setcycle 73 prime wager
+	setcycle 73 target call
+	setcycle 73 ITI 400
+	setcycle 73 mask VBMHFQZV
+	setcycle 73 target_trig 76
+	setcycle 73 cresp 5
+	setcycle 73 audio own
+	setcycle 73 audio_trig 212
+	setcycle 73 prime_trig 201
+	setcycle 74 prime flower
+	setcycle 74 target cat
+	setcycle 74 ITI 300
+	setcycle 74 mask JYVVXYVB
+	setcycle 74 target_trig 77
+	setcycle 74 cresp 5
+	setcycle 74 audio "uth (voiced)"
+	setcycle 74 audio_trig 212
+	setcycle 74 prime_trig 201
+	setcycle 75 prime mother
+	setcycle 75 target cop
+	setcycle 75 ITI 300
+	setcycle 75 mask FBXXGXDV
+	setcycle 75 target_trig 78
+	setcycle 75 cresp 5
+	setcycle 75 audio age
+	setcycle 75 audio_trig 212
+	setcycle 75 prime_trig 201
+	setcycle 76 prime scary
+	setcycle 76 target cub
+	setcycle 76 ITI 300
+	setcycle 76 mask GWQXQHWP
+	setcycle 76 target_trig 79
+	setcycle 76 cresp 5
+	setcycle 76 audio obe
+	setcycle 76 audio_trig 212
+	setcycle 76 prime_trig 201
+	setcycle 77 prime copious
+	setcycle 77 target fib
+	setcycle 77 ITI 300
+	setcycle 77 mask KHYQJDDX
+	setcycle 77 target_trig 80
+	setcycle 77 cresp 5
+	setcycle 77 audio ope
+	setcycle 77 audio_trig 212
+	setcycle 77 prime_trig 201
+	setcycle 78 prime posture
+	setcycle 78 target flow
+	setcycle 78 ITI 200
+	setcycle 78 mask GBMHGVJJ
+	setcycle 78 target_trig 81
+	setcycle 78 cresp 5
+	setcycle 78 audio yoob
+	setcycle 78 audio_trig 212
+	setcycle 78 prime_trig 201
+	setcycle 79 prime gluten
+	setcycle 79 target gall
+	setcycle 79 ITI 500
+	setcycle 79 mask XKZBSQHV
+	setcycle 79 target_trig 82
+	setcycle 79 cresp 5
+	setcycle 79 audio oom
+	setcycle 79 audio_trig 212
+	setcycle 79 prime_trig 201
+	setcycle 80 prime fiber
+	setcycle 80 target glut
+	setcycle 80 ITI 400
+	setcycle 80 mask MWKQYJQD
+	setcycle 80 target_trig 83
+	setcycle 80 cresp 6
+	setcycle 80 audio utt
+	setcycle 80 audio_trig 210
+	setcycle 80 prime_trig 201
+	setcycle 81 prime gallant
+	setcycle 81 target hide
+	setcycle 81 ITI 300
+	setcycle 81 mask BQFFVQMC
+	setcycle 81 target_trig 84
+	setcycle 81 cresp 6
+	setcycle 81 audio ide
+	setcycle 81 audio_trig 210
+	setcycle 81 prime_trig 201
+	setcycle 82 prime shower
+	setcycle 82 target host
+	setcycle 82 ITI 500
+	setcycle 82 mask LXYPLZDB
+	setcycle 82 target_trig 85
+	setcycle 82 cresp 6
+	setcycle 82 audio owst
+	setcycle 82 audio_trig 210
+	setcycle 82 prime_trig 201
+	setcycle 83 prime tonal
+	setcycle 83 target leg
+	setcycle 83 ITI 100
+	setcycle 83 mask RMBQBSFH
+	setcycle 83 target_trig 86
+	setcycle 83 cresp 6
+	setcycle 83 audio egg
+	setcycle 83 audio_trig 210
+	setcycle 83 prime_trig 201
+	setcycle 84 prime cater
+	setcycle 84 target moth
+	setcycle 84 ITI 500
+	setcycle 84 mask LWGVNJBQ
+	setcycle 84 target_trig 87
+	setcycle 84 cresp 6
+	setcycle 84 audio "auTH (unvoiced)"
+	setcycle 84 audio_trig 210
+	setcycle 84 prime_trig 201
+	setcycle 85 prime cubic
+	setcycle 85 target pall
+	setcycle 85 ITI 200
+	setcycle 85 mask WZKSKSFT
+	setcycle 85 target_trig 88
+	setcycle 85 cresp 6
+	setcycle 85 audio all
+	setcycle 85 audio_trig 210
+	setcycle 85 prime_trig 201
+	setcycle 86 prime hideous
+	setcycle 86 target plum
+	setcycle 86 ITI 500
+	setcycle 86 mask WNXRJNTQ
+	setcycle 86 target_trig 89
+	setcycle 86 cresp 6
+	setcycle 86 audio um
+	setcycle 86 audio_trig 210
+	setcycle 86 prime_trig 201
+	setcycle 87 prime rotary
+	setcycle 87 target post
+	setcycle 87 ITI 400
+	setcycle 87 mask HCLZVDVZ
+	setcycle 87 target_trig 90
+	setcycle 87 cresp 6
+	setcycle 87 audio owst
+	setcycle 87 audio_trig 210
+	setcycle 87 prime_trig 201
+	setcycle 88 prime trolley
+	setcycle 88 target rot
+	setcycle 88 ITI 100
+	setcycle 88 mask BVQQPQPN
+	setcycle 88 target_trig 91
+	setcycle 88 cresp 5
+	setcycle 88 audio ote
+	setcycle 88 audio_trig 211
+	setcycle 88 prime_trig 201
+	setcycle 89 prime hostage
+	setcycle 89 target scar
+	setcycle 89 ITI 300
+	setcycle 89 mask KDJWQFPP
+	setcycle 89 target_trig 92
+	setcycle 89 cresp 5
+	setcycle 89 audio air
+	setcycle 89 audio_trig 211
+	setcycle 89 prime_trig 201
+	setcycle 90 prime brother
+	setcycle 90 target show
+	setcycle 90 ITI 400
+	setcycle 90 mask VQYDYZDX
+	setcycle 90 target_trig 93
+	setcycle 90 cresp 5
+	setcycle 90 audio ow
+	setcycle 90 audio_trig 211
+	setcycle 90 prime_trig 201
+	setcycle 91 prime legal
+	setcycle 91 target sob
+	setcycle 91 ITI 200
+	setcycle 91 mask KFZYJYDZ
+	setcycle 91 target_trig 94
+	setcycle 91 cresp 5
+	setcycle 91 audio obe
+	setcycle 91 audio_trig 211
+	setcycle 91 prime_trig 201
+	setcycle 92 prime sober
+	setcycle 92 target spur
+	setcycle 92 ITI 500
+	setcycle 92 mask MXMMXCTW
+	setcycle 92 target_trig 95
+	setcycle 92 cresp 5
+	setcycle 92 audio yer
+	setcycle 92 audio_trig 211
+	setcycle 92 prime_trig 201
+	setcycle 93 prime spurious
+	setcycle 93 target ton
+	setcycle 93 ITI 300
+	setcycle 93 mask HGGHQDVM
+	setcycle 93 target_trig 96
+	setcycle 93 cresp 5
+	setcycle 93 audio own
+	setcycle 93 audio_trig 211
+	setcycle 93 prime_trig 201
+	setcycle 94 prime callous
+	setcycle 94 target troll
+	setcycle 94 ITI 500
+	setcycle 94 mask HBQXJPKQ
+	setcycle 94 target_trig 97
+	setcycle 94 cresp 5
+	setcycle 94 audio all
+	setcycle 94 audio_trig 211
+	setcycle 94 prime_trig 201
+	setcycle 95 prime plumage
+	setcycle 95 target wag
+	setcycle 95 ITI 300
+	setcycle 95 mask KYDXFZDN
+	setcycle 95 target_trig 98
+	setcycle 95 cresp 5
+	setcycle 95 audio age
+	setcycle 95 audio_trig 211
+	setcycle 95 prime_trig 201
+	run sequence
+
+define loop Block6
+	set source_file ""
+	set source table
+	set repeat 1
+	set order random
+	set description "Repeatedly runs another item"
+	set cycles 96
+	set continuous no
+	set break_if_on_first yes
+	set break_if never
+	setcycle 0 prime banjo
+	setcycle 0 target ban
+	setcycle 0 ITI 300
+	setcycle 0 mask DRTQQXCL
+	setcycle 0 target_trig 101
+	setcycle 0 cresp 5
+	setcycle 0 audio urt
+	setcycle 0 audio_trig 212
+	setcycle 0 prime_trig 200
+	setcycle 1 prime bangle
+	setcycle 1 target bang
+	setcycle 1 ITI 500
+	setcycle 1 mask ZMSXPJMX
+	setcycle 1 target_trig 102
+	setcycle 1 cresp 5
+	setcycle 1 audio are
+	setcycle 1 audio_trig 212
+	setcycle 1 prime_trig 200
+	setcycle 2 prime beech
+	setcycle 2 target bee
+	setcycle 2 ITI 500
+	setcycle 2 mask VZZYRWWX
+	setcycle 2 target_trig 103
+	setcycle 2 cresp 5
+	setcycle 2 audio ash
+	setcycle 2 audio_trig 212
+	setcycle 2 prime_trig 200
+	setcycle 3 prime bunch
+	setcycle 3 target bun
+	setcycle 3 ITI 300
+	setcycle 3 mask ZQSPDFFY
+	setcycle 3 target_trig 104
+	setcycle 3 cresp 5
+	setcycle 3 audio ee
+	setcycle 3 audio_trig 212
+	setcycle 3 prime_trig 200
+	setcycle 4 prime cashew
+	setcycle 4 target cash
+	setcycle 4 ITI 200
+	setcycle 4 mask VJBJVVYV
+	setcycle 4 target_trig 105
+	setcycle 4 cresp 5
+	setcycle 4 audio in
+	setcycle 4 audio_trig 212
+	setcycle 4 prime_trig 200
+	setcycle 5 prime coupon
+	setcycle 5 target coup
+	setcycle 5 ITI 500
+	setcycle 5 mask TVFJDVGK
+	setcycle 5 target_trig 106
+	setcycle 5 cresp 5
+	setcycle 5 audio and
+	setcycle 5 audio_trig 212
+	setcycle 5 prime_trig 200
+	setcycle 6 prime curtail
+	setcycle 6 target curt
+	setcycle 6 ITI 500
+	setcycle 6 mask QMGVZGPH
+	setcycle 6 target_trig 107
+	setcycle 6 cresp 5
+	setcycle 6 audio oop
+	setcycle 6 audio_trig 212
+	setcycle 6 prime_trig 200
+	setcycle 7 prime freeze
+	setcycle 7 target free
+	setcycle 7 ITI 100
+	setcycle 7 mask KQPQMLBG
+	setcycle 7 target_trig 108
+	setcycle 7 cresp 5
+	setcycle 7 audio art
+	setcycle 7 audio_trig 212
+	setcycle 7 prime_trig 200
+	setcycle 8 prime harmony
+	setcycle 8 target harm
+	setcycle 8 ITI 300
+	setcycle 8 mask SKZBZSZC
+	setcycle 8 target_trig 109
+	setcycle 8 cresp 6
+	setcycle 8 audio arm
+	setcycle 8 audio_trig 210
+	setcycle 8 prime_trig 200
+	setcycle 9 prime hitch
+	setcycle 9 target hit
+	setcycle 9 ITI 200
+	setcycle 9 mask JJPMDWSQ
+	setcycle 9 target_trig 110
+	setcycle 9 cresp 6
+	setcycle 9 audio it
+	setcycle 9 audio_trig 210
+	setcycle 9 prime_trig 200
+	setcycle 10 prime lentil
+	setcycle 10 target lent
+	setcycle 10 ITI 500
+	setcycle 10 mask ZYYXXFXJ
+	setcycle 10 target_trig 111
+	setcycle 10 cresp 6
+	setcycle 10 audio ent
+	setcycle 10 audio_trig 210
+	setcycle 10 prime_trig 200
+	setcycle 11 prime little
+	setcycle 11 target lit
+	setcycle 11 ITI 100
+	setcycle 11 mask YWMNPRFW
+	setcycle 11 target_trig 112
+	setcycle 11 cresp 6
+	setcycle 11 audio it
+	setcycle 11 audio_trig 210
+	setcycle 11 prime_trig 200
+	setcycle 12 prime partner
+	setcycle 12 target part
+	setcycle 12 ITI 200
+	setcycle 12 mask QHYWFVDY
+	setcycle 12 target_trig 113
+	setcycle 12 cresp 6
+	setcycle 12 audio art
+	setcycle 12 audio_trig 210
+	setcycle 12 prime_trig 200
+	setcycle 13 prime pinch
+	setcycle 13 target pin
+	setcycle 13 ITI 300
+	setcycle 13 mask GVBGYQVG
+	setcycle 13 target_trig 114
+	setcycle 13 cresp 6
+	setcycle 13 audio in
+	setcycle 13 audio_trig 210
+	setcycle 13 prime_trig 200
+	setcycle 14 prime plantain
+	setcycle 14 target plant
+	setcycle 14 ITI 400
+	setcycle 14 mask WJWXQFJJ
+	setcycle 14 target_trig 115
+	setcycle 14 cresp 6
+	setcycle 14 audio ant
+	setcycle 14 audio_trig 210
+	setcycle 14 prime_trig 200
+	setcycle 15 prime pumpkin
+	setcycle 15 target pump
+	setcycle 15 ITI 200
+	setcycle 15 mask XFGQGSHJ
+	setcycle 15 target_trig 116
+	setcycle 15 cresp 6
+	setcycle 15 audio ump
+	setcycle 15 audio_trig 210
+	setcycle 15 prime_trig 200
+	setcycle 16 prime ridge
+	setcycle 16 target rid
+	setcycle 16 ITI 500
+	setcycle 16 mask QZFSBVLW
+	setcycle 16 target_trig 117
+	setcycle 16 cresp 5
+	setcycle 16 audio eed
+	setcycle 16 audio_trig 211
+	setcycle 16 prime_trig 200
+	setcycle 17 prime sight
+	setcycle 17 target sigh
+	setcycle 17 ITI 100
+	setcycle 17 mask BRRXZDLW
+	setcycle 17 target_trig 118
+	setcycle 17 cresp 5
+	setcycle 17 audio ee
+	setcycle 17 audio_trig 211
+	setcycle 17 prime_trig 200
+	setcycle 18 prime starch
+	setcycle 18 target star
+	setcycle 18 ITI 100
+	setcycle 18 mask KPJNYYZV
+	setcycle 18 target_trig 119
+	setcycle 18 cresp 5
+	setcycle 18 audio ear
+	setcycle 18 audio_trig 211
+	setcycle 18 prime_trig 200
+	setcycle 19 prime surgeon
+	setcycle 19 target surge
+	setcycle 19 ITI 200
+	setcycle 19 mask HCDDFXJY
+	setcycle 19 target_trig 120
+	setcycle 19 cresp 5
+	setcycle 19 audio arge
+	setcycle 19 audio_trig 211
+	setcycle 19 prime_trig 200
+	setcycle 20 prime tendril
+	setcycle 20 target tend
+	setcycle 20 ITI 500
+	setcycle 20 mask ZBBQFJMH
+	setcycle 20 target_trig 121
+	setcycle 20 cresp 5
+	setcycle 20 audio ond
+	setcycle 20 audio_trig 211
+	setcycle 20 prime_trig 200
+	setcycle 21 prime twinkle
+	setcycle 21 target twin
+	setcycle 21 ITI 100
+	setcycle 21 mask CCVMCRBC
+	setcycle 21 target_trig 122
+	setcycle 21 cresp 5
+	setcycle 21 audio an
+	setcycle 21 audio_trig 211
+	setcycle 21 prime_trig 200
+	setcycle 22 prime vandal
+	setcycle 22 target van
+	setcycle 22 ITI 100
+	setcycle 22 mask HGPBFHSP
+	setcycle 22 target_trig 123
+	setcycle 22 cresp 5
+	setcycle 22 audio in
+	setcycle 22 audio_trig 211
+	setcycle 22 prime_trig 200
+	setcycle 23 prime window
+	setcycle 23 target wind
+	setcycle 23 ITI 400
+	setcycle 23 mask YKMMBTZY
+	setcycle 23 target_trig 124
+	setcycle 23 cresp 5
+	setcycle 23 audio end
+	setcycle 23 audio_trig 211
+	setcycle 23 prime_trig 200
+	setcycle 24 prime vowel
+	setcycle 24 target band
+	setcycle 24 ITI 400
+	setcycle 24 mask ZCZXSQYQ
+	setcycle 24 target_trig 125
+	setcycle 24 cresp 5
+	setcycle 24 audio itch
+	setcycle 24 audio_trig 212
+	setcycle 24 prime_trig 201
+	setcycle 25 prime yellow
+	setcycle 25 target bar
+	setcycle 25 ITI 200
+	setcycle 25 mask CJDJHVHC
+	setcycle 25 target_trig 126
+	setcycle 25 cresp 5
+	setcycle 25 audio of
+	setcycle 25 audio_trig 212
+	setcycle 25 prime_trig 201
+	setcycle 26 prime twitch
+	setcycle 26 target bell
+	setcycle 26 ITI 100
+	setcycle 26 mask NMFVYYKN
+	setcycle 26 target_trig 127
+	setcycle 26 cresp 5
+	setcycle 26 audio app
+	setcycle 26 audio_trig 212
+	setcycle 26 prime_trig 201
+	setcycle 27 prime tease
+	setcycle 27 target cart
+	setcycle 27 ITI 100
+	setcycle 27 mask GYFJJKDD
+	setcycle 27 target_trig 128
+	setcycle 27 cresp 5
+	setcycle 27 audio ag
+	setcycle 27 audio_trig 212
+	setcycle 27 prime_trig 201
+	setcycle 28 prime sparse
+	setcycle 28 target cost
+	setcycle 28 ITI 300
+	setcycle 28 mask VWWKYYQJ
+	setcycle 28 target_trig 129
+	setcycle 28 cresp 5
+	setcycle 28 audio ort
+	setcycle 28 audio_trig 212
+	setcycle 28 prime_trig 201
+	setcycle 29 prime quartz
+	setcycle 29 target drag
+	setcycle 29 ITI 300
+	setcycle 29 mask PXHMJVFL
+	setcycle 29 target_trig 130
+	setcycle 29 cresp 5
+	setcycle 29 audio ess
+	setcycle 29 audio_trig 212
+	setcycle 29 prime_trig 201
+	setcycle 30 prime napkin
+	setcycle 30 target fell
+	setcycle 30 ITI 500
+	setcycle 30 mask QDCHHTXB
+	setcycle 30 target_trig 131
+	setcycle 30 cresp 5
+	setcycle 30 audio ulp
+	setcycle 30 audio_trig 212
+	setcycle 30 prime_trig 201
+	setcycle 31 prime peach
+	setcycle 31 target harp
+	setcycle 31 ITI 200
+	setcycle 31 mask VWFQWJGJ
+	setcycle 31 target_trig 132
+	setcycle 31 cresp 5
+	setcycle 31 audio and
+	setcycle 31 audio_trig 212
+	setcycle 31 prime_trig 201
+	setcycle 32 prime tinsel
+	setcycle 32 target kid
+	setcycle 32 ITI 100
+	setcycle 32 mask PGMMRCBV
+	setcycle 32 target_trig 133
+	setcycle 32 cresp 6
+	setcycle 32 audio id
+	setcycle 32 audio_trig 210
+	setcycle 32 prime_trig 201
+	setcycle 33 prime carton
+	setcycle 33 target less
+	setcycle 33 ITI 500
+	setcycle 33 mask HWVJHJDY
+	setcycle 33 target_trig 134
+	setcycle 33 cresp 6
+	setcycle 33 audio ess
+	setcycle 33 audio_trig 210
+	setcycle 33 prime_trig 201
+	setcycle 34 prime costume
+	setcycle 34 target nap
+	setcycle 34 ITI 100
+	setcycle 34 mask WXVGXRVV
+	setcycle 34 target_trig 135
+	setcycle 34 cresp 6
+	setcycle 34 audio app
+	setcycle 34 audio_trig 210
+	setcycle 34 prime_trig 201
+	setcycle 35 prime fellow
+	setcycle 35 target pea
+	setcycle 35 ITI 400
+	setcycle 35 mask JNKSGBDK
+	setcycle 35 target_trig 136
+	setcycle 35 cresp 6
+	setcycle 35 audio ee
+	setcycle 35 audio_trig 210
+	setcycle 35 prime_trig 201
+	setcycle 36 prime bellow
+	setcycle 36 target pert
+	setcycle 36 ITI 100
+	setcycle 36 mask MSKXMMQF
+	setcycle 36 target_trig 137
+	setcycle 36 cresp 6
+	setcycle 36 audio urt
+	setcycle 36 audio_trig 210
+	setcycle 36 prime_trig 201
+	setcycle 37 prime kidney
+	setcycle 37 target plain
+	setcycle 37 ITI 200
+	setcycle 37 mask MCCRCRBM
+	setcycle 37 target_trig 138
+	setcycle 37 cresp 6
+	setcycle 37 audio ane
+	setcycle 37 audio_trig 210
+	setcycle 37 prime_trig 201
+	setcycle 38 prime lesson
+	setcycle 38 target pulp
+	setcycle 38 ITI 100
+	setcycle 38 mask FRBDJMYR
+	setcycle 38 target_trig 139
+	setcycle 38 cresp 6
+	setcycle 38 audio ulp
+	setcycle 38 audio_trig 210
+	setcycle 38 prime_trig 201
+	setcycle 39 prime surface
+	setcycle 39 target quart
+	setcycle 39 ITI 400
+	setcycle 39 mask KGDXKVYM
+	setcycle 39 target_trig 140
+	setcycle 39 cresp 6
+	setcycle 39 audio ort
+	setcycle 39 audio_trig 210
+	setcycle 39 prime_trig 201
+	setcycle 40 prime barge
+	setcycle 40 target shove
+	setcycle 40 ITI 500
+	setcycle 40 mask CCJPXJWZ
+	setcycle 40 target_trig 141
+	setcycle 40 cresp 5
+	setcycle 40 audio ave
+	setcycle 40 audio_trig 211
+	setcycle 40 prime_trig 201
+	setcycle 41 prime plaintiff
+	setcycle 41 target spar
+	setcycle 41 ITI 300
+	setcycle 41 mask CWQXYQWX
+	setcycle 41 target_trig 142
+	setcycle 41 cresp 5
+	setcycle 41 audio air
+	setcycle 41 audio_trig 211
+	setcycle 41 prime_trig 201
+	setcycle 42 prime bandit
+	setcycle 42 target surf
+	setcycle 42 ITI 400
+	setcycle 42 mask HHMPGLQK
+	setcycle 42 target_trig 143
+	setcycle 42 cresp 5
+	setcycle 42 audio arf
+	setcycle 42 audio_trig 211
+	setcycle 42 prime_trig 201
+	setcycle 43 prime shovel
+	setcycle 43 target tea
+	setcycle 43 ITI 400
+	setcycle 43 mask ZPDYBWRD
+	setcycle 43 target_trig 144
+	setcycle 43 cresp 5
+	setcycle 43 audio ow
+	setcycle 43 audio_trig 211
+	setcycle 43 prime_trig 201
+	setcycle 44 prime dragon
+	setcycle 44 target tin
+	setcycle 44 ITI 200
+	setcycle 44 mask MXJXYZKF
+	setcycle 44 target_trig 145
+	setcycle 44 cresp 5
+	setcycle 44 audio ine
+	setcycle 44 audio_trig 211
+	setcycle 44 prime_trig 201
+	setcycle 45 prime harpoon
+	setcycle 45 target twit
+	setcycle 45 ITI 500
+	setcycle 45 mask YFBVZBQV
+	setcycle 45 target_trig 146
+	setcycle 45 cresp 5
+	setcycle 45 audio oot
+	setcycle 45 audio_trig 211
+	setcycle 45 prime_trig 201
+	setcycle 46 prime pertain
+	setcycle 46 target vow
+	setcycle 46 ITI 200
+	setcycle 46 mask MYCBHBKZ
+	setcycle 46 target_trig 147
+	setcycle 46 cresp 5
+	setcycle 46 audio oo
+	setcycle 46 audio_trig 211
+	setcycle 46 prime_trig 201
+	setcycle 47 prime pulpit
+	setcycle 47 target yell
+	setcycle 47 ITI 200
+	setcycle 47 mask DGHDRVHV
+	setcycle 47 target_trig 148
+	setcycle 47 cresp 5
+	setcycle 47 audio all
+	setcycle 47 audio_trig 211
+	setcycle 47 prime_trig 201
+	setcycle 48 prime actor
+	setcycle 48 target act
+	setcycle 48 ITI 200
+	setcycle 48 mask QFVZPDBF
+	setcycle 48 target_trig 151
+	setcycle 48 cresp 5
+	setcycle 48 audio ill
+	setcycle 48 audio_trig 212
+	setcycle 48 prime_trig 200
+	setcycle 49 prime binder
+	setcycle 49 target bind
+	setcycle 49 ITI 400
+	setcycle 49 mask JFTCTCTX
+	setcycle 49 target_trig 152
+	setcycle 49 cresp 5
+	setcycle 49 audio olf
+	setcycle 49 audio_trig 212
+	setcycle 49 prime_trig 200
+	setcycle 50 prime bomber
+	setcycle 50 target bomb
+	setcycle 50 ITI 300
+	setcycle 50 mask ZHHDHDTY
+	setcycle 50 target_trig 153
+	setcycle 50 cresp 5
+	setcycle 50 audio erb
+	setcycle 50 audio_trig 212
+	setcycle 50 prime_trig 200
+	setcycle 51 prime brewery
+	setcycle 51 target brew
+	setcycle 51 ITI 500
+	setcycle 51 mask CVXQDPLM
+	setcycle 51 target_trig 154
+	setcycle 51 cresp 5
+	setcycle 51 audio erb
+	setcycle 51 audio_trig 212
+	setcycle 51 prime_trig 200
+	setcycle 52 prime childish
+	setcycle 52 target child
+	setcycle 52 ITI 300
+	setcycle 52 mask XXNMRZMW
+	setcycle 52 target_trig 155
+	setcycle 52 cresp 5
+	setcycle 52 audio oo
+	setcycle 52 audio_trig 212
+	setcycle 52 prime_trig 200
+	setcycle 53 prime flexible
+	setcycle 53 target flex
+	setcycle 53 ITI 100
+	setcycle 53 mask MWVVWJKM
+	setcycle 53 target_trig 156
+	setcycle 53 cresp 5
+	setcycle 53 audio ust
+	setcycle 53 audio_trig 212
+	setcycle 53 prime_trig 200
+	setcycle 54 prime golfer
+	setcycle 54 target golf
+	setcycle 54 ITI 500
+	setcycle 54 mask JXJWBCBW
+	setcycle 54 target_trig 157
+	setcycle 54 cresp 5
+	setcycle 54 audio ex
+	setcycle 54 audio_trig 212
+	setcycle 54 prime_trig 200
+	setcycle 55 prime herbal
+	setcycle 55 target herb
+	setcycle 55 ITI 100
+	setcycle 55 mask ZFTWGKDQ
+	setcycle 55 target_trig 158
+	setcycle 55 cresp 5
+	setcycle 55 audio eek
+	setcycle 55 audio_trig 212
+	setcycle 55 prime_trig 200
+	setcycle 56 prime hotly
+	setcycle 56 target hot
+	setcycle 56 ITI 200
+	setcycle 56 mask FRDQRXSF
+	setcycle 56 target_trig 159
+	setcycle 56 cresp 6
+	setcycle 56 audio ott
+	setcycle 56 audio_trig 210
+	setcycle 56 prime_trig 200
+	setcycle 57 prime killer
+	setcycle 57 target kill
+	setcycle 57 ITI 200
+	setcycle 57 mask NXVFQQYG
+	setcycle 57 target_trig 160
+	setcycle 57 cresp 6
+	setcycle 57 audio ill
+	setcycle 57 audio_trig 210
+	setcycle 57 prime_trig 200
+	setcycle 58 prime leakage
+	setcycle 58 target leak
+	setcycle 58 ITI 400
+	setcycle 58 mask PJBPPSPQ
+	setcycle 58 target_trig 161
+	setcycle 58 cresp 6
+	setcycle 58 audio eek
+	setcycle 58 audio_trig 210
+	setcycle 58 prime_trig 200
+	setcycle 59 prime mileage
+	setcycle 59 target mile
+	setcycle 59 ITI 300
+	setcycle 59 mask DWDYTWTJ
+	setcycle 59 target_trig 162
+	setcycle 59 cresp 6
+	setcycle 59 audio aisle
+	setcycle 59 audio_trig 210
+	setcycle 59 prime_trig 200
+	setcycle 60 prime mower
+	setcycle 60 target mow
+	setcycle 60 ITI 200
+	setcycle 60 mask FQSTXHZC
+	setcycle 60 target_trig 163
+	setcycle 60 cresp 6
+	setcycle 60 audio oh
+	setcycle 60 audio_trig 210
+	setcycle 60 prime_trig 200
+	setcycle 61 prime package
+	setcycle 61 target pack
+	setcycle 61 ITI 400
+	setcycle 61 mask DXZFYHFQ
+	setcycle 61 target_trig 164
+	setcycle 61 cresp 6
+	setcycle 61 audio ack
+	setcycle 61 audio_trig 210
+	setcycle 61 prime_trig 200
+	setcycle 62 prime pompous
+	setcycle 62 target pomp
+	setcycle 62 ITI 300
+	setcycle 62 mask JCBBGFYC
+	setcycle 62 target_trig 165
+	setcycle 62 cresp 6
+	setcycle 62 audio omp
+	setcycle 62 audio_trig 210
+	setcycle 62 prime_trig 200
+	setcycle 63 prime renter
+	setcycle 63 target rent
+	setcycle 63 ITI 400
+	setcycle 63 mask BQHQYHQX
+	setcycle 63 target_trig 166
+	setcycle 63 cresp 6
+	setcycle 63 audio ent
+	setcycle 63 audio_trig 210
+	setcycle 63 prime_trig 200
+	setcycle 64 prime roller
+	setcycle 64 target roll
+	setcycle 64 ITI 400
+	setcycle 64 mask WMYZGTKN
+	setcycle 64 target_trig 167
+	setcycle 64 cresp 5
+	setcycle 64 audio ell
+	setcycle 64 audio_trig 211
+	setcycle 64 prime_trig 200
+	setcycle 65 prime rusty
+	setcycle 65 target rust
+	setcycle 65 ITI 100
+	setcycle 65 mask GNCGCJQD
+	setcycle 65 target_trig 168
+	setcycle 65 cresp 5
+	setcycle 65 audio owst
+	setcycle 65 audio_trig 211
+	setcycle 65 prime_trig 200
+	setcycle 66 prime shyness
+	setcycle 66 target shy
+	setcycle 66 ITI 400
+	setcycle 66 mask FGKLVBMX
+	setcycle 66 target_trig 169
+	setcycle 66 cresp 5
+	setcycle 66 audio ow
+	setcycle 66 audio_trig 211
+	setcycle 66 prime_trig 200
+	setcycle 67 prime soften
+	setcycle 67 target soft
+	setcycle 67 ITI 500
+	setcycle 67 mask QZVRMRMY
+	setcycle 67 target_trig 170
+	setcycle 67 cresp 5
+	setcycle 67 audio ift
+	setcycle 67 audio_trig 211
+	setcycle 67 prime_trig 200
+	setcycle 68 prime vastly
+	setcycle 68 target vast
+	setcycle 68 ITI 500
+	setcycle 68 mask HHDHCHDD
+	setcycle 68 target_trig 171
+	setcycle 68 cresp 5
+	setcycle 68 audio ost
+	setcycle 68 audio_trig 211
+	setcycle 68 prime_trig 200
+	setcycle 69 prime verbal
+	setcycle 69 target verb
+	setcycle 69 ITI 500
+	setcycle 69 mask HKSWZZWN
+	setcycle 69 target_trig 172
+	setcycle 69 cresp 5
+	setcycle 69 audio orb
+	setcycle 69 audio_trig 211
+	setcycle 69 prime_trig 200
+	setcycle 70 prime voltage
+	setcycle 70 target volt
+	setcycle 70 ITI 100
+	setcycle 70 mask JRJCHFSC
+	setcycle 70 target_trig 173
+	setcycle 70 cresp 5
+	setcycle 70 audio ult
+	setcycle 70 audio_trig 211
+	setcycle 70 prime_trig 200
+	setcycle 71 prime warmth
+	setcycle 71 target warm
+	setcycle 71 ITI 100
+	setcycle 71 mask VSPYQKVY
+	setcycle 71 target_trig 174
+	setcycle 71 cresp 5
+	setcycle 71 audio arm
+	setcycle 71 audio_trig 211
+	setcycle 71 prime_trig 200
+	setcycle 72 prime rower
+	setcycle 72 target back
+	setcycle 72 ITI 100
+	setcycle 72 mask XDDFVDTN
+	setcycle 72 target_trig 175
+	setcycle 72 cresp 5
+	setcycle 72 audio ail
+	setcycle 72 audio_trig 212
+	setcycle 72 prime_trig 201
+	setcycle 73 prime bumper
+	setcycle 73 target bold
+	setcycle 73 ITI 400
+	setcycle 73 mask KHFVKGVC
+	setcycle 73 target_trig 176
+	setcycle 73 cresp 5
+	setcycle 73 audio ass
+	setcycle 73 audio_trig 212
+	setcycle 73 prime_trig 201
+	setcycle 74 prime painter
+	setcycle 74 target box
+	setcycle 74 ITI 400
+	setcycle 74 mask WMYHFWVM
+	setcycle 74 target_trig 177
+	setcycle 74 cresp 5
+	setcycle 74 audio ack
+	setcycle 74 audio_trig 212
+	setcycle 74 prime_trig 201
+	setcycle 75 prime risky
+	setcycle 75 target bump
+	setcycle 75 ITI 400
+	setcycle 75 mask HGCTTLWG
+	setcycle 75 target_trig 178
+	setcycle 75 cresp 5
+	setcycle 75 audio eed
+	setcycle 75 audio_trig 212
+	setcycle 75 prime_trig 201
+	setcycle 76 prime boxer
+	setcycle 76 target edit
+	setcycle 76 ITI 200
+	setcycle 76 mask GPSYGCZL
+	setcycle 76 target_trig 179
+	setcycle 76 cresp 5
+	setcycle 76 audio ing
+	setcycle 76 audio_trig 212
+	setcycle 76 prime_trig 201
+	setcycle 77 prime mutely
+	setcycle 77 target glum
+	setcycle 77 ITI 400
+	setcycle 77 mask ZPQKJNPX
+	setcycle 77 target_trig 180
+	setcycle 77 cresp 5
+	setcycle 77 audio oh
+	setcycle 77 audio_trig 212
+	setcycle 77 prime_trig 201
+	setcycle 78 prime vendor
+	setcycle 78 target grow
+	setcycle 78 ITI 400
+	setcycle 78 mask JSPZCYHK
+	setcycle 78 target_trig 181
+	setcycle 78 cresp 5
+	setcycle 78 audio oh
+	setcycle 78 audio_trig 212
+	setcycle 78 prime_trig 201
+	setcycle 79 prime rainy
+	setcycle 79 target hold
+	setcycle 79 ITI 100
+	setcycle 79 mask FGXSGJXV
+	setcycle 79 target_trig 182
+	setcycle 79 cresp 5
+	setcycle 79 audio old
+	setcycle 79 audio_trig 212
+	setcycle 79 prime_trig 201
+	setcycle 80 prime leader
+	setcycle 80 target hunt
+	setcycle 80 ITI 400
+	setcycle 80 mask JXGVVYYQ
+	setcycle 80 target_trig 183
+	setcycle 80 cresp 6
+	setcycle 80 audio unt
+	setcycle 80 audio_trig 210
+	setcycle 80 prime_trig 201
+	setcycle 81 prime walker
+	setcycle 81 target lead
+	setcycle 81 ITI 500
+	setcycle 81 mask CPBCTXVG
+	setcycle 81 target_trig 184
+	setcycle 81 cresp 6
+	setcycle 81 audio eed
+	setcycle 81 audio_trig 210
+	setcycle 81 prime_trig 201
+	setcycle 82 prime editor
+	setcycle 82 target mock
+	setcycle 82 ITI 500
+	setcycle 82 mask VVXXWPSZ
+	setcycle 82 target_trig 185
+	setcycle 82 cresp 6
+	setcycle 82 audio ock
+	setcycle 82 audio_trig 210
+	setcycle 82 prime_trig 201
+	setcycle 83 prime mockery
+	setcycle 83 target mute
+	setcycle 83 ITI 500
+	setcycle 83 mask WWBZNBHS
+	setcycle 83 target_trig 186
+	setcycle 83 cresp 6
+	setcycle 83 audio yoot
+	setcycle 83 audio_trig 210
+	setcycle 83 prime_trig 201
+	setcycle 84 prime holder
+	setcycle 84 target paint
+	setcycle 84 ITI 100
+	setcycle 84 mask XWZGBCMB
+	setcycle 84 target_trig 187
+	setcycle 84 cresp 6
+	setcycle 84 audio aint
+	setcycle 84 audio_trig 210
+	setcycle 84 prime_trig 201
+	setcycle 85 prime wattage
+	setcycle 85 target pass
+	setcycle 85 ITI 100
+	setcycle 85 mask HJHHCXKV
+	setcycle 85 target_trig 188
+	setcycle 85 cresp 6
+	setcycle 85 audio ass
+	setcycle 85 audio_trig 210
+	setcycle 85 prime_trig 201
+	setcycle 86 prime talker
+	setcycle 86 target rain
+	setcycle 86 ITI 100
+	setcycle 86 mask HHXFVFHH
+	setcycle 86 target_trig 189
+	setcycle 86 cresp 6
+	setcycle 86 audio ane
+	setcycle 86 audio_trig 210
+	setcycle 86 prime_trig 201
+	setcycle 87 prime sailor
+	setcycle 87 target risk
+	setcycle 87 ITI 400
+	setcycle 87 mask FHZPDDXH
+	setcycle 87 target_trig 190
+	setcycle 87 cresp 6
+	setcycle 87 audio isk
+	setcycle 87 audio_trig 210
+	setcycle 87 prime_trig 201
+	setcycle 88 prime hunter
+	setcycle 88 target row
+	setcycle 88 ITI 400
+	setcycle 88 mask JZYPQJKZ
+	setcycle 88 target_trig 191
+	setcycle 88 cresp 5
+	setcycle 88 audio ee
+	setcycle 88 audio_trig 211
+	setcycle 88 prime_trig 201
+	setcycle 89 prime boldness
+	setcycle 89 target sail
+	setcycle 89 ITI 400
+	setcycle 89 mask CJVMHMGV
+	setcycle 89 target_trig 192
+	setcycle 89 cresp 5
+	setcycle 89 audio aisle
+	setcycle 89 audio_trig 211
+	setcycle 89 prime_trig 201
+	setcycle 90 prime grower
+	setcycle 90 target sing
+	setcycle 90 ITI 200
+	setcycle 90 mask ZVTCXDKQ
+	setcycle 90 target_trig 193
+	setcycle 90 cresp 5
+	setcycle 90 audio ang
+	setcycle 90 audio_trig 211
+	setcycle 90 prime_trig 201
+	setcycle 91 prime singer
+	setcycle 91 target talk
+	setcycle 91 ITI 100
+	setcycle 91 mask MJCHFXXM
+	setcycle 91 target_trig 194
+	setcycle 91 cresp 5
+	setcycle 91 audio eek
+	setcycle 91 audio_trig 211
+	setcycle 91 prime_trig 201
+	setcycle 92 prime glumly
+	setcycle 92 target vend
+	setcycle 92 ITI 500
+	setcycle 92 mask SSTZJSQZ
+	setcycle 92 target_trig 195
+	setcycle 92 cresp 5
+	setcycle 92 audio ind
+	setcycle 92 audio_trig 211
+	setcycle 92 prime_trig 201
+	setcycle 93 prime backer
+	setcycle 93 target view
+	setcycle 93 ITI 300
+	setcycle 93 mask NLSZTDZH
+	setcycle 93 target_trig 196
+	setcycle 93 cresp 5
+	setcycle 93 audio oh
+	setcycle 93 audio_trig 211
+	setcycle 93 prime_trig 201
+	setcycle 94 prime passage
+	setcycle 94 target walk
+	setcycle 94 ITI 200
+	setcycle 94 mask ZXYBHVCD
+	setcycle 94 target_trig 197
+	setcycle 94 cresp 5
+	setcycle 94 audio ack
+	setcycle 94 audio_trig 211
+	setcycle 94 prime_trig 201
+	setcycle 95 prime viewer
+	setcycle 95 target watt
+	setcycle 95 ITI 400
+	setcycle 95 mask NFQFSCFP
+	setcycle 95 target_trig 198
+	setcycle 95 cresp 5
+	setcycle 95 audio oot
+	setcycle 95 audio_trig 211
+	setcycle 95 prime_trig 201
+	run sequence
+
+define sketchpad FinishedPractice
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=1 color=white font_bold=no font_family=mono font_italic=no font_size=27 html=yes show_if=always text="Great job! You've finished the practice round. If you have any questions about the experiment, please ask the researchers now. <br /><br />Once you're ready, you can press any button to continue on to the official experiment." x=32 y=0 z_index=0
+
+define sketchpad ITI
+	set duration "[ITI]"
+	set description "Displays stimuli"
+
+define sketchpad ITI_1
+	set duration "[ITI]"
+	set description "Displays stimuli"
+
+define sketchpad ITI_2
+	set duration "[ITI]"
+	set description "Displays stimuli"
+
+define sketchpad Instructions
+	set start_response_interval no
+	set reset_variables no
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=1 color=white font_bold=no font_family=serif font_italic=no font_size=27 html=yes show_if=always text="Welcome!<br /><br />In this experiment you will see a string of random consonants on the screen, followed by a word.At the same time you will hear a spoken syllable through <br />the speakers.<br /><br />For each word, determine if the sound you hear rhymes with the word you see. After the word disappears, you <br />will have 1.5 seconds to make your response. If the word DOES rhyme, press the right bumper on the controller. If the word does NOT rhyme, press the left bumper button on the controller.<br /><br />There will also be self-timed breaks every 5 minutes or so. If you have any questions or concerns, please <br />call out to the experimenter during these breaks!<br /><br />Press any button to begin the experiment." x=0 y=0 z_index=0
+
+define sketchpad PracticeInstructions
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=1 color=white font_bold=no font_family=mono font_italic=no font_size=27 html=yes show_if=always text="Welcome!<br /><br />This practice round will be a shortened version of the full experiment. In this experiment you will see a string <br />of random consonants on the screen, followed by a word. At the same time you will hear a spoken syllable through <br />the speakers.<br /><br />For each word, determine if the sound you hear rhymes with the word you see. After the word disappears, you <br />will have 1.5 seconds to make your response. If the word DOES rhyme, press the right bumper on the controller. If the word does NOT rhyme, press the left bumper button on the controller.<br /><br /><br />This practice round consists of 10 words. When you complete the practice round, the experimenter will come back in <br />and you will begin the experiment itself.<br /><br />Press any button to begin the practice round." x=0 y=-32 z_index=0
+
+define sampler audio
+	set volume 1
+	set stop_after 0
+	set sample "[audio].wav"
+	set pitch 1
+	set pan 0
+	set fade_in 0
+	set duration 495
+	set description "Plays a sound file in .wav or .ogg format"
+
+define sampler audio_1
+	set volume 1
+	set stop_after 0
+	set sample "[audio].wav"
+	set pitch 1
+	set pan 0
+	set fade_in 0
+	set duration 495
+	set description "Plays a sound file in .wav or .ogg format"
+
+define sampler audio_2
+	set volume 1
+	set stop_after 0
+	set sample "[audio].wav"
+	set pitch 1
+	set pan 0
+	set fade_in 0
+	set duration 495
+	set description "Plays a sound file in .wav or .ogg format"
+
+define inline_script audio_trigger_trial
+	set description "Executes Python code"
+	___run__
+	trigger = [self.get("audio_trig")]
+	
+	try:
+	    exp.port.write(trigger)
+	    print('audio trigger has been sent',str(trigger))
+	    self.sleep(10)
+	    exp.port.write([0x00])
+	    self.sleep(10)
+	
+	except:
+		print('audio trigger not sent')
+	__end__
+	set _prepare ""
+
+define inline_script audio_trigger_trial_1
+	set description "Executes Python code"
+	___run__
+	trigger = [self.get("audio_trig")]
+	
+	try:
+	    exp.port.write(trigger)
+	    print('audio trigger has been sent',str(trigger))
+	    self.sleep(10)
+	    exp.port.write([0x00])
+	    self.sleep(10)
+	
+	except:
+		print('audio trigger not sent')
+	__end__
+	set _prepare ""
+
+define feedback break1
+	set reset_variables yes
+	set duration 0
+	set description "Provides feedback to the participant"
+	draw textline center=1 color=white font_bold=no font_family=mono font_italic=no font_size=27 html=yes show_if=always text="Congratulations! You have reached the first break!<br /><br />Your average response time was [avg_rt] ms<br /> Your average accuracy was [acc] % <br /><br /> Rest for as long as you would like. Press any button when you are ready to continue." x=0 y=-32 z_index=0
+
+define feedback break2
+	set reset_variables yes
+	set duration 0
+	set description "Provides feedback to the participant"
+	draw textline center=1 color=white font_bold=no font_family=mono font_italic=no font_size=27 html=yes show_if=always text="You've reached the second break!<br /> <br />Your average response time was [avg_rt] ms<br /> Your average accuracy was [acc] % <br /><br />Take a break for as long as you want. Call out or wave to the experimenter if you need <br />anything or if you want to use the restroom. <br /><br />When you are ready to resume the experiment, press any button." x=8 y=-38 z_index=0
+
+define feedback break3
+	set reset_variables yes
+	set duration 0
+	set description "Provides feedback to the participant"
+	draw textline center=1 color=white font_bold=no font_family=mono font_italic=no font_size=27 html=yes show_if=always text="You have reached the third break! You are halfway through the experiment.<br /><br />Your average response time was [avg_rt] ms. Your average accuracy was [acc] % <br /><br />Rest for as long as you would like. Press any button when you are ready to continue." x=0 y=0 z_index=0
+
+define feedback break4
+	set reset_variables yes
+	set duration 0
+	set description "Provides feedback to the participant"
+	draw textline center=1 color=white font_bold=no font_family=mono font_italic=no font_size=27 html=yes show_if=always text="You've reached the fourth break! Two more sections to go!<br /><br />Your average response time was [avg_rt] ms<br /> Your average accuracy was [acc] % <br /><br />Take a break for as long as you want. Call out or wave to the experimenter if you need <br />anything or if you want to use the restroom. <br /><br />When you are ready to resume the experiment, press any button." x=0 y=0 z_index=0
+
+define feedback break5
+	set reset_variables yes
+	set duration 0
+	set description "Provides feedback to the participant"
+	draw textline center=1 color=white font_bold=no font_family=mono font_italic=no font_size=27 html=yes show_if=always text="You have reached the fifth and final break. One more section to go!<br /><br />Your average response time was [avg_rt] ms<br /> Your average accuracy was [acc] % <br /><br />Rest for as long as you would like. Press any button when you are ready to continue." x=0 y=0 z_index=0
+
+define feedback break6
+	set reset_variables yes
+	set duration keypress
+	set description "Provides feedback to the participant"
+	draw textline center=1 color=white font_bold=no font_family=mono font_italic=no font_size=27 html=yes show_if=always text="Congratulations! You have completed the experiment!<br /><br />Your average response time was [avg_rt] ms<br /> Your average accuracy was [acc] % <br /><br />The experimenter will be with you shortly." x=0 y=0 z_index=0
+
+define inline_script close_port
+	set description "Executes Python code"
+	___run__
+	# finally, we want to make sure that the
+	# connection to the serial port will be stopped
+	# when the experiment is aborted or finished
+	# 
+	exp.cleanup_functions.append(exp.port.close)
+	__end__
+	set _prepare ""
+
+define sketchpad controllerInstructions
+	set duration 0
+	set description "Displays stimuli"
+	draw image center=1 file="Xbox_Controller.svg.png" scale=0.6 show_if=always x=0 y=-160 z_index=0
+	draw textline center=1 color=white font_bold=yes font_family=mono font_italic=no font_size=22 html=yes show_if=always text="In this experiment, you will use a game controller to respond for each trial. The important buttons for this experiment are the bumper buttons. The bumper buttons are along the front edge of the controller and are sometimes also called the shoulder buttons.<br /><br />Please hold the controller with two hands and rest each of your pointer fingers on one of the bumper buttons. Press any button to continue with the instructions." x=0 y=160 z_index=0
+	draw image center=1 file="Xbox_Controller.svg.png" scale=0.6 show_if=always x=0 y=-160 z_index=0
+
+define sequence experiment
+	set flush_keyboard yes
+	set description "Runs a number of items in sequence"
+	run open_port always
+	run reset_counter2 always
+	run controllerInstructions always
+	run joystick_response_1 always
+	run PracticeInstructions always
+	run joystick_response_2 always
+	run practice_block always
+	run FinishedPractice always
+	run progressWithJoystick_2 always
+	run Instructions always
+	run progressWithJoystick_3 always
+	run Block1 always
+	run break1 always
+	run progressWithJoystick_4 always
+	run reset_counter1 always
+	run Block2 always
+	run break2 always
+	run progressWithJoystick_5 always
+	run reset_counter2 always
+	run Block3 always
+	run break3 always
+	run progressWithJoystick_6 always
+	run reset_counter_3 always
+	run Block4 always
+	run break4 always
+	run progressWithJoystick_7 always
+	run reset_counter2 always
+	run Block5 always
+	run break5 always
+	run progressWithJoystick_8 always
+	run reset_counter_3a always
+	run Block6 always
+	run break6 always
+	run close_port always
+
+define notepad getting_started
+	__note__
+	Welcome to OpenSesame 3.1 "Jazzy James"!
+	If you are new to OpenSesame, it is a good idea to follow one of the tutorials,
+	which can be found on the documentation site:
+	- <http://osdoc.cogsci.nl/>
+	You can also check out the examples. These can be opened via:
+	- Menu -> Tools -> Example experiments.
+	And feel free to ask for help on the forum:
+	- <http://forum.cogsci.nl/>
+	Have fun with OpenSesame!
+	__end__
+	set description "A simple notepad to document your experiment. This plug-in does nothing."
+
+define inline_script inc_counter
+	set description "Executes Python code"
+	___run__
+	exp.set("counter", exp.get("counter")+1)
+	__end__
+	set _prepare ""
+
+define inline_script inc_counter_1
+	set description "Executes Python code"
+	___run__
+	exp.set("counter", exp.get("counter")+1)
+	__end__
+	set _prepare ""
+
+define inline_script inc_counter_2
+	set description "Executes Python code"
+	___run__
+	exp.set("counter", exp.get("counter")+1)
+	__end__
+	set _prepare ""
+
+define joystick joystick
+	set timeout 1500
+	set description "Collects input from a joystick or gamepad"
+	set correct_response "[cresp]"
+	set allowed_responses ""
+	set _dummy no
+	set _device 0
+
+define joystick joystick_1
+	set timeout 1500
+	set description "Collects input from a joystick or gamepad"
+	set correct_response "[cresp]"
+	set allowed_responses ""
+	set _dummy no
+	set _device 0
+
+define joystick joystick_response
+	set timeout 1500
+	set description "Collects input from a joystick or gamepad"
+	set allowed_responses ""
+	set _dummy no
+	set _device 0
+
+define joystick joystick_response_1
+	set timeout infinite
+	set description "Collects input from a joystick or gamepad"
+	set allowed_responses ""
+	set _dummy no
+	set _device 0
+
+define joystick joystick_response_2
+	set timeout infinite
+	set description "Collects input from a joystick or gamepad"
+	set allowed_responses ""
+	set _dummy no
+	set _device 0
+
+define logger logger
+	set description "Logs experimental data"
+	set auto_log yes
+
+define logger logger_1
+	set description "Logs experimental data"
+	set auto_log yes
+
+define logger logger_2
+	set description "Logs experimental data"
+	set auto_log yes
+
+define sketchpad mask
+	set duration 495
+	set description "Displays stimuli"
+	draw textline center=1 color=white font_bold=no font_family=mono font_italic=no font_size=18 html=yes show_if=always text="[mask]" x=0 y=0 z_index=0
+
+define sketchpad mask_1
+	set duration 495
+	set description "Displays stimuli"
+	draw textline center=1 color=white font_bold=no font_family=mono font_italic=no font_size=18 html=yes show_if=always text="[mask]" x=0 y=0 z_index=0
+
+define sketchpad mask_2
+	set duration 495
+	set description "Displays stimuli"
+	draw textline center=1 color=white font_bold=no font_family=mono font_italic=no font_size=18 html=yes show_if=always text="[mask]" x=0 y=0 z_index=0
+
+define repeat_cycle new_repeat_cycle
+	set description "Optionally repeat a cycle from a loop"
+	set condition "[correct] = 0"
+
+define sequence new_sequence
+	set flush_keyboard yes
+	set description "Runs a number of items in sequence"
+	run inc_counter_1 always
+	run mask_1 always
+	run prime_1 always
+	run target_1 always
+	run audio_1 always
+	run response_screen_1 always
+	run joystick_response always
+	run ITI_1 always
+
+define inline_script open_port
+	set description "Executes Python code"
+	set _run ""
+	___prepare__
+	# we will need to import the 'serial' module,
+	# which allows us to send and receive
+	# information via the serial port
+	try:
+	    import serial
+	    exp.port = serial.Serial('COM4',  baudrate=115200, bytesize=serial.EIGHTBITS, parity=serial.PARITY_NONE,  stopbits=serial.STOPBITS_ONE,timeout=1)
+	    exp.port.write([0x00])
+	    self.sleep(10)
+	    
+	    print('serial port read', exp.port.baudrate, exp.port.bytesize, exp.port.parity)
+	except: 
+		print('serial port not read')
+	 # next, we will need to start a connection to
+	# the serial port
+	
+	# finally, we want to make sure that the
+	# connection to the serial port will be stopped
+	# when the experiment is aborted or finished
+	exp.cleanup_functions.append(exp.port.close)
+	__end__
+
+define loop practice_block
+	set source_file ""
+	set source table
+	set repeat 1
+	set order random
+	set description "Repeatedly runs another item"
+	set cycles 10
+	set continuous no
+	set break_if_on_first yes
+	set break_if never
+	setcycle 0 mask YWVQBGMX
+	setcycle 0 prime insect
+	setcycle 0 target pants
+	setcycle 0 audio eat
+	setcycle 0 ITI 448
+	setcycle 0 prime_trig 240
+	setcycle 0 audio_trig 241
+	setcycle 0 target_trig 242
+	setcycle 0 cresp 5
+	setcycle 1 mask GYGJJBDF
+	setcycle 1 prime weapon
+	setcycle 1 target run
+	setcycle 1 audio un
+	setcycle 1 ITI 200
+	setcycle 1 prime_trig 240
+	setcycle 1 audio_trig 241
+	setcycle 1 target_trig 243
+	setcycle 1 cresp 6
+	setcycle 2 mask YJWFVJKV
+	setcycle 2 prime solid
+	setcycle 2 target web
+	setcycle 2 audio ob
+	setcycle 2 ITI 254
+	setcycle 2 prime_trig 240
+	setcycle 2 audio_trig 241
+	setcycle 2 target_trig 244
+	setcycle 2 cresp 5
+	setcycle 3 mask JNVSTKTY
+	setcycle 3 prime coffee
+	setcycle 3 target map
+	setcycle 3 audio app
+	setcycle 3 ITI 416
+	setcycle 3 prime_trig 240
+	setcycle 3 audio_trig 241
+	setcycle 3 target_trig 245
+	setcycle 3 cresp 6
+	setcycle 4 mask CPKQPMYY
+	setcycle 4 prime tiger
+	setcycle 4 target fan
+	setcycle 4 audio an
+	setcycle 4 ITI 379
+	setcycle 4 prime_trig 240
+	setcycle 4 audio_trig 241
+	setcycle 4 target_trig 246
+	setcycle 4 cresp 6
+	setcycle 5 mask FFHSBHLK
+	setcycle 5 prime garden
+	setcycle 5 target bed
+	setcycle 5 audio ed
+	setcycle 5 ITI 367
+	setcycle 5 prime_trig 240
+	setcycle 5 audio_trig 241
+	setcycle 5 target_trig 247
+	setcycle 5 cresp 6
+	setcycle 6 mask GDBBCXCM
+	setcycle 6 prime apple
+	setcycle 6 target desk
+	setcycle 6 audio ask
+	setcycle 6 ITI 342
+	setcycle 6 prime_trig 240
+	setcycle 6 audio_trig 241
+	setcycle 6 target_trig 248
+	setcycle 6 cresp 5
+	setcycle 7 mask GKFYJTYT
+	setcycle 7 prime circus
+	setcycle 7 target moon
+	setcycle 7 audio in
+	setcycle 7 ITI 238
+	setcycle 7 prime_trig 240
+	setcycle 7 audio_trig 241
+	setcycle 7 target_trig 249
+	setcycle 7 cresp 5
+	setcycle 8 mask VFDFJVVR
+	setcycle 8 prime album
+	setcycle 8 target salt
+	setcycle 8 audio alt
+	setcycle 8 ITI 227
+	setcycle 8 prime_trig 240
+	setcycle 8 audio_trig 241
+	setcycle 8 target_trig 250
+	setcycle 8 cresp 6
+	setcycle 9 mask LDHYHQDC
+	setcycle 9 prime fungus
+	setcycle 9 target rain
+	setcycle 9 audio on
+	setcycle 9 ITI 353
+	setcycle 9 prime_trig 240
+	setcycle 9 audio_trig 241
+	setcycle 9 target_trig 251
+	setcycle 9 cresp 5
+	run sequence_1
+
+define sketchpad prime
+	set duration 45
+	set description "Displays stimuli"
+	draw textline center=1 color=white font_bold=no font_family=mono font_italic=no font_size=18 html=yes show_if=always text="[prime]" x=0 y=0 z_index=0
+
+define sketchpad prime_1
+	set duration 45
+	set description "Displays stimuli"
+	draw textline center=1 color=white font_bold=no font_family=mono font_italic=no font_size=18 html=yes show_if=always text="[prime]" x=0 y=0 z_index=0
+
+define sketchpad prime_2
+	set duration 45
+	set description "Displays stimuli"
+	draw textline center=1 color=white font_bold=no font_family=mono font_italic=no font_size=18 html=yes show_if=always text="[prime]" x=0 y=0 z_index=0
+
+define inline_script prime_trigger_trial
+	set description "Executes Python code"
+	___run__
+	trigger = [self.get("prime_trig")]
+	
+	try:
+	    exp.port.write(trigger)
+	    print('prime trigger has been sent',str(trigger))
+	    self.sleep(10)
+	    exp.port.write([0x00])
+	    self.sleep(10)
+	
+	except:
+		print('prime trigger not sent')
+	__end__
+	set _prepare ""
+
+define inline_script prime_trigger_trial_1
+	set description "Executes Python code"
+	___run__
+	trigger = [self.get("prime_trig")]
+	
+	try:
+	    exp.port.write(trigger)
+	    print('prime trigger has been sent',str(trigger))
+	    self.sleep(10)
+	    exp.port.write([0x00])
+	    self.sleep(10)
+	
+	except:
+		print('prime trigger not sent')
+	__end__
+	set _prepare ""
+
+define joystick progressWithJoystick_2
+	set timeout infinite
+	set description "Collects input from a joystick or gamepad"
+	set allowed_responses ""
+	set _dummy no
+	set _device 0
+
+define joystick progressWithJoystick_3
+	set timeout infinite
+	set description "Collects input from a joystick or gamepad"
+	set allowed_responses ""
+	set _dummy no
+	set _device 0
+
+define joystick progressWithJoystick_4
+	set timeout infinite
+	set description "Collects input from a joystick or gamepad"
+	set allowed_responses ""
+	set _dummy no
+	set _device 0
+
+define joystick progressWithJoystick_5
+	set timeout infinite
+	set description "Collects input from a joystick or gamepad"
+	set allowed_responses ""
+	set _dummy no
+	set _device 0
+
+define joystick progressWithJoystick_6
+	set timeout infinite
+	set description "Collects input from a joystick or gamepad"
+	set allowed_responses ""
+	set _dummy no
+	set _device 0
+
+define joystick progressWithJoystick_7
+	set timeout infinite
+	set description "Collects input from a joystick or gamepad"
+	set allowed_responses ""
+	set _dummy no
+	set _device 0
+
+define joystick progressWithJoystick_8
+	set timeout infinite
+	set description "Collects input from a joystick or gamepad"
+	set allowed_responses ""
+	set _dummy no
+	set _device 0
+
+define inline_script reset_counter1
+	set description "Executes Python code"
+	set _run ""
+	___prepare__
+	exp.set("counter", 0)
+	__end__
+
+define inline_script reset_counter2
+	set description "Executes Python code"
+	set _run ""
+	___prepare__
+	exp.set("counter", 0)
+	__end__
+
+define inline_script reset_counter_3
+	set description "Executes Python code"
+	set _run ""
+	___prepare__
+	exp.set("counter", 0)
+	__end__
+
+define inline_script reset_counter_3a
+	set description "Executes Python code"
+	set _run ""
+	___prepare__
+	exp.set("counter", 0)
+	__end__
+
+define sketchpad response_screen
+	set duration 0
+	set description "Displays stimuli"
+
+define sketchpad response_screen_1
+	set duration 0
+	set description "Displays stimuli"
+
+define sketchpad response_screen_2
+	set duration 0
+	set description "Displays stimuli"
+
+define inline_script response_trigger_trial
+	set description "Executes Python code"
+	___run__
+	print('response',self.get("response"),'cresp',self.get("cresp"))
+	try:
+	    if int(self.get("response")) == int(self.get("cresp")):
+	        trigger = [0xDC]
+	    else:
+	        trigger = [0xDD]
+	except:
+	    trigger = [0XDD]
+	
+	try:
+	        exp.port.write(trigger)
+	        self.sleep(10)
+	        print('response trigger has been sent', trigger)
+	        exp.port.write([0x00])
+	        self.sleep(10)
+	
+	except:
+		print('response trigger not sent')
+	__end__
+	set _prepare ""
+
+define inline_script response_trigger_trial_1
+	set description "Executes Python code"
+	___run__
+	print('response',self.get("response"),'cresp',self.get("cresp"))
+	try:
+	    if int(self.get("response")) == int(self.get("cresp")):
+	        trigger = [0xDC]
+	    else:
+	        trigger = [0xDD]
+	except:
+	    trigger = [0XDD]
+	
+	try:
+	        exp.port.write(trigger)
+	        self.sleep(10)
+	        print('response trigger has been sent', trigger)
+	        exp.port.write([0x00])
+	        self.sleep(10)
+	
+	except:
+		print('response trigger not sent')
+	__end__
+	set _prepare ""
+
+define sequence sequence
+	set flush_keyboard yes
+	set description "Runs a number of items in sequence"
+	run inc_counter always
+	run mask always
+	run prime_trigger_trial always
+	run prime always
+	run target always
+	run target_trigger_trial always
+	run audio always
+	run audio_trigger_trial always
+	run response_screen always
+	run joystick always
+	run response_trigger_trial always
+	run ITI always
+	run logger always
+
+define sequence sequence_1
+	set flush_keyboard yes
+	set description "Runs a number of items in sequence"
+	run inc_counter_2 always
+	run mask_2 always
+	run prime_trigger_trial_1 always
+	run prime_2 always
+	run target_2 always
+	run target_trigger_trial_1 always
+	run audio_2 always
+	run audio_trigger_trial_1 always
+	run response_screen_2 always
+	run joystick_1 always
+	run response_trigger_trial_1 always
+	run ITI_2 always
+	run logger always
+
+define sketchpad target
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=1 color=white font_bold=no font_family=mono font_italic=no font_size=18 html=yes show_if=always text="[target]" x=0 y=0 z_index=0
+
+define sketchpad target_1
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=1 color=white font_bold=no font_family=mono font_italic=no font_size=18 html=yes show_if=always text="[target]" x=0 y=0 z_index=0
+
+define sketchpad target_2
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=1 color=white font_bold=no font_family=mono font_italic=no font_size=18 html=yes show_if=always text="[target]" x=0 y=0 z_index=0
+
+define inline_script target_trigger_trial
+	set description "Executes Python code"
+	___run__
+	trigger = [self.get("target_trig")]
+	
+	try:
+	    exp.port.write(trigger)
+	    print('target trigger has been sent',str(trigger))
+	    self.sleep(10)
+	    exp.port.write([0x00])
+	    self.sleep(10)
+	
+	except:
+		print('target trigger not sent')
+	__end__
+	set _prepare ""
+
+define inline_script target_trigger_trial_1
+	set description "Executes Python code"
+	___run__
+	trigger = [self.get("target_trig")]
+	
+	try:
+	    exp.port.write(trigger)
+	    print('target trigger has been sent',str(trigger))
+	    self.sleep(10)
+	    exp.port.write([0x00])
+	    self.sleep(10)
+	
+	except:
+		print('target trigger not sent')
+	__end__
+	set _prepare ""
+

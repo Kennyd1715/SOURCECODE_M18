@@ -1,0 +1,193 @@
+prime	target	ITI	mask	morph_trig	cresp	audio	audio_trig	prime_trig
+mister	arch	200	DLKZFLZV	1	7	orm	212	201
+dormant	brand	200	LVFXKFCW	2	7	ist	212	201
+archer	corn	400	LVJYDPXV	3	7	end	212	201
+render	dorm	200	QQLJHGZG	4	7	arch	212	201
+question	east	300	YXMMDPJP	5	7	orn	212	201
+corner	fair	200	SMQHSTGL	6	7	est	212	201
+ponder	fig	300	CZVXSXZC	7	7	end	212	201
+tenuous	gloss	400	PVFDXXVZ	8	7	ast	212	201
+pillage	helm	200	QVXDKBSF	9	8	elm	210	201
+limber	inn	400	KVQSQHYT	10	8	in	210	201
+figment	limb	300	WPWCZXVJ	11	8	im	210	201
+glossary	man	200	CFDKKPHP	12	8	an	210	201
+brandish	mast	200	KPKFWYZK	13	8	ast	210	201
+sandal	mist	100	PPZBVBFG	14	8	ist	210	201
+tactile	past	300	QYFBYHYJ	15	8	ast	210	201
+helmet	pill	500	QZDCVVBK	16	8	ill	210	201
+tractable	pond	100	YXHQXFMZ	17	7	end	211	201
+inner	quest	100	DXYFLBJY	18	7	ist	211	201
+easter	rend	300	WQLHQCPV	19	7	and	211	201
+treaty	sand	200	FHGFBCPF	20	7	ond	211	201
+fairy	tact	500	HZWBDGSV	21	7	oct	211	201
+manage	ten	300	WPLXDYCR	22	7	in	211	201
+pasture	tract	400	WJKQFMWQ	23	7	oct	211	201
+master	treat	400	QVDGKQXP	24	7	ott	211	201
+artery	art	400	KHNGQGGG	25	7	eat	212	200
+charter	chart	100	ZBFDNZDX	26	7	ult	212	200
+clamor	clam	200	KXFYWQDP	27	7	ig	212	200
+cower	cow	400	NJNBGGPJ	28	7	apt	212	200
+early	earl	500	HSQDKWVX	29	7	oo	212	200
+factor	fact	500	LSYMJXXX	30	7	ate	212	200
+feature	feat	100	NYKWNKWK	31	7	ill	212	200
+fluent	flu	400	VDQXKKBP	32	7	ast	212	200
+halter	halt	500	DJZGXPYG	33	8	ult	210	200
+hunger	hung	500	FVFDQQMS	34	8	ung	210	200
+kilter	kilt	500	WJZCDGZW	35	8	ilt	210	200
+luster	lust	100	MHNWVDJB	36	8	ust	210	200
+marshal	marsh	100	VPJKZPBP	37	8	arsh	210	200
+million	mill	300	ZXGXHPPF	38	8	ill	210	200
+pastor	past	400	ZQFYQNVC	39	8	ast	210	200
+proper	prop	500	NNDWXGVZ	40	8	op	210	200
+raptor	rapt	500	DHZQNDGD	41	7	opt	211	200
+rigor	rig	400	FWLYLDKC	42	7	og	211	200
+suitor	suit	400	HNNLZYHG	43	7	ate	211	200
+tailor	tail	400	ZXMPSXFQ	44	7	ole	211	200
+texture	text	500	CYPSVBWH	45	7	ixt	211	200
+topic	top	500	HGGNFZZZ	46	7	ape	211	200
+traitor	trait	500	MGYKNJNL	47	7	oot	211	200
+wicker	wick	200	YNDQLBYN	48	7	ick	211	200
+global	both	300	YYKPWPKM	51	7	oom	212	201
+furor	cap	400	SDTXKTTH	52	7	een	212	201
+pollen	comb	500	YZKFSTTH	53	7	ael	212	201
+hinder	court	200	FPJJXPKP	54	7	all	212	201
+caper	fall	500	QTJSTQYY	55	7	yer	212	201
+spinal	flour	200	XKKKBVGW	56	7	obe	212	201
+pageant	fur	500	DKCQCKYQ	57	7	ime	212	201
+sniper	glob	300	TYJJKHXJ	58	7	aj	212	201
+combine	hear	500	QPKLSVXX	59	8	ear	210	201
+courteous	hind	400	XXLFXVXY	60	8	aind	210	201
+bother	hum	200	ZKQZPWZL	61	8	um	210	201
+penal	men	100	VJHWFHWS	62	8	en	210	201
+menial	page	300	ZBJWFZJS	63	8	age	210	201
+primary	pen	500	FDVZXKKD	64	8	en	210	201
+stallion	poll	200	QKJRZFFQ	65	8	ole	210	201
+humor	prim	400	SLKNVTCD	66	8	im	210	201
+flourish	rum	500	ZVGNNPKD	67	7	oom	211	201
+fallible	shin	500	VJKXXKCM	68	7	ine	211	201
+tuber	snip	200	WWVVXYCY	69	7	ipe	211	201
+shiny	spin	500	BTGXGXXB	70	7	ine	211	201
+tower	stall	300	GXVCJXZH	71	7	ael	211	201
+hearth	tall	400	GDXJXGWX	72	7	ael	211	201
+talley	tow	500	NMPKPQXD	73	7	ow	211	201
+rumor	tub	300	CQFCLLGG	74	7	oob	211	201
+brother	broth	200	SZKDJNXC	75	7	ibe	212	200
+callous	call	400	VBMHFQZV	76	7	own	212	200
+cater	cat	300	JYVVXYVB	77	7	uth (voiced)	212	200
+copious	cop	300	FBXXGXDV	78	7	age	212	200
+cubic	cub	300	GWQXQHWP	79	7	obe	212	200
+fiber	fib	300	KHYQJDDX	80	7	ope	212	200
+flower	flow	200	GBMHGVJJ	81	7	yoob	212	200
+gallant	gall	500	XKZBSQHV	82	7	oom	212	200
+gluten	glut	400	MWKQYJQD	83	8	utt	210	200
+hideous	hide	300	BQFFVQMC	84	8	ide	210	200
+hostage	host	500	LXYPLZDB	85	8	owst	210	200
+legal	leg	100	RMBQBSFH	86	8	egg	210	200
+mother	moth	500	LWGVNJBQ	87	8	auTH (unvoiced)	210	200
+pallor	pall	200	WZKSKSFT	88	8	all	210	200
+plumage	plum	500	WNXRJNTQ	89	8	um	210	200
+posture	post	400	HCLZVDVZ	90	8	owst	210	200
+rotary	rot	100	BVQQPQPN	91	7	ote	211	200
+scary	scar	300	KDJWQFPP	92	7	air	211	200
+shower	show	400	VQYDYZDX	93	7	ow	211	200
+sober	sob	200	KFZYJYDZ	94	7	obe	211	200
+spurious	spur	500	MXMMXCTW	95	7	yer	211	200
+tonal	ton	300	HGGHQDVM	96	7	own	211	200
+trolley	troll	500	HBQXJPKQ	97	7	all	211	200
+wager	wag	300	KYDXFZDN	98	7	age	211	200
+pumpkin	ban	300	DRTQQXCL	101	5, 7	urt	212	201
+ridge	bang	500	ZMSXPJMX	102	5, 7	are	212	201
+little	bee	500	VZZYRWWX	103	5, 7	ash	212	201
+twinkle	bun	300	ZQSPDFFY	104	5, 7	ee	212	201
+sight	cash	200	VJBJVVYV	105	5, 7	in	212	201
+harmony	coup	500	TVFJDVGK	106	5, 7	and	212	201
+banjo	curt	500	QMGVZGPH	107	5, 7	oop	212	201
+hitch	free	100	KQPQMLBG	108	5, 7	art	212	201
+lentil	harm	300	SKZBZSZC	109	6, 8	arm	210	201
+freeze	hit	200	JJPMDWSQ	110	6, 8	it	210	201
+bunch	lent	500	ZYYXXFXJ	111	6, 8	ent	210	201
+beech	lit	100	YWMNPRFW	112	6, 8	it	210	201
+bangle	part	200	QHYWFVDY	113	6, 8	art	210	201
+tendril	pin	300	GVBGYQVG	114	6, 8	in	210	201
+starch	plant	400	WJWXQFJJ	115	6, 8	ant	210	201
+vandal	pump	200	XFGQGSHJ	116	6, 8	ump	210	201
+partner	rid	500	QZFSBVLW	117	5, 7	eed	211	201
+coupon	sigh	100	BRRXZDLW	118	5, 7	ee	211	201
+cashew	star	100	KPJNYYZV	119	5, 7	ear	211	201
+plantain	surge	200	HCDDFXJY	120	5, 7	arge	211	201
+surgeon	tend	500	ZBBQFJMH	121	5, 7	ond	211	201
+window	twin	100	CCVMCRBC	122	5, 7	an	211	201
+curtail	van	100	HGPBFHSP	123	5, 7	in	211	201
+pinch	wind	400	YKMMBTZY	124	5, 7	end	211	201
+bandit	band	400	ZCZXSQYQ	125	5, 7	itch	212	200
+barge	bar	200	CJDJHVHC	126	5, 7	of	212	200
+bellow	bell	100	NMFVYYKN	127	5, 7	app	212	200
+carton	cart	100	GYFJJKDD	128	5, 7	ag	212	200
+costume	cost	300	VWWKYYQJ	129	5, 7	ort	212	200
+dragon	drag	300	PXHMJVFL	130	5, 7	ess	212	200
+fellow	fell	500	QDCHHTXB	131	5, 7	ulp	212	200
+harpoon	harp	200	VWFQWJGJ	132	5, 7	and	212	200
+kidney	kid	100	PGMMRCBV	133	6, 8	id	210	200
+lesson	less	500	HWVJHJDY	134	6, 8	ess	210	200
+napkin	nap	100	WXVGXRVV	135	6, 8	app	210	200
+peach	pea	400	JNKSGBDK	136	6, 8	ee	210	200
+pertain	pert	100	MSKXMMQF	137	6, 8	urt	210	200
+plaintiff	plain	200	MCCRCRBM	138	6, 8	ane	210	200
+pulpit	pulp	100	FRBDJMYR	139	6, 8	ulp	210	200
+quartz	quart	400	KGDXKVYM	140	6, 8	ort	210	200
+shovel	shove	500	CCJPXJWZ	141	5, 7	ave	211	200
+sparse	spar	300	CWQXYQWX	142	5, 7	air	211	200
+surface	surf	400	HHMPGLQK	143	5, 7	arf	211	200
+tease	tea	400	ZPDYBWRD	144	5, 7	ow	211	200
+tinsel	tin	200	MXJXYZKF	145	5, 7	ine	211	200
+twitch	twit	500	YFBVZBQV	146	5, 7	oot	211	200
+vowel	vow	200	MYCBHBKZ	147	5, 7	oo	211	200
+yellow	yell	200	DGHDRVHV	148	5, 7	all	211	200
+leakage	act	200	QFVZPDBF	151	5, 7	ill	212	201
+killer	bind	400	JFTCTCTX	152	5, 7	olf	212	201
+golfer	bomb	300	ZHHDHDTY	153	5, 7	erb	212	201
+soften	brew	500	CVXQDPLM	154	5, 7	erb	212	201
+vastly	child	300	XXNMRZMW	155	5, 7	oo	212	201
+binder	flex	100	MWVVWJKM	156	5, 7	ust	212	201
+shyness	golf	500	JXJWBCBW	157	5, 7	ex	212	201
+pompous	herb	100	ZFTWGKDQ	158	5, 7	eek	212	201
+voltage	hot	200	FRDQRXSF	159	6, 8	ott	210	201
+roller	kill	200	NXVFQQYG	160	6, 8	ill	210	201
+actor	leak	400	PJBPPSPQ	161	6, 8	eek	210	201
+herbal	mile	300	DWDYTWTJ	162	6, 8	aisle	210	201
+bomber	mow	200	FQSTXHZC	163	6, 8	oh	210	201
+verbal	pack	400	DXZFYHFQ	164	6, 8	ack	210	201
+warmth	pomp	300	JCBBGFYC	165	6, 8	omp	210	201
+mower	rent	400	BQHQYHQX	166	6, 8	ent	210	201
+childish	roll	400	WMYZGTKN	167	5, 7	ell	211	201
+hotly	rust	100	GNCGCJQD	168	5, 7	owst	211	201
+rusty	shy	400	FGKLVBMX	169	5, 7	ow	211	201
+package	soft	500	QZVRMRMY	170	5, 7	ift	211	201
+brewery	vast	500	HHDHCHDD	171	5, 7	ost	211	201
+flexible	verb	500	HKSWZZWN	172	5, 7	orb	211	201
+mileage	volt	100	JRJCHFSC	173	5, 7	ult	211	201
+renter	warm	100	VSPYQKVY	174	5, 7	arm	211	201
+backer	back	100	XDDFVDTN	175	5, 7	ail	212	200
+boldness	bold	400	KHFVKGVC	176	5, 7	ass	212	200
+boxer	box	400	WMYHFWVM	177	5, 7	ack	212	200
+bumper	bump	400	HGCTTLWG	178	5, 7	eed	212	200
+editor	edit	200	GPSYGCZL	179	5, 7	ing	212	200
+glumly	glum	400	ZPQKJNPX	180	5, 7	oh	212	200
+grower	grow	400	JSPZCYHK	181	5, 7	oh	212	200
+holder	hold	100	FGXSGJXV	182	5, 7	old	212	200
+hunter	hunt	400	JXGVVYYQ	183	6, 8	unt	210	200
+leader	lead	500	CPBCTXVG	184	6, 8	eed	210	200
+mockery	mock	500	VVXXWPSZ	185	6, 8	ock	210	200
+mutely	mute	500	WWBZNBHS	186	6, 8	yoot	210	200
+painter	paint	100	XWZGBCMB	187	6, 8	aint	210	200
+passage	pass	100	HJHHCXKV	188	6, 8	ass	210	200
+rainy	rain	100	HHXFVFHH	189	6, 8	ane	210	200
+risky	risk	400	FHZPDDXH	190	6, 8	isk	210	200
+rower	row	400	JZYPQJKZ	191	5, 7	ee	211	200
+sailor	sail	400	CJVMHMGV	192	5, 7	aisle	211	200
+singer	sing	200	ZVTCXDKQ	193	5, 7	ang	211	200
+talker	talk	100	MJCHFXXM	194	5, 7	eek	211	200
+vendor	vend	500	SSTZJSQZ	195	5, 7	ind	211	200
+viewer	view	300	NLSZTDZH	196	5, 7	oh	211	200
+walker	walk	200	ZXYBHVCD	197	5, 7	ack	211	200
+wattage	watt	400	NFQFSCFP	198	5, 7	oot	211	200
