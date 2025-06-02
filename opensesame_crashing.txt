@@ -1,0 +1,11 @@
+I am testing an experiment that I plan to run on Windows 10 computer. I am testing it on my MacBook pro M3 Max laptop with 36 GB of memory running MacOS Sonoma 14.6.1 The experiment concisely crashes after a minute or two with the following error:
+
+"The experiment process seems to have died as the result of an unknown problem. This should not happen!
+
+This error occurred in the unknown phase of item unknown.
+
+An ExperimentProcessDied is raised when the experiment process died. This is generally the result of a bug in one of the underlying libraries that causes Python to crash. This should not happen! If you experinence this error often, please report it on the support forum."
+
+As requested, I am reporting it on the support forum, with as much context as I can give. The structure of my experiment is as follows: I have a practice loop and an experimental loop. The practice loop contains a block sequence followed a set of sketchpad item and a keyboard response. The block sequence contains a 'reset_feedback' item followed by an 'inline script' item that sets the variables for the loop depending on the block number. These variables are the stimulus file from which to read the stimulus items and the message to be shown on the sketch pad item during the break at the end of each block. The inline script is followed by the block loop. The block loop consists of a trial sequence, a feedback item, a keyboard response, and finally another inline script that increments the block number by 1. The trial sequence consists of three sketchpad items (mask, prime, target) followed by an audio item another sketchpad item a keyboard response another sketch pad item and then a logger item.
+
+I have not been able to get past the practice block before the entire experiment crashes with the aforementioned error message. Any help you can give would be much appreciated.

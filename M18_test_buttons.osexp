@@ -1,0 +1,88 @@
+---
+API: 3
+OpenSesame: 4.0.24
+Platform: nt
+---
+set width 1024
+set title "New experiment"
+set subject_parity even
+set subject_nr 0
+set start test_buttons
+set sound_sample_size -16
+set sound_freq 48000
+set sound_channels 2
+set sound_buf_size 1024
+set round_decimals 2
+set height 768
+set fullscreen no
+set form_clicks no
+set foreground white
+set font_underline no
+set font_size 18
+set font_italic no
+set font_family mono
+set font_bold no
+set experiment_path "C:\\Users\\jmorris6\\Desktop\\M18_local"
+set disable_garbage_collection yes
+set description "The main experiment item"
+set canvas_backend psycho
+set background "#3d3846"
+
+define notepad getting_started
+	__note__
+	Welcome to OpenSesame 4.0 "Melodramatic Milgram"!
+	If you are new to OpenSesame, it is a good idea to follow one of the tutorials,
+	which can be found on the documentation site:
+	- <http://osdoc.cogsci.nl/>
+	You can also check out the examples. These can be opened via:
+	- Menu -> Tools -> Example experiments.
+	And feel free to ask for help on the forum:
+	- <http://forum.cogsci.nl/>
+	Have fun with OpenSesame!
+	__end__
+	set description "A simple notepad to document your experiment. This plug-in does nothing."
+
+define sequence test_buttons
+	set flush_keyboard yes
+	set description "Runs a number of items in sequence"
+	run welcome True
+	run test_joystick_buttons_script True
+
+define inline_script test_joystick_buttons_script
+	set description "Executes Python code"
+	set _run ""
+	___prepare__
+	import pygame
+	import sys
+	
+	# Initialize the Pygame video and joystick systems
+	pygame.display.init()  # Initialize the video system
+	pygame.joystick.init()  # Initialize the joystick system
+	
+	# Get the first joystick (assuming there's only one connected)
+	joystick = pygame.joystick.Joystick(0)
+	joystick.init()
+	
+	print(f"Joystick name: {joystick.get_name()}")
+	
+	# Check how many buttons the joystick has
+	num_buttons = joystick.get_numbuttons()
+	print(f"Number of buttons: {num_buttons}")
+	
+	# Event loop to check joystick and allow exit with keyboard (Escape key)
+	button_presses = 0
+	
+	while button_presses < 10:  # Stop after 10 button presses
+	    for event in pygame.event.get():
+	        if event.type == pygame.JOYBUTTONDOWN:
+	            print(f"Button {event.button} pressed")
+	            button_presses += 1
+	__end__
+
+define sketchpad welcome
+	set start_response_interval no
+	set reset_variables no
+	set duration 0
+	set description "Displays stimuli"
+	draw textline center=1 color=white font_bold=no font_family=serif font_italic=no font_size=32 html=yes show_if=True text="OpenSesame 4.0 <i>Melodramatic Milgram</i>" x=0 y=0 z_index=0
+
